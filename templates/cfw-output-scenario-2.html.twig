@@ -1,7 +1,7 @@
 <a href='#' id='get-raw-text' >Get the Raw text</a>
 
 <div class='scenario-full-text'>
-    <h1> Information on data processing and declaration of consent </h1>
+    <h1> Information on Data Processing and Declaration of Consent </h1>
     <div class="container">
         <div class="py-5 text-center">
           <h2>Introduction</h2>
@@ -12,17 +12,17 @@
                 {% elseif data.sc_3_a_institution.value.0 %}
                     {{ data.sc_3_a_institution.value.0 }} 
                 {% endif %}
-                we value your privacy and process your data in compliance with the General Data Protection Regulation.
+                we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR).
                 <br><br>
-                Your personal data is any information related to you. Processing is any operation performed on the data.
+                Your <b>"Personal Data"</b> is any information related to you. <b>"Processing"</b> is any operation performed on the data.
                 <br><br>
-                According to the transparency principle, this document will provide you with information about the processing of your personal data as required by Articles 12, 13 and 14 of the General Data Protection Regulation.
+                According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR.
             </p>
         </div>
               
         <div class="row">
             <div class='col-lg-12'>
-                <h5><b>Who are we and how to contact us?</b></h5>
+                <h5><b>Who are we and how can you contact us?</b></h5>
                 {% if data.sc2_a_institution_name.value.0 %}
                     {{ data.sc2_a_institution_name.value.0 }}<br/>
                     {{ data.sc2_a_institution_address.value.0 }}<br/>
@@ -37,17 +37,17 @@
                     {{ data.sc_3_a_address }}<br/>
                     <a href="mailto:{{ data.sc_3_a_email.value.0 }}">{{ data.sc_3_a_email.value.0 }}</a><br/>
                 {% endif %}
-                acting as the data controller within the meaning of the General Data Protection Regulation (GDPR).
+                acting as the data controller within the meaning of the GDPR.
                 
                 {% if data.sc2_a_dpo_name.value.0 %}
                     <br/>
                     <br/>
-                    You can also contact our Data Protection Officer 
+                    You can also contact our <b>Data Protection Officer</b> 
                     {{ data.sc2_a_dpo_name.value.0 }} at <a href='mailto:{{ data.sc2_a_dpo_email.value.0 }}'>{{ data.sc2_a_dpo_email.value.0 }}</a>
                 {% elseif data.sc_3_a_dpofficer_name.value.0 %} 
                     <br/>
                     <br/>
-                    You can also contact our Data Protection Officer 
+                    You can also contact our <b>Data Protection Officer</b>  
                     {{ sc_3_a_dpofficer_name.value.0 }} at <a href='mailto:{{ data.sc_3_a_dpofficer_email.value.0 }}'>{{ data.sc_3_a_dpofficer_email.value.0 }}</a>
                 {% endif %}    
                 <br/>
@@ -86,31 +86,31 @@
                     data.sc_3_b_7.value or data.sc_3_b_8.value or data.sc_3_b_9.value %}
                     <ul>
                         {% if data.sc_3_b_1.value.0 %}
-                            <li>organisation and/or management of the event</li>
+                            <li>Organisation and/or management of the event</li>
                         {% endif %}         
                         {% if data.sc_3_b_2.value.0 %}
-                            <li>organisation of related events in the future (e.g. next edition of the conference)</li>
+                            <li>Organisation of related events in the future (e.g. next edition of the conference)</li>
                         {% endif %}         
                         {% if data.sc_3_b_3.value.0 %}
-                            <li>keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes) </li>
+                            <li>Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes) </li>
                         {% endif %}         
                         {% if data.sc_3_b_4.value.0 %}
-                            <li>promote and document the event itself on the organizer’s website and / or social media</li>
+                            <li>Promoting and documenting the event itself on our website and / or social media</li>
                         {% endif %}         
                         {% if data.sc_3_b_5.value.0 %}
-                            <li>promote and document the research presented at the event (publish videos / photos of the lecture) </li>
+                            <li>Promoting and documenting the research presented at the event (publish videos / photos of the lecture) </li>
                         {% endif %}         
                         {% if data.sc_3_b_6.value.0 %}
-                            <li>statistic analysis of the event (e.g. in relation to past and future events)</li>
+                            <li>Statistic analysis of the event (e.g. in relation to past and future events)</li>
                         {% endif %}         
                         {% if data.sc_3_b_7.value.0 %}
-                            <li>for the administration of participation fees and/or travel expenses</li>
+                            <li>Administration of participation fees and/or travel expenses</li>
                         {% endif %}         
                         {% if data.sc_3_b_8.value.0 %}
-                            <li>generation of attendance certificates, invoices and payment confirmations</li>
+                            <li>Generation of attendance certificates, invoices and payment confirmations</li>
                         {% endif %}         
                         {% if data.sc_3_b_9.value.0 %}
-                            <li>community building (allowing participants to stay in touch with each other after the event)</li>
+                            <li>Community building (allowing participants to stay in touch with each other after the event)</li>
                         {% endif %}  
                     </ul>
                 {% endif %}            
@@ -122,72 +122,10 @@
             <div class='col-lg-12'>
                 <h5><b>What information about you do we collect and process?</b></h5>
                 For the purposes listed above, we process the following information related to you:
-                <br/>
-                <!-- 
-                <b>For purpose(s):</b>
-                {% if data.sc2_b_what_do_you_need_the_data_for.value %}
-                    <ul>
-                    {% for value in data.sc2_b_what_do_you_need_the_data_for.value %}
-                        {% if value == 'sc2_b_1_1' %}
-                            <li>Keeping subscribers informed, community building</li>
-                        {% endif %}         
-                        {% if value == 'sc2_b_1_2' %}
-                            <li>Promoting events, institutions, etc</li>
-                        {% endif %}         
-                        {% if value == 'sc2_b_1_3' %}
-                            <li>Providing / keeping a mailinglist to communicate to subscribers</li>
-                        {% endif %}         
-                        {% if value == 'sc2_b_1_4' %}
-                            <li>Keeping a mailinglist to provide a communication platform for subscribers</li>
-                        {% endif %}         
-                        {% if value == 'sc2_b_1_5' %}
-                            <li>Documentation of mailinglist activity, statistic analysis</li>
-                        {% endif %}         
-                    {% endfor %}
-                    </ul>
-                {% endif %}
-                
-                {% if data.sc_3_b_1.value or data.sc_3_b_2.value or data.sc_3_b_3.value or 
-                    data.sc_3_b_4.value or data.sc_3_b_5.value or data.sc_3_b_6.value or 
-                    data.sc_3_b_7.value or data.sc_3_b_8.value or data.sc_3_b_9.value %}
-                    <ul>
-                        {% if data.sc_3_b_1.value.0 %}
-                            <li>organisation and/or management of the event</li>
-                        {% endif %}         
-                        {% if data.sc_3_b_2.value.0 %}
-                            <li>organisation of related events in the future (e.g. next edition of the conference)</li>
-                        {% endif %}         
-                        {% if data.sc_3_b_3.value.0 %}
-                            <li>keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes) </li>
-                        {% endif %}         
-                        {% if data.sc_3_b_4.value.0 %}
-                            <li>promote and document the event itself on the organizer’s website and / or social media</li>
-                        {% endif %}         
-                        {% if data.sc_3_b_5.value.0 %}
-                            <li>promote and document the research presented at the event (publish videos / photos of the lecture) </li>
-                        {% endif %}         
-                        {% if data.sc_3_b_6.value.0 %}
-                            <li>statistic analysis of the event (e.g. in relation to past and future events)</li>
-                        {% endif %}         
-                        {% if data.sc_3_b_7.value.0 %}
-                            <li>for the administration of participation fees and/or travel expenses</li>
-                        {% endif %}         
-                        {% if data.sc_3_b_8.value.0 %}
-                            <li>generation of attendance certificates, invoices and payment confirmations</li>
-                        {% endif %}         
-                        {% if data.sc_3_b_9.value.0 %}
-                            <li>community building (allowing participants to stay in touch with each other after the event)</li>
-                        {% endif %}  
-                    </ul>
-                {% endif %} 
-                    
-                    -->
-                 
-                <b>Informations: </b><br>
                 
                 <ul>
                     {% if data.sc2_c_1_1_name.value.0 %}
-                        <li>Name, Surname</li>
+                        <li>Name, surname</li>
                     {% endif %} 
                     {% if data.sc2_c_1_1_email.value.0 %}
                         <li>E-mail address</li>
@@ -215,7 +153,7 @@
                     {% endif %} 
                     
                     {% if data.sc_3_bp_name.value.0 %}
-                        <li>Name, Surname</li>
+                        <li>Name, surname</li>
                     {% endif %}                     
                     {% if data.sc_3_bp_email.value.0 %}
                         <li>E-mail address</li>
@@ -262,11 +200,11 @@
                 We obtain this information 
                 {% if data.sc2_c_1_1_ip.value.0 %}
                     (apart from your IP address)
-                {% endif%}  directly from you, when you fill in the attached form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; then it will not appear in our communications.
+                {% endif%}  directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications.
                 
                 <br/><br/>
                 {% if data.sc2_c_1_1_ip.value.0 %}
-                    Your IP address is automatically collected when you fill in the attached online form.
+                    Your IP address is automatically collected when you fill in the online form.
                     <br/><br/>
                 {% endif%}    
                 
@@ -276,10 +214,10 @@
         <div class="row">
             <div class='col-lg-12'>
                 <h5><b>Legal basis for the processing of your data</b></h5>
-                Your data is processed on the basis of your consent (Article 6.1(a) of the General Data Protection Regulation) which you give by accepting this Notice. 
+                Your data is processed on the basis of your consent (Art. 6.1(a) of the GDPR) which you give by accepting this notice. 
                 <br/><br/>
                 {% if data.sc_3_c_1_2_6_dietary.value.0 %}
-                    Concerning dietary requirements, sometimes they can reveal your philosophical opinions or religious beliefs, therefore we regard them as sensitive data. The processing of this information is based on your explicit consent (Article 9.2(a) of the General Data Protection Regulation).    
+                    Dietary requirements can reveal your philosophical opinions or religious beliefs, therefore we regard them as sensitive data. The processing of this information is based on your explicit consent (Art. 9.2(a) of the GDPR).    
                     <br/><br/>
                 {% endif %}
                 
@@ -297,8 +235,8 @@
                 {% endif %}
                 
                 {% if data.sc2_a_institution_name.value.0  %}
-                    your legitimate interest in staying informed about the recent development in the research community.
-                    Then, the processing is based on Article 6.1(f) of the General Data Protection Regulation (GDPR).
+                    your legitimate interest in staying informed about recent developments in the research community.
+                    Then, the processing is based on Art. 6.1(f) of the GDPR.
                     <br/><br/>
                 {% endif %}
                 
@@ -312,13 +250,13 @@
                 <br>
                 {% if data.sc2_c_1_1_name.value.0 %}
                     <br>
-                    Name, Surname: 
+                    Name, surname: 
                     {% if data.sc2_c_1_1_container_months.value.0 %}
                         {{ data.sc2_c_1_1_container_months.value.0 }} months.
                     {% elseif data.sc2_c_1_1_container_years.value.0 %}
                         {{ data.sc2_c_1_1_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_1_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_1_container_after.value.0 %}
                         {{ data.sc2_c_1_1_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -326,13 +264,13 @@
                 
                 {% if data.sc2_c_1_1_email.value.0 %}
                     <br>
-                    Email address: 
+                    E-mail address: 
                     {% if data.sc2_c_1_2_container_months.value.0 %}
                         {{ data.sc2_c_1_2_container_months.value.0 }} months.
                     {% elseif data.sc2_c_1_2_container_years.value.0 %}
                         {{ data.sc2_c_1_2_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_2_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_2_container_after.value.0 %}
                         {{ data.sc2_c_1_2_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -346,7 +284,7 @@
                     {% elseif data.sc2_c_1_3_container_years.value.0 %}
                         {{ data.sc2_c_1_3_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_3_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_3_container_after.value.0 %}
                         {{ data.sc2_c_1_3_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -360,7 +298,7 @@
                     {% elseif data.sc2_c_1_4_container_years.value.0 %}
                         {{ data.sc2_c_1_4_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_4_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_4_container_after.value.0 %}
                         {{ data.sc2_c_1_4_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -374,7 +312,7 @@
                     {% elseif data.sc2_c_1_5_container_years.value.0 %}
                         {{ data.sc2_c_1_5_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_5_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_5_container_after.value.0 %}
                         {{ data.sc2_c_1_5_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -388,7 +326,7 @@
                     {% elseif data.sc2_c_1_6_container_years.value.0 %}
                         {{ data.sc2_c_1_6_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_6_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_6_container_after.value.0 %}
                         {{ data.sc2_c_1_6_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -402,7 +340,7 @@
                     {% elseif data.sc2_c_1_7_container_years.value.0 %}
                         {{ data.sc2_c_1_7_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_7_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_7_container_after.value.0 %}
                         {{ data.sc2_c_1_7_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -410,13 +348,13 @@
                 
                 {% if data.sc2_c_1_1_social.value.0 %}
                     <br>
-                    Social media identifiers 	: 
+                    Social media identifiers: 
                     {% if data.sc2_c_1_8_container_months.value.0 %}
                         {{ data.sc2_c_1_8_container_months.value.0 }} months.
                     {% elseif data.sc2_c_1_8_container_years.value.0 %}
                         {{ data.sc2_c_1_8_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_8_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_8_container_after.value.0 %}
                         {{ data.sc2_c_1_8_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -430,7 +368,7 @@
                     {% elseif data.sc2_c_1_9_container_years.value.0 %}
                         {{ data.sc2_c_1_9_container_years.value.0 }} years.
                     {% elseif data.sc2_c_1_9_container_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc2_c_1_9_container_after.value.0 %}
                         {{ data.sc2_c_1_9_container_after.value.0 }} years after the last mailinglist activity.
                     {% endif %} 
@@ -443,13 +381,13 @@
                 
                 {% if data.sc_3_bp_name.value.0 %}
                     <br>
-                    Name, Surname: 
+                    Name, surname: 
                     {% if data.sc_3_bp_name_months.value.0 %}
                         {{ data.sc_3_bp_name_months.value.0 }} months.
                     {% elseif data.sc_3_bp_name_years.value.0 %}
                         {{ data.sc_3_bp_name_years.value.0 }} years.
                     {% elseif data.sc_3_bp_name_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_name_yearsafter.value.0 %}
                         {{ data.sc_3_bp_name_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -457,13 +395,13 @@
                 
                 {% if data.sc_3_bp_email.value.0 %}
                     <br>
-                    Email address: 
+                    E-mail address: 
                     {% if data.sc_3_bp_email_months.value.0 %}
                         {{ data.sc_3_bp_email_months.value.0 }} months.
                     {% elseif data.sc_3_bp_email_years.value.0 %}
                         {{ data.sc_3_bp_email_years.value.0 }} years.
                     {% elseif data.sc_3_bp_email_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_email_yearsafter.value.0 %}
                         {{ data.sc_3_bp_email_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -477,7 +415,7 @@
                     {% elseif data.sc_3_bp_affilation_years.value.0 %}
                         {{ data.sc_3_bp_affilation_years.value.0 }} years.
                     {% elseif data.sc_3_bp_affilation_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_affilation_yearsafter.value.0 %}
                         {{ data.sc_3_bp_affilation_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -491,7 +429,7 @@
                     {% elseif data.sc_3_bp_proftitle_years.value.0 %}
                         {{ data.sc_3_bp_proftitle_years.value.0 }} years.
                     {% elseif data.sc_3_bp_proftitle_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_proftitle_yearsafter.value.0 %}
                         {{ data.sc_3_bp_proftitle_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -505,7 +443,7 @@
                     {% elseif data.sc_3_bp_gender_years.value.0 %}
                         {{ data.sc_3_bp_gender_years.value.0 }} years.
                     {% elseif data.sc_3_bp_gender_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_gender_yearsafter.value.0 %}
                         {{ data.sc_3_bp_gender_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -519,7 +457,7 @@
                     {% elseif data.sc_3_bp_address_years.value.0 %}
                         {{ data.sc_3_bp_address_years.value.0 }} years.
                     {% elseif data.sc_3_bp_address_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_address_yearsafter.value.0 %}
                         {{ data.sc_3_bp_address_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -533,7 +471,7 @@
                     {% elseif data.sc_3_bp_country_years.value.0 %}
                         {{ data.sc_3_bp_country_years.value.0 }} years.
                     {% elseif data.sc_3_bp_country_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_country_yearsafter.value.0 %}
                         {{ data.sc_3_bp_country_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -541,13 +479,13 @@
                 
                 {% if data.sc_3_bp_social_media.value.0 %}
                     <br>
-                    Social media identifiers 	: 
+                    Social media identifiers: 
                     {% if data.sc_3_bp_social_media_months.value.0 %}
                         {{ data.sc_3_bp_social_media_months.value.0 }} months.
                     {% elseif data.sc_3_bp_social_media_years.value.0 %}
                         {{ data.sc_3_bp_social_media_years.value.0 }} years.
                     {% elseif data.sc_3_bp_social_media_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_social_media_yearsafter.value.0 %}
                         {{ data.sc_3_bp_social_media_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %}      
@@ -561,7 +499,7 @@
                     {% elseif data.sc_3_bp_other_years.value.0 %}
                         {{ data.sc_3_bp_other_years.value.0 }} years.
                     {% elseif data.sc_3_bp_other_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_bp_other_yearsafter.value.0 %}
                         {{ data.sc_3_bp_other_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %} 
@@ -577,7 +515,7 @@
                     {% elseif data.sc_3_c_4_5_9_photo_years.value.0 %}
                         {{ data.sc_3_c_4_5_9_photo_years.value.0 }} years.
                     {% elseif data.sc_3_c_4_5_9_photo_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_c_4_5_9_photo_yearsafter.value.0 %}
                         {{ data.sc_3_c_4_5_9_photo_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %} 
@@ -593,7 +531,7 @@
                     {% elseif data.sc_3_c_7_8_account_years.value.0 %}
                         {{ data.sc_3_c_7_8_account_years.value.0 }} years.
                     {% elseif data.sc_3_c_7_8_account_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_c_7_8_account_yearsafter.value.0 %}
                         {{ data.sc_3_c_7_8_account_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %} 
@@ -609,7 +547,7 @@
                     {% elseif data.sc_3_c_1_2_6_dietary_years.value.0 %}
                         {{ data.sc_3_c_1_2_6_dietary_years.value.0 }} years.
                     {% elseif data.sc_3_c_1_2_6_dietary_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_c_1_2_6_dietary_yearsafter.value.0 %}
                         {{ data.sc_3_c_1_2_6_dietary_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %} 
@@ -619,13 +557,13 @@
                 
                 {% if data.sc_3_c_1_2_6_9_events.value.0 %}
                     <br>
-                    Participation in previous events organized by the organizer: 
+                    Participation in previous events organized by us: 
                     {% if data.sc_3_c_1_2_6_9_events_months.value.0 %}
                         {{ data.sc_3_c_1_2_6_9_events_months.value.0 }} months.
                     {% elseif data.sc_3_c_1_2_6_9_events_years.value.0 %}
                         {{ data.sc_3_c_1_2_6_9_events_years.value.0 }} years.
                     {% elseif data.sc_3_c_1_2_6_9_events_long.value.0 %}
-                        as long as necessary to achieve the purpose
+                        as long as necessary to achieve the purpose of data collection.
                     {% elseif data.sc_3_c_1_2_6_9_events_yearsafter.value.0 %}
                         {{ data.sc_3_c_1_2_6_9_events_yearsafter.value.0 }} years after the last mailinglist activity.
                     {% endif %} 
@@ -662,7 +600,7 @@
                     <br/><br/>
                     
                     {% if data.sc2_d_share_c_1_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_c_1_institution.value.0 }}
+                        Institution: {{ data.sc2_d_share_c_1_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_c_1_country.value.0 %}
@@ -671,7 +609,7 @@
                     {% endif %}
                     
                     {% if data.sc2_d_share_c_2_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_c_2_institution.value.0 }}
+                        Institution: {{ data.sc2_d_share_c_2_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_c_2_country.value.0 %}
@@ -680,7 +618,7 @@
                     {% endif %}
                     
                     {% if data.sc2_d_share_c_3_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_c_3_institution.value.0 }}
+                        Institution: {{ data.sc2_d_share_c_3_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_c_3_country.value.0 %}
@@ -694,7 +632,7 @@
                     For all purposes listed above, your personal data can be shared with the following partner institutions: 
                     <br/>
                     {% if data.sc2_d_share_s_1_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_s_1_institution.value.0 }}
+                        Institution: {{ data.sc2_d_share_s_1_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_s_1_country.value.0 %}
@@ -703,7 +641,7 @@
                     {% endif %}
                     
                     {% if data.sc2_d_share_s_2_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_s_2_institution.value.0 }}
+                        Institution: {{ data.sc2_d_share_s_2_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_s_2_country.value.0 %}
@@ -712,7 +650,7 @@
                     {% endif %}
                     
                     {% if data.sc2_d_share_s_3_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_s_3_institution.value.0 }}
+                        Institution: {{ data.sc2_d_share_s_3_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_s_3_country.value.0 %}
@@ -726,7 +664,7 @@
                     For all purposes listed above, your personal data can be shared with the following partner institutions: 
                     <br/>
                     {% if data.sc_3_d_cd_share_2_1_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_2_1_institution.value.0 }}
+                        Institution: {{ data.sc_3_d_cd_share_2_1_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc_3_d_cd_share_2_1_country.value.0 %}
@@ -735,7 +673,7 @@
                     {% endif %}
                     
                     {% if data.sc_3_d_cd_share_2_2_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_2_2_institution.value.0 }}
+                        Institution: {{ data.sc_3_d_cd_share_2_2_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc_3_d_cd_share_2_2_country.value.0 %}
@@ -744,7 +682,7 @@
                     {% endif %}
                     
                     {% if data.sc_3_d_cd_share_2_3_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_2_3_institution.value.0 }}<br/>
+                        Institution: {{ data.sc_3_d_cd_share_2_3_institution.value.0 }}<br/>
                         
                     {% endif %}
                     {% if data.sc_3_d_cd_share_2_3_country.value.0 %}
@@ -758,7 +696,7 @@
                     For all purposes listed above, your personal data can be shared with the following partner institutions:
                     <br/>
                     {% if data.sc_3_d_cd_share_3_1_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_3_1_institution.value.0 }}
+                        Institution: {{ data.sc_3_d_cd_share_3_1_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc_3_d_cd_share_3_1_country.value.0 %}
@@ -767,7 +705,7 @@
                     {% endif %}
                     
                     {% if data.sc_3_d_cd_share_2_3_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_3_2_institution.value.0 }}
+                        Institution: {{ data.sc_3_d_cd_share_3_2_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc_3_d_cd_share_3_2_country.value.0 %}
@@ -776,7 +714,7 @@
                     {% endif %}
                     
                     {% if data.sc_3_d_cd_share_3_3_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_3_3_institution.value.0 }}<br/>
+                        Institution: {{ data.sc_3_d_cd_share_3_3_institution.value.0 }}<br/>
                         
                     {% endif %}
                     {% if data.sc_3_d_cd_share_3_3_country.value.0 %}
@@ -788,7 +726,7 @@
                
                 <!-- [if Category_1...n includes [Dietary requirements]]  -->
                 {% if data.sc_3_c_1_2_6_dietary.value.0 %}
-                     Information about your dietary requirements, which can sometimes reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you.
+                     Information about your dietary requirements, which may reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you.
                      <br/><br/>
                 {% endif %}     
                 
@@ -803,7 +741,7 @@
                 
         <div class="row">
             <div class='col-lg-12'>
-                <h5><b>Will your data be transferred outside the European Economic Area?</b></h5>
+                <h5><b>Will your data be transferred outside the European Economic Area (EEA)?</b></h5>
                 
                 {% set thirdCountry = 'no' %}
                 
@@ -876,11 +814,11 @@
                 {%  endif  %}  
                 
                 {%  if thirdCountry == 'yes' %}      
-                    Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (article 45 of the General Data Protection Regulation).
+                    Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (Art. 45 of the GDPR).
                 {%  endif  %}  
                 
                 {%  if thirdCountry == 'usa' %}      
-                    Your data will be transferred to our partners in the United States of America, within the Privacy Shield framework.
+                    Your data will be transferred to our partners in the United States of America within the Privacy Shield framework.
                 {%  endif  %}  
                 
                 <br/><br/>
@@ -899,9 +837,9 @@
             <div class='col-lg-12'>
                 <h5><b>Your rights with regards to the processing of your data</b></h5>
                 
-                The General Data Protection Regulation grants you certain rights with regards to the processing of your personal data. These rights include:
+                The GDPR grants you certain rights with regards to the processing of your personal data. These rights include:
                 <br/>
-                <b>access</b> (art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at 
+                <b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at 
                 {% if data.sc2_a_institution_e_mail.value.0  %}
                     <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a>
                 {% endif %}
@@ -909,7 +847,7 @@
                     <a href="mailto:{{ data.sc_3_a_email.value.0 }}">{{ data.sc_3_a_email.value.0 }}</a>
                 {% endif %};
                 <br/>
-                <b>rectification</b> (art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at 
+                <b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at 
                 {% if data.sc2_a_institution_e_mail.value.0  %}
                     <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a>
                 {% endif %}
@@ -917,16 +855,16 @@
                     <a href="mailto:{{ data.sc_3_a_email.value.0 }}">{{ data.sc_3_a_email.value.0 }}</a>
                 {% endif %};
                 <br/>
-                <b>erasure</b> (right to be forgotten – art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data. 
+                <b>Erasure</b> ("right to be forgotten" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data. 
                 <br/>
-                <b>restriction of processing</b> (art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent;
+                <b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent;
                 <br/>
-                <b>data portability</b> (art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format;
+                <b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format;
                 <br/>
-                <b>right to object</b> (art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data.
+                <b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data.
                 Moreover, you have the right to:
                 <br/>
-                <b>withdraw your consent</b> to the processing of your personal data at any time (art. 7(3) of the GDPR) by contacting us at 
+                <b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at 
                 {% if data.sc2_a_institution_e_mail.value.0  %}
                     <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a>
                 {% endif %}
@@ -939,7 +877,7 @@
                 .
                 The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal;
                 <br/>
-                <b>lodge</b> a complaint with a supervisory authority.
+                <b>lodge a complaint</b> with a supervisory authority.
                 <br/>
             </div>
         </div> 
