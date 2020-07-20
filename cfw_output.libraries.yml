@@ -1,0 +1,9 @@
+cfw-output-css-and-js:
+  css:
+    theme:
+      css/cfw_output.css: {}
+      css/print.css: { media: print }
+  js:
+    js/cfw_output.js: {}
+  dependencies:
+    - core/jquery

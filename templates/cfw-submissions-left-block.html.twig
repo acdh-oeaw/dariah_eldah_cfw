@@ -1,0 +1,10 @@
+<div>
+{% if data is iterable %}
+    Last 10 Submitted Submissions
+    <ul>
+    {% for value in data %}
+        <li><a href="/cfw_result/{{ value.sid }}">{{ value.sid }}</a></li>
+    {% endfor %}
+    </ul>
+{% endif %}    
+</div>

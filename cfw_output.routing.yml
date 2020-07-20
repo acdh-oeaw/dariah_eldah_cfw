@@ -1,0 +1,6 @@
+cfw_output_result:
+  path: '/cfw_result/{formid}'
+  defaults:
+    _controller: '\Drupal\cfw_output\Controller\CfwOutputController::cfw_result'
+  requirements:
+    _permission: 'access content'

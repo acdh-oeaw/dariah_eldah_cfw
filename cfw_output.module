@@ -1,0 +1,21 @@
+<?php
+
+function cfw_output_theme($existing, $type, $theme, $path)
+{
+    return [
+        'result-main' => [
+            'variables' => ['data' => NULL, 'paging' => NULL],
+        ],
+        'cfw-output-scenario-1' => [
+            'variables' => ['data' => NULL],
+        ],
+        'cfw-output-scenario-2' => [
+            'variables' => ['data' => NULL],
+        ],
+        'cfw-submissions-left-block' => [
+            'variables' => ['data' => NULL],
+        ]
+        
+        
+    ];
+}

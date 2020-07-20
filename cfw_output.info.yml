@@ -1,0 +1,6 @@
+name: CFW_Output
+description: Acdh-oeaw, CFW Form output plugin
+package: Custom
+
+type: module
+core: 8.x
