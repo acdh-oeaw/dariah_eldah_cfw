@@ -29,7 +29,7 @@
                      <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a><br/>
                 {% elseif data.sc_3_a_institution.value.0 %}       
                     {% if data.sc_3_a_contact_person %}
-                        {{ data.sc_3_a_contact_person.value.0 }}  on behalf of {{ data.sc_3_a_institution.value.0 }}  
+                        {{ data.sc_3_a_contact_person.value.0 }} on behalf of {{ data.sc_3_a_institution.value.0 }}  
                     {% else %}
                         {{ data.sc_3_a_institution.value.0 }}
                     {% endif %}
@@ -66,7 +66,7 @@
                             <li>Keeping subscribers informed, community building</li>
                         {% endif %}         
                         {% if value == 'sc2_b_1_2' %}
-                            <li>Promoting events, institutions, etc</li>
+                            <li>Promoting events, institutions, etc.</li>
                         {% endif %}         
                         {% if value == 'sc2_b_1_3' %}
                             <li>Providing / keeping a mailinglist to communicate to subscribers</li>
@@ -92,13 +92,13 @@
                             <li>Organisation of related events in the future (e.g. next edition of the conference)</li>
                         {% endif %}         
                         {% if data.sc_3_b_3.value.0 %}
-                            <li>Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes) </li>
+                            <li>Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes)</li>
                         {% endif %}         
                         {% if data.sc_3_b_4.value.0 %}
                             <li>Promoting and documenting the event itself on our website and / or social media</li>
                         {% endif %}         
                         {% if data.sc_3_b_5.value.0 %}
-                            <li>Promoting and documenting the research presented at the event (publish videos / photos of the lecture) </li>
+                            <li>Promoting and documenting the research presented at the event (publish videos / photos of the lecture)</li>
                         {% endif %}         
                         {% if data.sc_3_b_6.value.0 %}
                             <li>Statistic analysis of the event (e.g. in relation to past and future events)</li>
@@ -200,7 +200,7 @@
                 We obtain this information 
                 {% if data.sc2_c_1_1_ip.value.0 %}
                     (apart from your IP address)
-                {% endif%}  directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications.
+                {% endif%} directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications.
                 
                 <br/><br/>
                 {% if data.sc2_c_1_1_ip.value.0 %}
