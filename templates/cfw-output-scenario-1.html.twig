@@ -1,5 +1,11 @@
 <h2><a href='#' id='get-raw-text' >Download the Raw text</a></h2>
-
+<h3>Thank you for using the DARIAH ELDAH Consent Form Wizard. 
+    You can obtain the text for your consent form by downloading it from this page. 
+    Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, 
+    the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. 
+    If you want to provide your result as an example for other CFW users, please send it to us at <a href="mailto:eldah@dariah.eu">eldah@dariah.eu</a> 
+</h3>
+<br/>
 <div class='scenario-full-text'>
     <h1> Information on Data Processing and Declaration of Consent </h1>
     <div class="container">
@@ -255,6 +261,8 @@
                     {%  elseif data.country.value.0 == 'q1f_ins_c1_4' %}
                         {% set thirdCountry_1 = 'no' %}
                         in a different country
+                    {%  else %}    
+                        {% set thirdCountry_1 = 'no' %}
                     {%  endif  %}    
                     <hr> 
                     {%  if data.institution_name_2.value.0 %}
@@ -274,6 +282,8 @@
                     {%  elseif data.country_2.value.0 == 'q1f_ins_c2_4' %}
                         {% set thirdCountry_2 = 'no' %}
                         in a different country
+                    {%  else %}    
+                        {% set thirdCountry_2 = 'no' %}    
                     {%  endif  %}    
                     <hr>
 
@@ -294,6 +304,8 @@
                     {%  elseif data.country_3.value.0 == 'q1f_ins_c3_4' %}
                         {% set thirdCountry_3 = 'no' %}
                         in a different country
+                    {%  else %}    
+                        {% set thirdCountry_3 = 'no' %}    
                     {%  endif  %}    
                     <hr>
                 {%  endif  %}            
@@ -317,22 +329,33 @@
             <div class='col-lg-12'>
                 <br/>
                 <h2>Will your data be transferred outside the European Economic Area (EEA)?</h2>
-                    <!-- [if no Third_Country] -->
-                    {% if thirdCountry_1 == 'no'  and thirdCountry_2 == 'no' and thirdCountry_3 == 'no' %}
-                        Your data will not be transferred outside the European Economic Area.
-                    {% endif %}
-               <br/>
-                    {% if (thirdCountry_1 == 'yes') or (thirdCountry_2 == 'yes') or (thirdCountry_3 == 'yes') %}
-                        Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (Art. 45 of the GDPR).
-                    {% endif %}
-                    <!-- [if: Third_Country_Adequacy] -->
-                <br/>
-                    {% if  thirdCountry_1 == 'usa'  or 
-                            thirdCountry_2 == 'usa'  or 
-                            thirdCountry_3 == 'usa'  
-                    %}
-                        Your data will be transferred to our partners in the United States of America within the Privacy Shield framework.
-                    {% endif %}
+                <!-- [if no Third_Country] -->
+                {% if thirdCountry_1 == 'no'  and thirdCountry_2 == 'no' and thirdCountry_3 == 'no' %}
+                    Your data will not be transferred outside the European Economic Area.
+                    <br/>
+                {% endif %}
+
+                {% if (thirdCountry_1 == 'yes') or (thirdCountry_2 == 'yes') or (thirdCountry_3 == 'yes') %}
+                    Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (Art. 45 of the GDPR).
+                    <br/>
+                {% endif %}
+                <!-- [if: Third_Country_Adequacy] -->
+
+                {% if  thirdCountry_1 == 'usa'  or 
+                        thirdCountry_2 == 'usa'  or 
+                        thirdCountry_3 == 'usa'  
+                %}
+                    Your data will be transferred to our partners in the United States of America within the Privacy Shield framework.
+                    <br/>
+                {% endif %}
+
+                {% if  thirdCountry_1 == ''  and 
+                        thirdCountry_2 == ''  and 
+                        thirdCountry_3 == ''  
+                %}
+                    Your data will not be transferred outside the European Economic Area.
+                    <br/>
+                {% endif %}
             </div>
            <br />
         </div>
