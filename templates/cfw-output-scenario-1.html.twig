@@ -1,7 +1,7 @@
-<a href='#' id='get-raw-text' >Get the Raw text</a>
+<h2><a href='#' id='get-raw-text' >Download the Raw text</a></h2>
 
 <div class='scenario-full-text'>
-    <h1> Information on data processing and declaration of consent </h1>
+    <h1> Scenario 1 </h1>
     <div class="container">
         <div class="py-5 text-center">
           <h2>Introduction</h2>
@@ -35,7 +35,7 @@
                 <div class='col-lg-12'>
                     <h5><b>Who are we and how to contact us?</b></h5>
                     <!-- [Institution_name]  -->
-                    <b>Name: </b>{{ data.name_.value.0 }} on behalf of INSTITUTION NAME  <br/>
+                    <b>Name: </b>{{ data.name_.value.0 }}<br/>
                     <b>Address: </b>{{ data.contact_details_address_institution.value.0 }}<br/>
                     <b>Email: </b> <a href="mailto:{{ data.contact_details_e_mail_institutuion.value.0 }}">{{ data.contact_details_e_mail_institutuion.value.0 }}</a>
                     {% set controller_email = data.contact_details_e_mail_institutuion.value.0 %}<br/>
@@ -239,81 +239,68 @@
                     Within the Project, your personal data will be shared with researchers from the following partner institutions: <br/>
                     <!--[Partners_list].-->
                     {%  if data.institution_name.value.0 %}
-                        <br/><br/>
                         <p>Name: {{ data.institution_name.value.0 }} <br/>
                     {%  endif  %}    
-                    
-                    {%  if data.country.value.0 == 'q1f_ins_c1_1' %}
-                        Country: 
+
+                    Country: 
+                     {%  if data.country.value.0 == 'q1f_ins_c1_1' %}
                         {% set thirdCountry_1 = 'no' %}
                         within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK
                     {%  elseif data.country.value.0 == 'q1f_ins_c1_1' %}
-                        Country: 
                         {% set thirdCountry_1 = 'yes' %}
                         in a country considered as having adequate data privacy safeguards 
                         by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)
                     {%  elseif data.country.value.0 == 'q1f_ins_c1_3' %}    
-                        Country: 
                         {% set thirdCountry_1 = 'usa' %}
                         in the USA
                     {%  elseif data.country.value.0 == 'q1f_ins_c1_4' %}
-                        Country: 
                         {% set thirdCountry_1 = 'no' %}
                         in a different country
                     {%  endif  %}    
-                    
+                    <hr> 
                     {%  if data.institution_name_2.value.0 %}
-                        <br/><br/>
                         Name: {{ data.institution_name_2.value.0 }} <br/>
                     {%  endif  %}    
 
-                    
+                    Country:
                     {%  if data.country_2.value.0 == 'q1f_ins_c2_1' %}
-                        Country: 
                         {% set thirdCountry_2 = 'no' %}
                         within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK
                     {%  elseif data.country_2.value.0 == 'q1f_ins_c2_2' %}
-                        Country: 
                         {% set thirdCountry_2 = 'yes' %}
                         in a country considered as having adequate data privacy safeguards 
                         by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)
                     {%  elseif data.country_2.value.0 == 'q1f_ins_c2_3' %}    
-                        Country: 
                         {% set thirdCountry_2 = 'usa' %}
                         in the USA
                     {%  elseif data.country_2.value.0 == 'q1f_ins_c2_4' %}
-                        Country: 
                         {% set thirdCountry_2 = 'no' %}
                         in a different country
                     {%  endif  %}    
-                    
+                    <hr>
 
                     {%  if data.institution_name_3.value.0 %}
-                        <br/><br/>
                         Name: {{ data.institution_name_3.value.0 }} <br/>
                     {%  endif  %}
-                    
+
+                    Country:
                     {%  if data.country_3.value.0 == 'q1f_ins_c3_1' %}
-                        Country: 
                         {% set thirdCountry_3 = 'no' %}
                         within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK
                     {%  elseif data.country_3.value.0 == 'q1f_ins_c3_1' %}
-                        Country: 
                         {% set thirdCountry_3 = 'yes' %}
                         in a country considered as having adequate data privacy safeguards 
                         by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)
                     {%  elseif data.country_3.value.0 == 'q1f_ins_c3_3' %}    
-                        Country: 
                         {% set thirdCountry_3 = 'usa' %}
                         in the USA
                     {%  elseif data.country_3.value.0 == 'q1f_ins_c3_4' %}
-                        Country: 
                         {% set thirdCountry_3 = 'no' %}
                         in a different country
                     {%  endif  %}    
-                    
+                    <hr>
                 {%  endif  %}            
-                    <br/><br/>
+                    <br/>
                     {%  if data.project_partners_within_the_specific_project.value.0 or data.other_researchers_from_other_institutions_e_g_through_domain_spe.value.0 %}
                     <!-- [if: Other_researchers_sharing] [also - if: Project_partners_sharing] -->
                     Your data may be shared with other researchers via specialised repositories or other appropriate communication channels.
@@ -322,7 +309,6 @@
                      
                     {%  if data.will_you_anonymize_or_pseudonymize_the_data_before_sharing_.value.0 == "yes_2" %}
                     <!--[if: Sharing_pseudonymised] -->
-                    <br/><br/>
                     To safeguard your privacy, the data will be shared in pseudonymised form, i.e. without the elements with which you could be identified, which will be stored separately and not shared.
                     {%  endif  %}  
                 </div>

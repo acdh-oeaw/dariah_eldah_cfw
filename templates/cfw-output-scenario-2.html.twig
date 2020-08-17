@@ -1,7 +1,7 @@
-<a href='#' id='get-raw-text' >Get the Raw text</a>
+<h2><a href='#' id='get-raw-text' >Download the Raw text</a></h2>
 
 <div class='scenario-full-text'>
-    <h1> Information on data processing and declaration of consent </h1>
+    <h1> Scenario 2 and 3 (newsletter/event) </h1>
     <div class="container">
         <div class="py-5 text-center">
           <h2>Introduction</h2>
@@ -27,13 +27,8 @@
                     {{ data.sc2_a_institution_name.value.0 }}<br/>
                     {{ data.sc2_a_institution_address.value.0 }}<br/>
                      <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a><br/>
-                {% elseif data.sc_3_a_institution.value.0 %}       
-                    {% if data.sc_3_a_contact_person %}
-                        {{ data.sc_3_a_contact_person.value.0 }}  on behalf of {{ data.sc_3_a_institution.value.0 }}  
-                    {% else %}
-                        {{ data.sc_3_a_institution.value.0 }}
-                    {% endif %}
-                    <br/>
+                {% elseif data.sc_3_a_institution.value.0 %}                    
+                    {{ data.sc_3_a_institution.value.0 }} <br/>
                     {{ data.sc_3_a_address }}<br/>
                     <a href="mailto:{{ data.sc_3_a_email.value.0 }}">{{ data.sc_3_a_email.value.0 }}</a><br/>
                 {% endif %}
@@ -123,7 +118,6 @@
                 <h5><b>What information about you do we collect and process?</b></h5>
                 For the purposes listed above, we process the following information related to you:
                 <br/>
-                <!-- 
                 <b>For purpose(s):</b>
                 {% if data.sc2_b_what_do_you_need_the_data_for.value %}
                     <ul>
@@ -180,8 +174,6 @@
                         {% endif %}  
                     </ul>
                 {% endif %} 
-                    
-                    -->
                  
                 <b>Informations: </b><br>
                 
@@ -639,34 +631,25 @@
                 
          <div class="row">
             <div class='col-lg-12'>
-                <h5><b>Will your data be shared with anyone?</b></h5>
-                
-                {% if data.sc2_d_share.value.0 == 'sc2_d_share_no' %}
-                    {% if data.sc2_a_institution_name.value.0 %}
-                        Your personal data will not be shared with or disclosed to anyone outside our institution ({{ data.sc2_a_institution_name.value.0 }}).
-                    {% endif %}
-                    <br/>
+                <h5><b>Will your data be shared with anyone? - NOT READY</b></h5>
+                [if: Purpose1...n = No_Recipients]  --> missing
+                Your personal data will not be shared with or disclosed to anyone outside our institution 
+                 {% if data.sc2_a_institution_name.value.0 %}
+                    ({{ data.sc2_a_institution_name.value.0 }}).
+                {% elseif data.sc_3_a_institution.value.0 %}
+                    ({{ data.sc_3_a_institution.value.0 }}).
                 {% endif %}
+                <br/>
                 
-                {% if data.sc_3_d_share.value.0 == 'sc_3_d_share_2' %}
-                    {% if data.sc_3_a_institution.value.0 %}
-                        Your personal data will not be shared with or disclosed to anyone outside our institution ({{ data.sc_3_a_institution.value.0 }}).
-                    {% endif %}
-                    <br/>
-                {% endif %}    
-                
-                
-                <!-- [if: Project_partners_sharing] -->
                 {% if data.sc2_d_1_2.value.0 %}
                     For all purposes listed above, your personal data can be shared with the following partner institutions: 
-                    <br/><br/>
                     
                     {% if data.sc2_d_share_c_1_institution.value.0 %}
                         Institution Name: {{ data.sc2_d_share_c_1_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_c_1_country.value.0 %}
-                        Country: {{ data.sc2_d_share_c_1_country.text.0 }}
+                        Country: {{ data.sc2_d_share_c_1_country.value.0 }}
                         <br/>
                     {% endif %}
                     
@@ -675,7 +658,7 @@
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_c_2_country.value.0 %}
-                        Country: {{ data.sc2_d_share_c_2_country.text.0 }}
+                        Country: {{ data.sc2_d_share_c_2_country.value.0 }}
                         <br/>
                     {% endif %}
                     
@@ -684,53 +667,24 @@
                         <br/>
                     {% endif %}
                     {% if data.sc2_d_share_c_3_country.value.0 %}
-                        Country: {{ data.sc2_d_share_c_3_country.text.0 }}
-                        <br/>
-                    {% endif %}
-                    <br/><br/>
-                {% endif %}
-                
-                {% if data.sc2_d_1_3.value.0 %}
-                    For all purposes listed above, your personal data can be shared with the following partner institutions: 
-                    <br/>
-                    {% if data.sc2_d_share_s_1_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_s_1_institution.value.0 }}
-                        <br/>
-                    {% endif %}
-                    {% if data.sc2_d_share_s_1_country.value.0 %}
-                        Country: {{ data.sc2_d_share_s_1_country.text.0 }}
-                        <br/>
-                    {% endif %}
-                    
-                    {% if data.sc2_d_share_s_2_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_s_2_institution.value.0 }}
-                        <br/>
-                    {% endif %}
-                    {% if data.sc2_d_share_s_2_country.value.0 %}
-                        Country: {{ data.sc2_d_share_s_2_country.text.0 }}
-                        <br/>
-                    {% endif %}
-                    
-                    {% if data.sc2_d_share_s_3_institution.value.0 %}
-                        Institution Name: {{ data.sc2_d_share_s_3_institution.value.0 }}
-                        <br/>
-                    {% endif %}
-                    {% if data.sc2_d_share_s_3_country.value.0 %}
-                        Country: {{ data.sc2_d_share_s_3_country.text.0 }}
+                        Country: {{ data.sc2_d_share_c_3_country.value.0 }}
                         <br/>
                     {% endif %}
                     <br/><br/>
                 {% endif %}
                 
                 {% if data.sc_3_d_cd_share_2.value.0 %}
-                    For all purposes listed above, your personal data can be shared with the following partner institutions: 
+                     [if: Purpose1_sharing] For the purpose of [Purpose_1], your personal data can be shared with the following partner institutions:
+                    [Purpose1_Partners_list].
                     <br/>
+                    [if: Purpose2_sharing] For the purpose of [Purpose_2], your personal data can be shared with the following partner institutions: 
+                    [Purpose2_Partners_list].
                     {% if data.sc_3_d_cd_share_2_1_institution.value.0 %}
                         Institution Name: {{ data.sc_3_d_cd_share_2_1_institution.value.0 }}
                         <br/>
                     {% endif %}
                     {% if data.sc_3_d_cd_share_2_1_country.value.0 %}
-                        Country: {{ data.sc_3_d_cd_share_2_1_country.text.0 }}
+                        Country: {{ data.sc_3_d_cd_share_2_1_country.value.0 }}
                         <br/>
                     {% endif %}
                     
@@ -739,7 +693,7 @@
                         <br/>
                     {% endif %}
                     {% if data.sc_3_d_cd_share_2_2_country.value.0 %}
-                        Country: {{ data.sc_3_d_cd_share_2_2_country.text.0 }}
+                        Country: {{ data.sc_3_d_cd_share_2_2_country.value.0 }}
                         <br/>
                     {% endif %}
                     
@@ -748,56 +702,20 @@
                         
                     {% endif %}
                     {% if data.sc_3_d_cd_share_2_3_country.value.0 %}
-                        Country: {{ data.sc_3_d_cd_share_2_3_country.text.0 }}
-                        <br/>
-                    {% endif %}
-                    <br/><br/>
-                {% endif %}
-                
-                {% if data.sc_3_d_cd_share_3.value.0 %}
-                    For all purposes listed above, your personal data can be shared with the following partner institutions:
-                    <br/>
-                    {% if data.sc_3_d_cd_share_3_1_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_3_1_institution.value.0 }}
-                        <br/>
-                    {% endif %}
-                    {% if data.sc_3_d_cd_share_3_1_country.value.0 %}
-                        Country: {{ data.sc_3_d_cd_share_3_1_country.text.0 }}
-                        <br/>
-                    {% endif %}
-                    
-                    {% if data.sc_3_d_cd_share_2_3_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_3_2_institution.value.0 }}
-                        <br/>
-                    {% endif %}
-                    {% if data.sc_3_d_cd_share_3_2_country.value.0 %}
-                        Country: {{ data.sc_3_d_cd_share_3_2_country.text.0 }}
-                        <br/>
-                    {% endif %}
-                    
-                    {% if data.sc_3_d_cd_share_3_3_institution.value.0 %}
-                        Institution Name: {{ data.sc_3_d_cd_share_3_3_institution.value.0 }}<br/>
-                        
-                    {% endif %}
-                    {% if data.sc_3_d_cd_share_3_3_country.value.0 %}
-                        Country: {{ data.sc_3_d_cd_share_3_3_country.text.0 }}
+                        Country: {{ data.sc_3_d_cd_share_2_3_country.value.0 }}
                         <br/>
                     {% endif %}
                     <br/><br/>
                 {% endif %}
                
-                <!-- [if Category_1...n includes [Dietary requirements]]  -->
+                
                 {% if data.sc_3_c_1_2_6_dietary.value.0 %}
                      Information about your dietary requirements, which can sometimes reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you.
                      <br/><br/>
                 {% endif %}     
-                
-                <!-- if: Sharing_Participants]  -->
-                {% if data.sc_3_b_1.value.0 %}
-                    Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of {{ data.sc_3_b_1_textfield.value.0 }}.
-                    <br/><br/>
-                {% endif %}
-                
+                     
+                [if: Sharing_Participants] Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of [Event_name].
+                <br/><br/>
             </div>
         </div> 
                 
@@ -836,8 +754,8 @@
                     or
                     data.sc2_d_share_s_3_country.value.0 == 'sc2_d_share_s_3_country_2'
                 %}
-                    {% set thirdCountry = 'yes' %}
-                    
+                    {% set thirdCountry_1 = 'yes' %}
+                    Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (article 45 of the General Data Protection Regulation).
                     <!-- USA -->
                 {%  elseif 
                     data.sc2_d_share_c_1_country.value.0 == 'sc2_d_share_c_1_country_3'
@@ -852,8 +770,8 @@
                     or
                     data.sc2_d_share_s_3_country.value.0 == 'sc2_d_share_s_3_country_3'
                      %}    
-                    {% set thirdCountry = 'usa' %}
-                    
+                    {% set thirdCountry_1 = 'usa' %}
+                    Your data will be transferred to our partners in the United States of America, within the Privacy Shield framework.
                     <!-- DIFFERENT COUNTRY -->
                 {%  elseif 
                     data.sc2_d_share_c_1_country.value.0 == 'sc2_d_share_c_1_country_4'
@@ -868,19 +786,8 @@
                     or
                     data.sc2_d_share_s_3_country.value.0 == 'sc2_d_share_s_3_country_4'
                 %}
-                    {% set thirdCountry = 'no' %}
-                {%  endif  %}  
-                    
-                {%  if thirdCountry == 'no' %}      
+                    {% set thirdCountry_1 = 'no' %}
                     Your data will not be transferred outside the European Economic Area.
-                {%  endif  %}  
-                
-                {%  if thirdCountry == 'yes' %}      
-                    Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (article 45 of the General Data Protection Regulation).
-                {%  endif  %}  
-                
-                {%  if thirdCountry == 'usa' %}      
-                    Your data will be transferred to our partners in the United States of America, within the Privacy Shield framework.
                 {%  endif  %}  
                 
                 <br/><br/>
@@ -897,7 +804,7 @@
         
         <div class="row">
             <div class='col-lg-12'>
-                <h5><b>Your rights with regards to the processing of your data</b></h5>
+                <h5><b>Your rights with regards to the processing of your data (newsletter variable is missing)</b></h5>
                 
                 The General Data Protection Regulation grants you certain rights with regards to the processing of your personal data. These rights include:
                 <br/>
