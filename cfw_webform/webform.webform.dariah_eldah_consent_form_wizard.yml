@@ -1,0 +1,2337 @@
+uuid: 723dbfbf-f357-4c9d-9088-026d1537f5c0
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: dariah_eldah_consent_form_wizard
+title: 'DARIAH ELDAH Consent Form Wizard'
+description: ''
+category: ''
+elements: |
+  start:
+    '#type': webform_wizard_page
+    '#title': Start
+    '#next_button_label': 'Next page'
+    processed_text_09:
+      '#type': processed_text
+      '#text': |
+        <p>&nbsp;</p>
+        
+        <p>The <strong>CFW</strong> provides consent form templates for several academic scenarios in which you may need to collect data about people (i.e. "process personal data"). The use cases presented here were identified by the working group <a href="https://eldah.hypotheses.org/"><strong>ELDAH</strong></a> ("Ethics and Legality in Digital Arts and Humanities") through surveys of needs and demands of the <strong><a href="https://www.dariah.eu/">DARIAH-EU</a></strong> research community. If you find your use scenario to be missing, do not hesitate to contact us: <strong><a href="mailto:eldah@dariah.eu">eldah@dariah.eu</a></strong></p>
+        
+        <p>&nbsp;</p>
+        
+      '#format': basic_html
+    q1_what_are_you_planning_to_do:
+      '#type': radios
+      '#title': 'What are you planning to do?'
+      '#options':
+        q1_a: 'Gather data from and/or about living people for research purposes'
+        q2_a: 'Communicate through mailinglists or other (digital) communication media'
+        q3_a: 'Gather data and/or consent from participants as the host of an academic event'
+      '#required': true
+  scenario_1_interview_survey_a:
+    '#type': webform_wizard_page
+    '#title': 'Scenario 1: Interview / Survey'
+    '#open': true
+    '#states':
+      visible:
+        ':input[name="q1_what_are_you_planning_to_do"]':
+          value: q1_a
+    flexbox:
+      '#type': container
+      '#align_items': center
+      a_in_what_form_are_you_gathering_recording_the_data_from_your_pa:
+        '#type': checkboxes
+        '#title': 'In what form are you gathering/recording data from/about your participants? '
+        '#options':
+          q1a_1: 'Written survey (pen and paper)'
+          q1a_2: 'Online survey'
+          q1a_3: 'Oral interview (sound recording)'
+          q1a_4: 'Oral or video interview (transcription)'
+          q1a_5: 'Video interview'
+        '#required': true
+    flexbox_01:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="a_in_what_form_are_you_gathering_recording_the_data_from_your_pa[q1a_1]"]':
+              checked: true
+          - or
+          - ':input[name="a_in_what_form_are_you_gathering_recording_the_data_from_your_pa[q1a_2]"]':
+              checked: true
+          - or
+          - ':input[name="a_in_what_form_are_you_gathering_recording_the_data_from_your_pa[q1a_3]"]':
+              checked: true
+          - or
+          - ':input[name="a_in_what_form_are_you_gathering_recording_the_data_from_your_pa[q1a_4]"]':
+              checked: true
+          - or
+          - ':input[name="a_in_what_form_are_you_gathering_recording_the_data_from_your_pa[q1a_5]"]':
+              checked: true
+      b_what_types_of_data_do_you_collect_from_the_participants_:
+        '#type': label
+        '#title': 'What types of data do you collect from the participants? '
+        '#attributes':
+          class:
+            - label-titles
+          style: 'width: 100% !important'
+      processed_text:
+        '#type': processed_text
+        '#text': |
+          <p><strong><span><span><span><span><span><span>Please be aware</span></span></span></span></span></span></strong><span><span><span><span><span><span> that the GDPR requires you to minimize the personal data collected to only what is absolutely necessary for the purpose you are pursuing. Please do not collect data you don’t need just because you feel a need for completion.</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+      generic_categories:
+        '#type': checkboxes
+        '#title': 'Generic data categories'
+        '#options':
+          q1b_dc_1: 'Name, surname'
+          q1b_dc_2: 'IP address'
+          q1b_dc_3: 'E-mail address'
+          q1b_dc_4: 'Age / date of birth'
+          q1b_dc_5: 'Address / place of residence'
+          q1b_dc_6: Gender
+          q1b_dc_7: 'Marital status'
+          q1b_dc_8: 'Educational background / title'
+          q1b_dc_9: 'Affiliation / professional situation / occupation'
+        '#states':
+          optional:
+            - ':input[name="sensitive_categories[q1b_sd_1]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_2]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_3]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_4]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_5]"]':
+                checked: true
+      q1b_no_checkbox_error:
+        '#type': processed_text
+        '#states':
+          invisible:
+            - ':input[name="sensitive_categories[q1b_sd_1]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_2]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_3]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_4]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_5]"]':
+                checked: true
+            - or
+            - ':input[name="sensitiv_field_tetx_field"]':
+                filled: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_1]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_2]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_3]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_4]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_5]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_6]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_7]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_8]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_9]"]':
+                checked: true
+        '#wrapper_attributes':
+          class:
+            - acdh-form-error-msg
+        '#text': |
+          <p><span><span><span><span><span><span>You chose none of the personal data categories specified. If you do not collect personal data, you do not need to provide a consent form for the processing of personal data. Good luck with your research project!</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+      sensitive_categories:
+        '#type': checkboxes
+        '#title': 'Sensitive data categories'
+        '#options':
+          q1b_sd_1: 'Ethnic origin'
+          q1b_sd_2: 'Political opinions, religious or philosophical beliefs, trade union membership'
+          q1b_sd_3: 'Genetic data, biometric data for the purpose of uniquely identifying a natural person '
+          q1b_sd_4: 'Data concerning health '
+          q1b_sd_5: 'Data concerning a natural person''s sex life or sexual orientation'
+      processed_text_01:
+        '#type': processed_text
+        '#text': |
+          <p><strong><span><span><span><span><span><span>Please be aware </span></span></span></span></span></span></strong><span><span><span><span><span><span>that the GDPR considers certain types of information “<a href="https://gdpr.eu/article-9-processing-special-categories-of-personal-data-prohibited/">sensitive data</a>” which deserve special protection. If you aim to collect any of the following data categories, you should consult your institution’s data privacy officer or a legal expert to make sure you comply with all legal requirements.</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+      sensitiv_field_tetx_field:
+        '#type': textfield
+        '#title': 'Other:'
+      processed_text_03:
+        '#type': processed_text
+        '#text': |
+          <p><strong><span><span><span><span><span><span>Please be aware </span></span></span></span></span></span></strong><span><span><span><span><span><span>that you should by no means enter any of the sensitive data categories defined above in this text field!</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+      information_about_third_persons:
+        '#type': label
+        '#title': 'Information about third persons'
+        '#states':
+          visible:
+            - ':input[name="generic_categories[q1b_dc_1]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_2]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_3]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_4]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_5]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_6]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_7]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_8]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_9]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_1]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_2]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_3]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_4]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_5]"]':
+                checked: true
+        '#attributes':
+          class:
+            - label-subtitles
+      are_you_collecting_information_about_third_persons_:
+        '#type': select
+        '#title': 'Are you collecting information about third persons?'
+        '#options':
+          'yes': 'yes'
+          'no': 'no'
+        '#required': true
+        '#states':
+          visible:
+            - ':input[name="generic_categories[q1b_dc_1]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_2]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_3]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_4]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_5]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_6]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_7]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_8]"]':
+                checked: true
+            - or
+            - ':input[name="generic_categories[q1b_dc_9]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_1]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_2]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_3]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_4]"]':
+                checked: true
+            - or
+            - ':input[name="sensitive_categories[q1b_sd_5]"]':
+                checked: true
+      are_they_identifiable_:
+        '#type': select
+        '#title': 'Are they identifiable?'
+        '#options':
+          'yes': 'yes'
+          'no': 'no'
+        '#required': true
+        '#states':
+          visible:
+            ':input[name="are_you_collecting_information_about_third_persons_"]':
+              value: 'yes'
+      are_they_still_alive_:
+        '#type': select
+        '#title': 'Are they still alive?'
+        '#options':
+          'yes': 'yes'
+          'no': 'no'
+        '#required': true
+        '#states':
+          visible:
+            ':input[name="are_they_identifiable_"]':
+              value: 'yes'
+      processed_text_02:
+        '#type': processed_text
+        '#states':
+          visible:
+            ':input[name="are_they_still_alive_"]':
+              value: 'yes'
+        '#wrapper_attributes':
+          class:
+            - acdh-form-error-msg
+        '#text': |
+          <div class="dhform-error-msg">
+          <p>You are operating in a very sensitive area of data privacy. Since processing personal data requires the consent of the data subject, you would in most cases also require the consent of the third person in question. Due to the complexity of this issue, please consult a legal expert.&nbsp;</p>
+          </div>
+          
+        '#format': full_html
+    container_c:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="are_you_collecting_information_about_third_persons_"]':
+              value: 'no'
+          - or
+          - ':input[name="are_they_identifiable_"]':
+              value: 'no'
+          - or
+          - ':input[name="are_they_still_alive_"]':
+              value: 'no'
+      c_for_what_purpose_which_research_interest_do_you_collect_the_in:
+        '#type': label
+        '#title': 'For what purpose or which research interest do you collect the information? '
+        '#attributes':
+          class:
+            - label-titles
+      processed_text_04:
+        '#type': processed_text
+        '#text': |
+          <p><span><span><span><span><span><span>According to the purpose limitation principle, personal data should be collected and processed for specific purposes (<a href="https://gdpr.eu/article-6-how-to-process-personal-data-legally/">Art.&nbsp;6.1(a)</a> of the GDPR). However, when the data are processed for research purposes, Recital 33 of the GDPR allows for the purpose to be defined in a more general way (e.g. just by specifying the area). This exception, however, should be used carefully, and the controllers, also in the research domain, should try to identify their purposes as closely as possible.</span></span></span></span></span></span></p>
+          
+          <p><span><span><span><span><span><span>Moreover, the GDPR (<a href="https://gdpr.eu/article-89-processing-for-archiving-purposes-scientific-or-historical-research-purposes-or-statistical-purposes/">Art.&nbsp;89</a>) allows the Member States to adopt exceptions for processing of personal data for scientific research purposes, when ‘appropriate safeguards’ are implemented. These exceptions, however, remain largely country-specific. Therefore, if you want to rely on a research exception, contact a legal expert in your jurisdiction.</span></span></span></span></span></span></p>
+          
+          <p><span><span><span><span><span><span>For more information, see the CLARIN Legal Issues Committee White Paper</span></span></span></span></span></span><span><span><span><span><span><span> </span></span></span></span></span></span><span><span><span><span><span><span>“</span></span></span></span></span></span><a href="https://www.clarin.eu/sites/default/files/CLIC_White_Paper_3.pdf"><span><span><span><span><span><span><span>Language Resources and Research Under the General Data Protection Regulation</span></span></span></span></span></span></span></a><span><span><span><span><span><span>”.</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+      purpose_:
+        '#type': select
+        '#title': 'What is the purpose of data processing?'
+        '#options':
+          research: research
+          other: other
+        '#required': true
+      q1c_purpose_other_message:
+        '#type': processed_text
+        '#states':
+          visible:
+            ':input[name="purpose_"]':
+              value: other
+        '#wrapper_attributes':
+          class:
+            - acdh-form-error-msg
+        '#text': |
+          <p><span><span><span><span><span><span>This tool is aimed specifically at obtaining consent for the processing of personal data for research purposes. Since you want to process personal data for other reasons, this tool will not provide the information you need. Please consult a legal expert.</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+      container_c_01:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="purpose_"]':
+              value: research
+        '#attributes':
+          class:
+            - subcontainer-acdh-format
+        processed_text_05:
+          '#type': processed_text
+          '#states':
+            visible:
+              ':input[name="purpose_"]':
+                value: other
+          '#text': |
+            <p><span><span><span><span><span><span>This tool is aimed specifically at obtaining consent for the processing of personal data for research purposes. Since you want to process personal data for other reasons, this tool will not provide the information you need. Please consult a legal expert.</span></span></span></span></span></span></p>
+            
+          '#format': basic_html
+        please_state_the_name_of_your_project_:
+          '#type': textfield
+          '#title': 'Please state the name of your research project:'
+          '#required': true
+        please_identify_the_domain_of_your_project_e_g_digital_humanitie:
+          '#type': textfield
+          '#title': 'Please identify the domain of your project (e.g. Digital Humanities, Linguistics, Cultural Studies):'
+          '#required': true
+        q1c_please_describe_interview:
+          '#type': textarea
+          '#title': 'Please briefly describe the central research interest that you want to answer with your survey/interview:'
+          '#required': true
+        please_provide_the_address_of_the_project_website_:
+          '#type': url
+          '#title': 'Please provide the address of the project website:'
+          '#required': true
+    container_d:
+      '#type': container
+      '#states':
+        visible:
+          ':input[name="please_state_the_name_of_your_project_"]':
+            filled: true
+          ':input[name="please_identify_the_domain_of_your_project_e_g_digital_humanitie"]':
+            filled: true
+          ':input[name="please_briefly_describe_the_central_research_interest_that_you_w"]':
+            filled: true
+      d_please_introduce_yourself_:
+        '#type': label
+        '#title': 'Please introduce yourself.'
+        '#attributes':
+          class:
+            - label-titles
+      are_you_collecting_data_:
+        '#type': select
+        '#title': 'Are you collecting data...'
+        '#options':
+          q1d_aycd_1: 'as an individual?'
+          q1d_aycd_2: 'on behalf of a research institution (can be public or private)'
+        '#required': true
+      container_individual:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="are_you_collecting_data_"]':
+              value: q1d_aycd_1
+        '#attributes':
+          class:
+            - subcontainer-acdh-format
+        name:
+          '#type': textfield
+          '#title': 'Name:'
+          '#required': true
+        contact_details_address_:
+          '#type': textfield
+          '#title': 'Contact details (address):'
+          '#required': true
+        contact_details_e_mail_:
+          '#type': email
+          '#title': 'Contact details (e-mail):'
+          '#required': true
+      container_institution:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="are_you_collecting_data_"]':
+              value: q1d_aycd_2
+        '#attributes':
+          class:
+            - subcontainer-acdh-format
+        name_:
+          '#type': textfield
+          '#title': 'Your name:'
+          '#required': true
+        affiliation_:
+          '#type': textfield
+          '#title': 'Research institution:'
+          '#required': true
+        contact_details_address_institution:
+          '#type': textfield
+          '#title': 'Contact details (address):'
+          '#required': true
+        contact_details_e_mail_institutuion:
+          '#type': email
+          '#title': 'Contact details (e-mail):'
+          '#required': true
+        does_your_institution_have_a_dedicated_data_protection_officer_:
+          '#type': select
+          '#title': 'Does your institution have a dedicated Data Protection Officer?'
+          '#options':
+            'yes': 'yes'
+            'no': 'no'
+          '#required': true
+        name_of_the_data_protection_officer:
+          '#type': textfield
+          '#title': 'Name of the Data Protection Officer:'
+          '#required': true
+          '#states':
+            visible:
+              ':input[name="does_your_institution_have_a_dedicated_data_protection_officer_"]':
+                value: 'yes'
+        contact_information_e_mail_of_the_data_protection_officer_:
+          '#type': email
+          '#title': 'Contact information (e-mail) of the Data Protection Officer: '
+          '#required': true
+          '#states':
+            visible:
+              ':input[name="does_your_institution_have_a_dedicated_data_protection_officer_"]':
+                value: 'yes'
+      processed_text_06:
+        '#type': processed_text
+        '#text': |
+          <ul>
+          	<li><span><span><span><span><span><span><span>A</span></span></span></span></span></span></span><span><span><span><span><span><em><span> <a href="https://gdpr.eu/article-39-tasks-of-the-data-protection-officer/">data protection officer</a></span></em></span></span></span></span></span><span><span><span><span><span><span><span> is responsible for overseeing an organization’s data protection strategy and implementation and ensures that an organization is complying with the GDPR’s requirements. Typically, larger institutions like universities will have a data protection officer. When dealing with personal data, you should be familiar with your institution’s data protection officer and inform them of your actions.</span></span></span></span></span></span></span></li>
+          	<li><span><span><span><span><span><span>The </span></span></span></span></span></span><a href="https://gdpr.eu/article-24-responsibility-of-the-data-controller/"><span><span><span><span><em><span>data </span></em></span></span></span></span><span><span><span><span><span><em><span>controller</span></em></span></span></span></span></span></a><span><span><span><span><span><span><span> is the natural or legal person which determines the purposes and means of the processing of personal data. For the forms generated with the CFW, it is assumed that the data controller is the institution that the principal investigator (project lead or person responsible) is affiliated with. For simplicity’s sake, please assume that the data controller must be able to delete the personal data processed upon request. </span></span></span></span></span></span></span><br />
+          	<span><span><span><span><span><span><span><strong>ATTENTION!</strong> If there are several natural or legal persons acting as joint controllers, this tool will not not be able to provide the information you require.&nbsp;</span></span></span></span></span></span></span></li>
+          </ul>
+          
+        '#format': basic_html
+    container_e:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="are_you_collecting_data_"]':
+              value: q1d_aycd_1
+          - xor
+          - ':input[name="are_you_collecting_data_"]':
+              value: q1d_aycd_2
+      e_how_long_will_the_data_be_stored_in_non_anonymized_form_data_r:
+        '#type': label
+        '#title': 'How long will the data be stored in non-anonymized form (data retention)?'
+        '#attributes':
+          class:
+            - label-titles
+      processed_text_07:
+        '#type': processed_text
+        '#text': |
+          <p dir="ltr"><span>The GDPR requires you to store personal data in a manner that ensures appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures. This principle is referred to as ‘data integrity and confidentiality’.</span></p>
+          
+          <p dir="ltr"><span>Personal data can be kept in non-anonymised form for no longer than is necessary for the purposes for which the personal data are processed. However, longer storage is possible when the data are processed for research purposes with ‘appropriate safeguards’, such as pseudonymisation (Article 89 of the GDPR). For more information on retention periods as well as on the rights of data subjects please consult the CLIC white paper “</span><a href="https://www.clarin.eu/sites/default/files/CLIC_White_Paper_3.pdf"><span>Language Resources and Research Under the General Data Protection Regulation</span></a><span>”.</span></p>
+          
+        '#format': basic_html
+      language_resources_and_research_under_the_general_data_protectio:
+        '#type': select
+        '#title': 'Retention period:'
+        '#options':
+          q1e_lrru_1: 'until the end of the funding period or research project [date]'
+          q1e_lrru_2: 'for a period of XXX months after collection'
+          q1e_lrru_3: 'for as long as necessary for the fulfillment of the defined research purposes'
+          q1e_lrru_4: indefinitely
+      q1e_lrru_1_text:
+        '#type': textfield
+        '#title': 'Until (date):'
+        '#required': true
+        '#states':
+          visible:
+            ':input[name="language_resources_and_research_under_the_general_data_protectio"]':
+              value: q1e_lrru_1
+      q1e_lrru_2_text:
+        '#type': textfield
+        '#title': 'For the following number of months:'
+        '#required': true
+        '#states':
+          visible:
+            ':input[name="language_resources_and_research_under_the_general_data_protectio"]':
+              value: q1e_lrru_2
+      processed_text_q1e_lrru_2:
+        '#type': processed_text
+        '#states':
+          visible:
+            ':input[name="language_resources_and_research_under_the_general_data_protectio"]':
+              value: q1e_lrru_2
+        '#text': |
+          <p><span><span><span><span><span><span>See your institution’s policies for data storage.</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+      processed_text_q1e_lrru_4:
+        '#type': processed_text
+        '#states':
+          visible:
+            ':input[name="language_resources_and_research_under_the_general_data_protectio"]':
+              value: q1e_lrru_4
+        '#wrapper_attributes':
+          class:
+            - acdh-form-error-msg
+        '#text': |
+          <p><span><span><span><span><span><span>Indefinite storage of personal data is generally not allowed under the GDPR (unless specific national rules on public archives apply). Please reconsider your decision or consult a legal expert on your country's archiving laws.</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+    container_f:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="language_resources_and_research_under_the_general_data_protectio"]':
+              value: q1e_lrru_1
+          - xor
+          - ':input[name="language_resources_and_research_under_the_general_data_protectio"]':
+              value: q1e_lrru_2
+          - xor
+          - ':input[name="language_resources_and_research_under_the_general_data_protectio"]':
+              value: q1e_lrru_3
+      f_data_sharing:
+        '#type': label
+        '#title': 'Data sharing'
+        '#attributes':
+          class:
+            - label-titles
+      will_you_share_the_data_:
+        '#type': select
+        '#title': 'Will you share the data?'
+        '#options':
+          'yes': 'yes'
+          'no': 'no'
+        '#required': true
+      container_f_01:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="will_you_share_the_data_"]':
+              value: 'yes'
+        will_you_anonymize_or_pseudonymize_the_data_before_sharing_:
+          '#type': select
+          '#title': 'Will you anonymize or pseudonymize the data before sharing?'
+          '#options':
+            yes_1: 'Yes, I will anonymize the data'
+            yes_2: 'Yes, I will pseudonymize the data'
+            'no': 'No'
+          '#required': true
+        processed_text_08:
+          '#type': processed_text
+          '#text': |
+            <p dir="ltr"><span><strong>"Pseudonymisation"</strong> means that personal data is kept in a manner that makes it impossible to attribute it to a specific data subject without the use of additional information which is kept separately and protected by suitable technical and organisational measures. By contrast, <strong>"anonymisation"</strong> renders any personal data impossible to attribute to a specific identifiable or identified person.</span></p>
+            
+            <p dir="ltr"><span>If you are storing your data in pseudonymised form, please consult your institution's Data Protection Officer or a professional legal advisor to ensure that appropriate safeguards are observed.</span></p>
+            
+          '#format': basic_html
+        container_f_02:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="will_you_anonymize_or_pseudonymize_the_data_before_sharing_"]':
+                value: 'no'
+          q1f_who_label:
+            '#type': label
+            '#title': 'Who are you going to share the collected data with?'
+            '#attributes':
+              class:
+                - label-subtitles
+          colleagues_at_your_research_institution:
+            '#type': checkbox
+            '#title': 'Colleagues at your own research institution'
+          project_partners_within_the_specific_project:
+            '#type': checkbox
+            '#title': 'Project partners at other institutions within the specific project'
+          other_researchers_from_other_institutions_e_g_through_domain_spe:
+            '#type': checkbox
+            '#title': 'Other researchers from other institutions (e.g. through domain-specific closed repositories, or through other closed data transmission channels) '
+          the_general_public_through_an_open_access_repository_:
+            '#type': checkbox
+            '#title': 'The general public (through an open access repository)'
+          processed_text_general_public:
+            '#type': processed_text
+            '#states':
+              visible:
+                ':input[name="the_general_public_through_an_open_access_repository_"]':
+                  checked: true
+            '#wrapper_attributes':
+              class:
+                - acdh-form-error-msg
+            '#text': |
+              <p><span>Open sharing of personal data is not allowed under the GDPR (it would e.g. contradict the purpose limitation principle, or make it practically impossible for the data subject to exercise his rights). Please reconsider your decision.</span></p>
+              
+              <p>&nbsp;</p>
+              
+            '#format': basic_html
+          processed_text_who_are_you_partners:
+            '#type': processed_text
+            '#states':
+              visible:
+                ':input[name="project_partners_within_the_specific_project"]':
+                  checked: true
+            '#text': |
+              <p><span><span><span><span><span><span>Please name them (provide individual entries for each partner):</span></span></span></span></span></span></p>
+              
+            '#format': basic_html
+          q1f_institute_1:
+            '#type': container
+            '#states':
+              visible:
+                ':input[name="project_partners_within_the_specific_project"]':
+                  checked: true
+            '#attributes':
+              class:
+                - subcontainer-acdh-format
+            institution_name:
+              '#type': textfield
+              '#title': '1. Institution name'
+              '#required': true
+            country:
+              '#type': radios
+              '#title': '1. Country'
+              '#options':
+                q1f_ins_c1_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+                q1f_ins_c1_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+                q1f_ins_c1_3: 'in the USA'
+                q1f_ins_c1_4: 'in a different country'
+              '#required': true
+          q1f_share_data_warning_text:
+            '#type': processed_text
+            '#states':
+              visible:
+                ':input[name="country"]':
+                  value: q1f_ins_c1_4
+            '#wrapper_attributes':
+              class:
+                - acdh-form-error-msg
+            '#text': |
+              <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+              
+            '#format': basic_html
+          q1f_institute_2:
+            '#type': container
+            '#states':
+              visible:
+                ':input[name="country"]':
+                  filled: true
+                ':input[name="institution_name"]':
+                  filled: true
+            '#attributes':
+              class:
+                - subcontainer-acdh-format
+            institution_name_2:
+              '#type': textfield
+              '#title': '2. Institution name'
+            country_2:
+              '#type': radios
+              '#title': '2. Country'
+              '#options':
+                q1f_ins_c2_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+                q1f_ins_c2_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+                q1f_ins_c2_3: 'in the USA'
+                q1f_ins_c2_4: 'in a different country'
+              '#default_value': q1f_ins_c2_1
+          q1f_institute_3:
+            '#type': container
+            '#states':
+              visible:
+                ':input[name="country_2"]':
+                  filled: true
+                ':input[name="institution_name_2"]':
+                  filled: true
+            '#attributes':
+              class:
+                - subcontainer-acdh-format
+            institution_name_3:
+              '#type': textfield
+              '#title': '3. Institution name'
+            country_3:
+              '#type': radios
+              '#title': '3. Country'
+              '#options':
+                q1f_ins_c3_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+                q1f_ins_c3_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+                q1f_ins_c3_3: 'in the USA'
+                q1f_ins_c3_4: 'in a different country'
+              '#default_value': q1f_ins_c3_1
+          q1f_2_share_data_warning_text:
+            '#type': processed_text
+            '#states':
+              visible:
+                ':input[name="country_2"]':
+                  value: q1f_ins_c2_4
+            '#wrapper_attributes':
+              class:
+                - acdh-form-error-msg
+            '#text': |
+              <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+              
+            '#format': basic_html
+          q1f_3_share_data_warning_text:
+            '#type': processed_text
+            '#states':
+              visible:
+                ':input[name="country_3"]':
+                  value: q1f_ins_c3_4
+            '#wrapper_attributes':
+              class:
+                - acdh-form-error-msg
+            '#text': |
+              <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+              
+            '#format': basic_html
+    scenario_form:
+      '#type': hidden
+      '#title': scenario_form
+      '#default_value': 'true'
+  scenario_2_mailing_list_newsletter:
+    '#type': webform_wizard_page
+    '#title': 'Scenario 2: Mailing list / newsletter'
+    '#states':
+      visible:
+        ':input[name="q1_what_are_you_planning_to_do"]':
+          value: q2_a
+    scenario2_a:
+      '#type': container
+      a_please_name_the_research_institution_be_it_public_or_private_p:
+        '#type': label
+        '#title': 'Please name the research institution (be it public or private) providing the communication channel. '
+        '#attributes':
+          class:
+            - label-titles
+      sc2_a_institution_name:
+        '#type': textfield
+        '#title': 'Institution name:'
+        '#required': true
+      sc2_a_institution_address:
+        '#type': textfield
+        '#title': 'Address:'
+        '#required': true
+      sc2_a_institution_e_mail:
+        '#type': textfield
+        '#title': 'Contact e-mail:'
+        '#input_mask': '''alias'': ''email'''
+        '#required': true
+      sc2_a_institution_data_protect_officer:
+        '#type': select
+        '#title': 'Does the institution have a dedicated Data Protection Officer?'
+        '#options':
+          'yes': 'yes'
+          'no': 'no'
+        '#required': true
+      sc2_a_officer:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="sc2_a_institution_data_protect_officer"]':
+              value: 'yes'
+        '#attributes':
+          class:
+            - subcontainer-acdh-format
+        sc2_a_dpo_name:
+          '#type': textfield
+          '#title': 'Name of the Data Protection Officer:'
+          '#required': true
+        sc2_a_dpo_email:
+          '#type': textfield
+          '#title': 'Contact information (e-mail address) of the Data Protection Officer:'
+          '#input_mask': '''alias'': ''email'''
+          '#required': true
+        sc2_a_dpo_info_box:
+          '#type': processed_text
+          '#text': |
+            <ul>
+            	<li><span><span><span><span><span><span><span>A</span></span></span></span></span></span></span><span><span><span><span><span><em><span> data protection officer</span></em></span></span></span></span></span><span><span><span><span><span><span><span> is responsible for overseeing an organization’s data protection strategy and implementation and ensures that an organization is complying with the GDPR’s requirements. Typically, larger institutions like universities will have a data protection officer. When dealing with personal data, you should be familiar with your institution’s data protection officer and inform them of your actions.</span></span></span></span></span></span></span></li>
+            	<li><span><span><span><span><span><span>The </span></span></span></span></span></span><span><span><span><span><em><span>data </span></em></span></span></span></span><span><span><span><span><span><em><span>controller</span></em></span></span></span></span></span><span><span><span><span><span><span><span> is the natural or legal person which determines the purposes and means of the processing of personal data. For the forms generated with the CFW, it is assumed that the data controller is the institution that the principal investigator (project lead or person responsible) is affiliated with. For simplicity’s sake, please assume that the data controller must be able to delete the personal data processed upon request. </span></span></span></span></span></span></span><br />
+            	<span><span><span><span><span><span><span>ATTENTION! If there are several natural or legal persons acting as joint controllers, this tool will not not be able to provide the information you require.&nbsp;</span></span></span></span></span></span></span></li>
+            </ul>
+            
+          '#format': basic_html
+    scenario2_b:
+      '#type': container
+      '#states':
+        visible:
+          ':input[name="sc2_a_institution_name"]':
+            filled: true
+          ':input[name="sc2_a_institution_address"]':
+            filled: true
+          ':input[name="sc2_a_institution_e_mail"]':
+            filled: true
+          ':input[name="sc2_a_institution_data_protect_officer"]':
+            filled: true
+      sc2_b_what_do_you_need_the_data_for:
+        '#type': checkboxes
+        '#title': 'What do you need the data for?'
+        '#options':
+          sc2_b_1_1: 'Keeping subscribers informed, community building'
+          sc2_b_1_2: 'Promoting events, institutions, etc.'
+          sc2_b_1_3: 'Providing / keeping a mailinglist to communicate to subscribers'
+          sc2_b_1_4: 'Keeping a mailinglist to provide a communication platform for subscribers'
+          sc2_b_1_5: 'Documentation of mailinglist activity, statistic analysis'
+        '#required': true
+    scenario2_c:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="sc2_b_what_do_you_need_the_data_for[sc2_b_1_1]"]':
+              checked: true
+          - or
+          - ':input[name="sc2_b_what_do_you_need_the_data_for[sc2_b_1_2]"]':
+              checked: true
+          - or
+          - ':input[name="sc2_b_what_do_you_need_the_data_for[sc2_b_1_3]"]':
+              checked: true
+          - or
+          - ':input[name="sc2_b_what_do_you_need_the_data_for[sc2_b_1_4]"]':
+              checked: true
+          - or
+          - ':input[name="sc2_b_what_do_you_need_the_data_for[sc2_b_1_5]"]':
+              checked: true
+      sc2_c_title:
+        '#type': label
+        '#title': 'What information do you collect from the participants and how long are you planning to keep it?'
+        '#attributes':
+          class:
+            - label-titles
+      sc2_c_container1:
+        '#type': container
+        sc2_c_1_1_name:
+          '#type': checkbox
+          '#title': 'Name, surname'
+        sc2_c_1_1_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_name"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_1_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_1_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_1_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_1_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity '
+        sc2_c_1_1_email:
+          '#type': checkbox
+          '#title': 'E-mail address'
+        sc2_c_1_2_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_email"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_2_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_2_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_2_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_2_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+        sc2_c_1_1_ip:
+          '#type': checkbox
+          '#title': 'IP address'
+        sc2_c_1_3_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_ip"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_3_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_3_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_3_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_3_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+        sc2_c_1_1_country:
+          '#type': checkbox
+          '#title': Country
+        sc2_c_1_4_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_country"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_4_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_4_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_4_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_4_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+        sc2_c_1_1_affiliation:
+          '#type': checkbox
+          '#title': Affiliation
+        sc2_c_1_5_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_affiliation"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_5_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_5_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_5_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_5_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+        sc2_c_1_1_professional:
+          '#type': checkbox
+          '#title': 'Professional title / academic status'
+        sc2_c_1_6_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_professional"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_6_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_6_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_6_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_6_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+        sc2_c_1_1_gender:
+          '#type': checkbox
+          '#title': Gender
+        sc2_c_1_7_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_gender"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_7_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_7_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_7_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_7_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+        sc2_c_1_1_social:
+          '#type': checkbox
+          '#title': 'Social media identifiers'
+        sc2_c_1_8_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_social"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_8_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_8_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_8_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_8_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+        sc2_c_1_1_other:
+          '#type': checkbox
+          '#title': 'Other:'
+        sc2_c_1_9_other_infotext:
+          '#type': processed_text
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_other"]':
+                checked: true
+          '#text': |
+            <p><span><span><span><span><span><span>Please be aware that you should by no means enter any type of sensitive data categories in this text field.</span></span></span></span></span></span></p>
+            
+          '#format': basic_html
+        sc2_c_1_9_container_text:
+          '#type': textfield
+          '#title': Info
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_1_other"]':
+                checked: true
+        sc2_c_1_9_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_c_1_9_container_text"]':
+                filled: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_c_1_9_container_months:
+            '#type': textfield
+            '#title': months
+          sc2_c_1_9_container_years:
+            '#type': textfield
+            '#title': years
+          sc2_c_1_9_container_long:
+            '#type': checkbox
+            '#title': 'as long as necessary to achieve the purpose of the data processing'
+          sc2_c_1_9_container_after:
+            '#type': textfield
+            '#title': 'years after the last mailinglist activity'
+      sc2_c_info_box:
+        '#type': processed_text
+        '#text': |
+          <p><span><span><span><span><span><span>The GDPR requires you to store personal data in a manner that ensures appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures. This principle is referred to as "data integrity and confidentiality".</span></span></span></span></span></span></p>
+          
+          <p><span><span><span><span><span><span>Personal data can be kept in non-anonymised form for no longer than is necessary for the purposes for which the personal data are processed. However, longer storage is possible when the data are processed for research purposes with "appropriate safeguards", such as pseudonymisation (<a href="https://gdpr.eu/article-89-processing-for-archiving-purposes-scientific-or-historical-research-purposes-or-statistical-purposes/">Art.&nbsp;89</a> of the GDPR). For more information on retention periods as well as on the rights of data subjects please consult the CLIC white paper "</span></span></span></span></span></span><span><span><span><span><span><span><span><a href="https://www.clarin.eu/sites/default/files/CLIC_White_Paper_3.pdf">Language Resources and Research Under the General Data Protection Regulation</a>"</span></span></span></span></span></span></span><span><span><span><span><span><span>.</span></span></span></span></span></span></p>
+          
+        '#format': basic_html
+    scenario2_d:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="sc2_c_1_1_name"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_email"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_ip"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_country"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_affiliation"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_professional"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_gender"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_social"]':
+              checked: true
+          - or
+          - ':input[name="sc2_c_1_1_other"]':
+              checked: true
+      sc2_d_label:
+        '#type': label
+        '#title': 'Data sharing'
+        '#attributes':
+          class:
+            - label-titles
+      sc2_d_share:
+        '#type': select
+        '#title': 'Will you share the data?'
+        '#options':
+          sc2_d_share_yes: 'Yes'
+          sc2_d_share_no: 'No'
+        '#label_attributes':
+          class:
+            - label-subtitles
+      sc2_d_1_container:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="sc2_d_share"]':
+              value: sc2_d_share_yes
+        sc2_d_1_container_label:
+          '#type': label
+          '#title': 'Who are you going to share the collected data with?'
+          '#attributes':
+            class:
+              - label-subtitles
+        sc2_d_1_1:
+          '#type': checkbox
+          '#title': 'Co-moderators or co-hosts of the communication channel at your research institution'
+        sc2_d_1_2:
+          '#type': checkbox
+          '#title': 'Co-moderators or co-hosts of the communication channel (outside of your research institution)'
+        sc2_country_1_warning_text:
+          '#type': processed_text
+          '#states':
+            visible:
+              - ':input[name="sc2_d_share_c_1_country"]':
+                  value: sc2_d_share_c_1_country_4
+              - or
+              - ':input[name="sc2_d_share_s_1_country"]':
+                  value: sc2_d_share_s_1_country_4
+          '#wrapper_attributes':
+            class:
+              - acdh-form-error-msg
+          '#text': |
+            <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+            
+          '#format': basic_html
+        sc2_d_1_2_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_d_1_2"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_d_share_c_1_institution:
+            '#type': textfield
+            '#title': '1. Institution name'
+            '#required': true
+          sc2_d_share_c_1_country:
+            '#type': radios
+            '#title': '1. Country'
+            '#options':
+              sc2_d_share_c_1_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc2_d_share_c_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_c_1_country_3: 'in the USA'
+              sc2_d_share_c_1_country_4: 'in a different country'
+            '#required': true
+          sc2_d_share_c_2_institution:
+            '#type': textfield
+            '#title': '2. Institution name'
+          sc2_d_share_c_2_country:
+            '#type': radios
+            '#title': '2. Country'
+            '#options':
+              sc2_d_share_c_2_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc2_d_share_c_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_c_2_country_3: 'in the USA'
+              sc2_d_share_c_2_country_4: 'in a different country'
+          sc2_d_share_c_3_institution:
+            '#type': textfield
+            '#title': '3. Institution name'
+          sc2_d_share_c_3_country:
+            '#type': radios
+            '#title': '3. Country'
+            '#options':
+              sc2_d_share_c_3_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc2_d_share_c_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_c_3_country_3: 'in the USA'
+              sc2_d_share_c_3_country_4: 'in a different country'
+        sc2_d_1_3:
+          '#type': checkbox
+          '#title': 'Service provider(s) hosting the mailinglist (or other) server '
+        sc2_d_1_3_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc2_d_1_3"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc2_d_share_s_1_institution:
+            '#type': textfield
+            '#title': '1. Institution name'
+            '#required': true
+          sc2_d_share_s_1_country:
+            '#type': radios
+            '#title': '1. Country'
+            '#options':
+              sc2_d_share_s_1_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc2_d_share_s_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_s_1_country_3: 'in the USA'
+              sc2_d_share_s_1_country_4: 'in a different country'
+            '#required': true
+          sc2_d_share_s_2_institution:
+            '#type': textfield
+            '#title': '2. Institution name'
+          sc2_d_share_s_2_country:
+            '#type': radios
+            '#title': '2. Country'
+            '#options':
+              sc2_d_share_s_2_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc2_d_share_s_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_s_2_country_3: 'in the USA'
+              sc2_d_share_s_2_country_4: 'in a different country'
+          sc2_d_share_s_3_institution:
+            '#type': textfield
+            '#title': '3. Institution name'
+          sc2_d_share_s_3_country:
+            '#type': radios
+            '#title': '3. Country'
+            '#options':
+              sc2_d_share_s_3_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc2_d_share_s_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_s_3_country_3: 'in the USA'
+              sc2_d_share_s_3_country_4: 'in a different country'
+        sc2_country_2_warning_text:
+          '#type': processed_text
+          '#states':
+            visible:
+              - ':input[name="sc2_d_share_c_2_country"]':
+                  value: sc2_d_share_c_2_country_4
+              - or
+              - ':input[name="sc2_d_share_s_2_country"]':
+                  value: sc2_d_share_s_2_country_4
+          '#wrapper_attributes':
+            class:
+              - acdh-form-error-msg
+          '#text': |
+            <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+            
+          '#format': basic_html
+        sc2_country_3_warning_text:
+          '#type': processed_text
+          '#states':
+            visible:
+              - ':input[name="sc2_d_share_c_3_country"]':
+                  value: sc2_d_share_c_3_country_4
+              - or
+              - ':input[name="sc2_d_share_s_3_country"]':
+                  value: sc2_d_share_s_3_country_4
+          '#wrapper_attributes':
+            class:
+              - acdh-form-error-msg
+          '#text': |
+            <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+            
+          '#format': basic_html
+    scenario_form_2:
+      '#type': hidden
+      '#title': scenario_form
+      '#default_value': 'true'
+  scenario_3_event:
+    '#type': webform_wizard_page
+    '#title': 'Scenario 3: Event'
+    '#states':
+      visible:
+        ':input[name="q1_what_are_you_planning_to_do"]':
+          value: q3_a
+    sc_3_a_container:
+      '#type': container
+      please_name_the_research_institution_can_be_public_or_private_or:
+        '#type': label
+        '#title': 'Please name the research institution (public or private) organizing the event.'
+        '#attributes':
+          class:
+            - label-titles
+      sc_3_a_institution:
+        '#type': textfield
+        '#title': 'Institution:'
+        '#required': true
+      sc_3_a_address:
+        '#type': textfield
+        '#title': 'Address:'
+        '#required': true
+      sc_3_a_contact_person:
+        '#type': textfield
+        '#title': 'Contact person (optional): '
+      sc_3_a_email:
+        '#type': textfield
+        '#title': 'Contact e-mail:'
+        '#input_mask': '''alias'': ''email'''
+      sc_3_a_dpofficer:
+        '#type': select
+        '#title': 'Does the research institution have a dedicated Data Protection Officer?'
+        '#options':
+          sc_3_a_dpofficer_yes: 'yes'
+          sc_3_a_dpofficer_no: 'No'
+      sc_3_a_dpofficer_container:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="sc_3_a_dpofficer"]':
+              value: sc_3_a_dpofficer_yes
+        '#attributes':
+          class:
+            - subcontainer-acdh-format
+        sc_3_a_dpofficer_name:
+          '#type': textfield
+          '#title': 'Name of the Data Protection Officer:'
+          '#required': true
+        sc_3_a_dpofficer_email:
+          '#type': textfield
+          '#title': 'Contact information (e-mail address) of the Data Protection Officer:'
+          '#input_mask': '''alias'': ''email'''
+          '#required': true
+        sc_3_a_dpofficer_info:
+          '#type': processed_text
+          '#text': |
+            <ul>
+            	<li dir="ltr">
+            	<p dir="ltr"><span><span><span><span><span><span><span>A</span></span></span></span></span></span></span><span><span><span><span><span><em><span> data protection officer</span></em></span></span></span></span></span><span><span><span><span><span><span><span> is responsible for overseeing an organization’s data </span></span></span></span></span></span>protection strategy and implementation and ensures that an organization is complying with the GDPR’s requirements. Typically, larger institutions like universities will have a data protection officer. When dealing with personal data, you should be familiar with your institution’s data protection officer and inform them of your actions.</span></p>
+            	</li>
+            	<li dir="ltr">
+            	<p dir="ltr"><span>The </span><em>data </em><em>controller</em><span> is the natural or legal person which determines the purposes and means of the processing of personal data. For the forms generated with the CFW, it is assumed that the data controller is the institution that the principal investigator (project lead or person responsible) is affiliated with. For simplicity’s sake, please assume that the data controller must be able to delete the personal data processed upon request. </span><br />
+            	<strong><span>ATTENTION! If there are several natural or legal persons acting as joint controllers, this tool will not not be able to provide the information you require. </span></strong></p>
+            	</li>
+            </ul>
+            
+          '#format': basic_html
+    sc_3_b_container:
+      '#type': container
+      '#states':
+        visible:
+          ':input[name="sc_3_a_dpofficer"]':
+            filled: true
+      b_what_do_you_need_the_data_for_:
+        '#type': label
+        '#title': 'What do you need the data for? '
+        '#attributes':
+          class:
+            - label-titles
+      sc_3_b_1:
+        '#type': checkbox
+        '#title': 'Organisation and/or management of the event'
+      sc_3_b_2:
+        '#type': checkbox
+        '#title': 'Organisation of related events in the future (e.g. next edition of the conference)'
+      sc_3_b_3:
+        '#type': checkbox
+        '#title': 'Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes) '
+      sc_3_b_4:
+        '#type': checkbox
+        '#title': 'Promoting and documenting the event itself on the organizer’s website and/or social media'
+      sc_3_b_5:
+        '#type': checkbox
+        '#title': 'Promoting and documenting the research presented at the event (publishing videos/photos of the lecture) '
+      sc_3_b_6:
+        '#type': checkbox
+        '#title': 'Statistic analysis of the event (e.g. in relation to past and future events)'
+      sc_3_b_7:
+        '#type': checkbox
+        '#title': 'Administration of participation fees and/or travel expenses'
+      sc_3_b_8:
+        '#type': checkbox
+        '#title': 'Generation of attendance certificates, invoices and payment confirmations'
+      sc_3_b_9:
+        '#type': checkbox
+        '#title': 'Community building (allowing participants to stay in touch with each other after the event)'
+      sc_3_b_1_textfield:
+        '#type': textfield
+        '#title': 'Name of the event:'
+        '#required': true
+        '#states':
+          visible:
+            ':input[name="sc_3_b_1"]':
+              checked: true
+        '#wrapper_attributes':
+          class:
+            - subcontainer-acdh-format
+    sc_3_c_container:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="sc_3_b_1"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_2"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_3"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_4"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_5"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_6"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_7"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_8"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_b_9"]':
+              checked: true
+      c_what_information_do_you_collect_from_the_participants_and_how_:
+        '#type': label
+        '#title': 'What information do you collect from the participants and how long are you planning to keep it?'
+        '#attributes':
+          class:
+            - label-titles
+      sc_3_c_basic_purpose_container:
+        '#type': container
+        sc_3_bp_name:
+          '#type': checkbox
+          '#title': 'Name, surname'
+        sc_3_c_basicp_name_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_name"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_name_months:
+            '#type': textfield
+            '#title': months
+          sc_3_bp_name_years:
+            '#type': textfield
+            '#title': years
+          sc_3_bp_name_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+          sc_3_bp_name_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+        sc_3_bp_email:
+          '#type': checkbox
+          '#title': 'E-mail address'
+        sc_3_c_basicp_email_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_email"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_email_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_email_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_email_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_bp_email_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+        sc_3_bp_affiliation:
+          '#type': checkbox
+          '#title': Affiliation
+        sc_3_c_basicp_affilation_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_affiliation"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_affilation_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_affilation_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_affilation_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_bp_affilation_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+        sc_3_bp_proftitle:
+          '#type': checkbox
+          '#title': 'Professional title / academic status'
+        sc_3_c_basicp_proftitle_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_proftitle"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_proftitle_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_proftitle_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_proftitle_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_bp_proftitle_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+        sc_3_bp_gender:
+          '#type': checkbox
+          '#title': Gender
+        sc_3_c_basicp_gender_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_gender"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_gender_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_gender_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_gender_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_bp_gender_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+        sc_3_bp_address:
+          '#type': checkbox
+          '#title': Address
+        sc_3_c_basicp_address_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_address"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_address_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_address_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_address_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+          sc_3_bp_address_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+        sc_3_bp_country:
+          '#type': checkbox
+          '#title': Country
+        sc_3_c_basicp_country_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_country"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_country_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_country_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_country_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_bp_country_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+        sc_3_bp_social_media:
+          '#type': checkbox
+          '#title': 'Social media identifiers'
+        sc_3_c_basicp_social_media_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_social_media"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_social_media_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_social_media_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_social_media_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_bp_social_media_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+        sc_3_bp_other:
+          '#type': checkbox
+          '#title': Other
+        sc_3_c_basicp_other_containter:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_bp_other"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_bp_other_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_bp_other_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_bp_other_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_bp_other_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+      sc_3_c_4_5_9_container:
+        '#type': container
+        '#states':
+          visible:
+            - ':input[name="sc_3_b_4"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_5"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_9"]':
+                checked: true
+        sc_3_c_4_5_9_photo:
+          '#type': checkbox
+          '#title': 'Photographs, audio or video recordings'
+        sc_3_c_4_5_9_photo_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_c_4_5_9_photo"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_c_4_5_9_photo_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_c_4_5_9_photo_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_c_4_5_9_photo_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_c_4_5_9_photo_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+      sc_3_c_7_8_container:
+        '#type': container
+        '#states':
+          visible:
+            - ':input[name="sc_3_b_7"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_8"]':
+                checked: true
+        sc_3_c_7_8_account:
+          '#type': checkbox
+          '#title': 'Account or credit/debit card information'
+        sc_3_c_7_8_account_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_c_7_8_account"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_c_7_8_account_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_c_7_8_account_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_c_7_8_account_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_c_7_8_account_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+      sc_3_c_1_2_6_container:
+        '#type': container
+        '#states':
+          visible:
+            - ':input[name="sc_3_b_1"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_2"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_6"]':
+                checked: true
+        sc_3_c_1_2_6_dietary:
+          '#type': checkbox
+          '#title': 'Dietary requirements'
+        sc_3_c_1_2_6_dietary_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_c_1_2_6_dietary"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_c_1_2_6_dietary_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_c_1_2_6_dietary_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_c_1_2_6_dietary_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_c_1_2_6_dietary_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+      sc_3_c_1_2_6_9_container:
+        '#type': container
+        '#states':
+          visible:
+            - ':input[name="sc_3_b_1"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_2"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_9"]':
+                checked: true
+            - or
+            - ':input[name="sc_3_b_6"]':
+                checked: true
+        sc_3_c_1_2_6_9_events:
+          '#type': checkbox
+          '#title': 'Participation in previous events organized by the organizer'
+        sc_3_c_1_2_6_9_events_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_c_1_2_6_9_events"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_c_1_2_6_9_events_months:
+            '#type': textfield
+            '#title': Months
+          sc_3_c_1_2_6_9_events_years:
+            '#type': textfield
+            '#title': Years
+          sc_3_c_1_2_6_9_events_yearsafter:
+            '#type': textfield
+            '#title': 'Years after the last event for which the data was collected'
+          sc_3_c_1_2_6_9_events_long:
+            '#type': checkbox
+            '#title': 'As long as necessary to achieve the purpose'
+    sc_3_d_container:
+      '#type': container
+      '#states':
+        visible:
+          - ':input[name="sc_3_bp_name"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_email"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_affiliation"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_proftitle"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_gender"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_address"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_country"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_social_media"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_bp_other"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_c_4_5_9_photo"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_c_7_8_account"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_c_1_2_6_dietary"]':
+              checked: true
+          - or
+          - ':input[name="sc_3_c_1_2_6_9_events"]':
+              checked: true
+      sc_3_d_data_sharing:
+        '#type': label
+        '#title': 'D) Data Sharing'
+        '#attributes':
+          class:
+            - label-titles
+      sc_3_d_share:
+        '#type': select
+        '#title': 'Will you share the data?'
+        '#options':
+          sc_3_d_share_1: 'yes'
+          sc_3_d_share_2: 'no'
+        '#required': true
+      sc_3_d_container_1:
+        '#type': container
+        '#states':
+          visible:
+            ':input[name="sc_3_d_share"]':
+              value: sc_3_d_share_1
+        who_are_you_going_to_share_the_collected_data_with_:
+          '#type': label
+          '#title': 'Who are you going to share the collected data with?'
+          '#attributes':
+            class:
+              - label-subtitles
+        sc_3_d_cd_share_1:
+          '#type': checkbox
+          '#title': 'Colleagues (e.g. local organiser team) at your research institution'
+        sc_3_d_cd_share_2:
+          '#type': checkbox
+          '#title': 'Colleagues (e.g. program committee) at other research institution'
+        sc_3_d_cd_share_2_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_d_cd_share_2"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_d_cd_share_2_1_institution:
+            '#type': textfield
+            '#title': "1.Institution name \t"
+            '#required': true
+          sc_3_d_cd_share_2_1_country:
+            '#type': radios
+            '#title': '1. Country'
+            '#options':
+              sc_3_d_cd_share_2_1_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc_3_d_cd_share_2_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_2_1_country_3: 'in the USA'
+              sc_3_d_cd_share_2_1_country_4: 'in a different country'
+            '#required': true
+          sc_3_d_cd_share_2_2_institution:
+            '#type': textfield
+            '#title': "2.Institution name \t"
+          sc_3_d_cd_share_2_2_country:
+            '#type': radios
+            '#title': '2. Country'
+            '#options':
+              sc_3_d_cd_share_2_2_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc_3_d_cd_share_2_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_2_2_country_3: 'in the USA'
+              sc_3_d_cd_share_2_2_country_4: 'in a different country'
+          sc_3_d_cd_share_2_3_institution:
+            '#type': textfield
+            '#title': "3.Institution name \t"
+          sc_3_d_cd_share_2_3_country:
+            '#type': radios
+            '#title': '3. Country'
+            '#options':
+              sc_3_d_cd_share_2_3_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc_3_d_cd_share_2_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_2_3_country_3: 'in the USA'
+              sc_3_d_cd_share_2_3_country_4: 'in a different country'
+        sc_3_d_cd_share_3:
+          '#type': checkbox
+          '#title': 'Service provider(s) for the event (e.g. conference venue, conference management software providers, caterers, sponsors) '
+        sc3_country_1_warning_text:
+          '#type': processed_text
+          '#states':
+            visible:
+              - ':input[name="sc_3_d_cd_share_2_1_country"]':
+                  value: sc_3_d_cd_share_2_1_country_4
+              - or
+              - ':input[name="sc_3_d_cd_share_3_1_country"]':
+                  value: sc_3_d_cd_share_3_1_country_4
+          '#wrapper_attributes':
+            class:
+              - acdh-form-error-msg
+          '#text': |
+            <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+            
+          '#format': basic_html
+        sc_3_d_cd_share_3_container:
+          '#type': container
+          '#states':
+            visible:
+              ':input[name="sc_3_d_cd_share_3"]':
+                checked: true
+          '#attributes':
+            class:
+              - subcontainer-acdh-format
+          sc_3_d_cd_share_3_1_institution:
+            '#type': textfield
+            '#title': "1.Institution name \t"
+            '#required': true
+          sc_3_d_cd_share_3_1_country:
+            '#type': radios
+            '#title': '1. Country'
+            '#options':
+              sc_3_d_cd_share_3_1_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc_3_d_cd_share_3_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_3_1_country_3: 'in the USA'
+              sc_3_d_cd_share_3_1_country_4: 'in a different country'
+            '#required': true
+          sc_3_d_cd_share_3_2_institution:
+            '#type': textfield
+            '#title': "2.Institution name \t"
+          sc_3_d_cd_share_3_2_country:
+            '#type': radios
+            '#title': '2. Country'
+            '#options':
+              sc_3_d_cd_share_3_2_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc_3_d_cd_share_3_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_3_2_country_3: 'in the USA'
+              sc_3_d_cd_share_3_2_country_4: 'in a different country'
+          sc_3_d_cd_share_3_3_institution:
+            '#type': textfield
+            '#title': "3.Institution name \t"
+          sc_3_d_cd_share_3_3_country:
+            '#type': radios
+            '#title': '3. Country'
+            '#options':
+              sc_3_d_cd_share_3_3_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
+              sc_3_d_cd_share_3_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_3_3_country_3: 'in the USA'
+              sc_3_d_cd_share_3_3_country_4: 'in a different country'
+        sc3_country_2_warning_text:
+          '#type': processed_text
+          '#states':
+            visible:
+              - ':input[name="sc_3_d_cd_share_2_2_country"]':
+                  value: sc_3_d_cd_share_2_2_country_4
+              - or
+              - ':input[name="sc_3_d_cd_share_3_2_country"]':
+                  value: sc_3_d_cd_share_3_2_country_4
+          '#wrapper_attributes':
+            class:
+              - acdh-form-error-msg
+          '#text': |
+            <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+            
+          '#format': basic_html
+        sc3_country_3_warning_text:
+          '#type': processed_text
+          '#states':
+            visible:
+              - ':input[name="sc_3_d_cd_share_2_3_country"]':
+                  value: sc_3_d_cd_share_2_3_country_4
+              - or
+              - ':input[name="sc_3_d_cd_share_3_3_country"]':
+                  value: sc_3_d_cd_share_3_3_country_4
+          '#wrapper_attributes':
+            class:
+              - acdh-form-error-msg
+          '#text': |
+            <h2><strong><span><span><span><span><span><span>WARNING! Your partner country is not considered as providing an adequate level of protection according to the GDPR. Please consult a legal expert before sharing personal data with your partner.</span></span></span></span></span></span></strong></h2>
+            
+          '#format': basic_html
+    scenario_form_3:
+      '#type': hidden
+      '#title': scenario_form_3
+      '#default_value': 'true'
+  actions:
+    '#type': webform_actions
+    '#title': 'Submit button(s)'
+    '#states':
+      visible:
+        - ':input[name="will_you_share_the_data_"]':
+            value: 'no'
+        - or
+        - ':input[name="will_you_anonymize_or_pseudonymize_the_data_before_sharing_"]':
+            value: yes_1
+        - or
+        - ':input[name="will_you_anonymize_or_pseudonymize_the_data_before_sharing_"]':
+            value: yes_2
+        - or
+        - ':input[name="colleagues_at_your_research_institution"]':
+            checked: true
+        - or
+        - ':input[name="other_researchers_from_other_institutions_e_g_through_domain_spe"]':
+            checked: true
+        - or
+        - ':input[name="project_partners_within_the_specific_project"]':
+            checked: true
+        - or
+        - ':input[name="sc2_d_1_1"]':
+            checked: true
+        - or
+        - ':input[name="sc2_d_1_2"]':
+            checked: true
+        - or
+        - ':input[name="sc2_d_1_3"]':
+            checked: true
+        - or
+        - ':input[name="sc2_d_share"]':
+            value: sc2_d_share_no
+        - or
+        - ':input[name="sc_3_d_share"]':
+            value: sc_3_d_share_2
+        - or
+        - ':input[name="sc_3_d_cd_share_1"]':
+            checked: true
+        - or
+        - ':input[name="sc_3_d_cd_share_2"]':
+            checked: true
+        - or
+        - ':input[name="sc_3_d_cd_share_3"]':
+            checked: true
+      invisible:
+        ':input[name="country"]':
+          value: q1f_ins_c1_4
+        ':input[name="country_2"]':
+          value: q1f_ins_c2_4
+        ':input[name="country_3"]':
+          value: q1f_ins_c3_4
+        ':input[name="sc2_d_share_c_1_country"]':
+          value: sc2_d_share_c_1_country_4
+        ':input[name="sc2_d_share_c_2_country"]':
+          value: sc2_d_share_c_2_country_4
+        ':input[name="sc2_d_share_c_3_country"]':
+          value: sc2_d_share_c_3_country_4
+        ':input[name="sc2_d_share_s_1_country"]':
+          value: sc2_d_share_s_1_country_4
+        ':input[name="sc2_d_share_s_2_country"]':
+          value: sc2_d_share_s_2_country_4
+        ':input[name="sc2_d_share_s_3_country"]':
+          value: sc2_d_share_s_3_country_4
+        ':input[name="sc_3_d_cd_share_2_1_country"]':
+          value: sc_3_d_cd_share_2_1_country_4
+        ':input[name="sc_3_d_cd_share_2_2_country"]':
+          value: sc_3_d_cd_share_2_2_country_4
+        ':input[name="sc_3_d_cd_share_2_3_country"]':
+          value: sc_3_d_cd_share_2_3_country_4
+        ':input[name="sc_3_d_cd_share_3_1_country"]':
+          value: sc_3_d_cd_share_3_1_country_4
+        ':input[name="sc_3_d_cd_share_3_2_country"]':
+          value: sc_3_d_cd_share_3_2_country_4
+        ':input[name="sc_3_d_cd_share_3_3_country"]':
+          value: sc_3_d_cd_share_3_3_country_4
+    '#submit__label': Finish
+    '#wizard_prev__label': Restart
+    '#preview_prev__label': Restart
+    '#preview_next__label': Continue
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_admin_theme: false
+  form_title: source_entity_webform
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: false
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: true
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: true
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace:
+    webform_routes: {  }
+    node_routes: {  }
+  submission_user_columns:
+    - serial
+    - created
+    - remote_addr
+    - operations
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: false
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: true
+  wizard_progress_states: false
+  wizard_start_label: ''
+  wizard_preview_link: true
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 2
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: url
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: '/cfw_result/[webform_submission:sid]'
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_view: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles:
+      - authenticated
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }
+variants: {  }
