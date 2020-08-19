@@ -1,14 +1,14 @@
-#DARIAH ELDAH Consent Form Wizard (CFW) - Drupal 8 Plugin
+# DARIAH ELDAH Consent Form Wizard (CFW) - Drupal 8 Plugin
 
 
-##Plugin informations
+## Plugin informations
 The CFW form is based on the Drupal 8 webform plugin (https://www.drupal.org/project/webform). This plugin is generating an output from the filled form, based on the selected topic in the webform first step.
 
 - After the output generation, the plugin will automatically delete the entered user informations.
 - The "Download the Raw text" button is generating a raw txt from the displayed result.
 
 
-##INSTALL
+## INSTALL
 If you want to replicate the form then you need to do the following steps:
 
 - install Drupal 8
