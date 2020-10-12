@@ -236,7 +236,7 @@
                      <!-- [if: Institution]  -->
                      {% if data.are_you_collecting_data_.value.0 == 'q1d_aycd_2' %}
                          <!-- [Institution_Name]. -->
-                         outside the {{ data.name_.value.0 }}.
+                         outside the {{ data.affiliation_.value.0 }}.
                      {%  else  %}
                          .
                      {%  endif  %}
@@ -310,13 +310,15 @@
                         {% set thirdCountry_3 = 'no' %}    
                     {%  endif  %}    
                     <hr>
-                {%  endif  %}            
                     <br/>
+                {%  endif  %}            
+                    
                     {%  if data.project_partners_within_the_specific_project.value.0 or data.other_researchers_from_other_institutions_e_g_through_domain_spe.value.0 %}
                     <!-- [if: Other_researchers_sharing] [also - if: Project_partners_sharing] -->
                     Your data may be shared with other researchers via specialised repositories or other appropriate communication channels.
+                     <br/>
                     {%  endif  %}  
-                    <br/>
+                   
                      
                     {%  if data.will_you_anonymize_or_pseudonymize_the_data_before_sharing_.value.0 == "yes_2" %}
                     <!--[if: Sharing_pseudonymised] -->
