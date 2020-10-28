@@ -14,8 +14,8 @@ function cfw_output_theme($existing, $type, $theme, $path)
         ],
         'cfw-submissions-left-block' => [
             'variables' => ['data' => NULL],
+        ],
+        'cfw-output-no-data' => [
         ]
-        
-        
     ];
 }

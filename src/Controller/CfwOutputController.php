@@ -22,31 +22,42 @@ class CfwOutputController extends ControllerBase
         $userSubmission = array();
         //$formData = $this->model->getSubmissionFieldsValues();
         $submissionData = $this->model->getSubmissionDataById($formid);
+        $theme = 'cfw-output-no-data';
         
-        foreach($submissionData as $sd){
+        if(count($submissionData) > 0) {
             
-            if(!empty($sd->name) && !empty($sd->value)) {
-                $userSubmission[$sd->name]['value'][] = $sd->value; 
+            foreach($submissionData as $sd){
+
+                if(!empty($sd->name) && !empty($sd->value)) {
+                    $userSubmission[$sd->name]['value'][] = $sd->value; 
+                }
+
+                $text = "";
+                $text = $this->helper->getTextByKeyValue($sd->name, $sd->value);
+
+                if(!empty($text)) {
+                    $userSubmission[$sd->name]['text'][] = $text; 
+                }
             }
-            
-            $text = "";
-            $text = $this->helper->getTextByKeyValue($sd->name, $sd->value);
-            
-            if(!empty($text)) {
-                $userSubmission[$sd->name]['text'][] = $text; 
+            if(
+                ( isset($userSubmission['sc_3_a_institution']['value'][0]))
+                ||
+                ( isset($userSubmission['sc2_a_institution_name']['value'][0]) )
+            ){
+                $theme = 'cfw-output-scenario-2';
+
+            }else {
+                $theme = 'cfw-output-scenario-1';
+            }
+          
+            $webform_submission = \Drupal\webform\Entity\WebformSubmission::load($formid);
+            // Check if submission is returned.
+            if (!empty($webform_submission)) {
+                //Delete the Submission
+                $webform_submission->delete();
             }
         }
-        if(
-            ( isset($userSubmission['sc_3_a_institution']['value'][0]))
-            ||
-            ( isset($userSubmission['sc2_a_institution_name']['value'][0]) )
-        ){
-            $theme = 'cfw-output-scenario-2';
-            
-        }else {
-            $theme = 'cfw-output-scenario-1';
-        }
-       
+        
         return [
             '#theme' => $theme,
             '#attached' => [
@@ -56,7 +67,6 @@ class CfwOutputController extends ControllerBase
             ],
             '#data' => $userSubmission,
             '#cache' => ['max-age' => 0]
-            
         ];
     }
 }

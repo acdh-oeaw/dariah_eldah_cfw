@@ -55,5 +55,17 @@ class CfwOutputModel {
     }
     
     
+    public function deleteSubmission(string $formid): bool {
+        try {
+            $this->data = \Drupal::database()->delete('webform_submission_data')
+            ->condition('sid', $formid)->execute();
+        } catch (Exception $ex) {
+            return false;
+        } catch (\Exception $ex) {
+            return false;
+        }
+        return bool;
+    }
+    
     
 }
