@@ -413,12 +413,7 @@ elements: |
         please_provide_the_address_of_the_project_website_:
           '#type': url
           '#title': 'Please provide the address of the project website:'
-        project_website_info:
-          '#type': processed_text
-          '#text': |
-            <p style="color: red;"><strong>If your project has no dedicated website, please specify the website of your respective institution.</strong></p>
-            
-          '#format': full_html
+          '#required': true
     container_d:
       '#type': container
       '#states':
@@ -705,7 +700,8 @@ elements: |
               '#title': '1. Country'
               '#options':
                 q1f_ins_c1_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-                q1f_ins_c1_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+                q1f_ins_c1_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+                q1f_ins_c1_3: 'in the USA'
                 q1f_ins_c1_4: 'in a different country'
               '#required': true
           q1f_share_data_warning_text:
@@ -740,7 +736,8 @@ elements: |
               '#title': '2. Country'
               '#options':
                 q1f_ins_c2_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-                q1f_ins_c2_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+                q1f_ins_c2_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+                q1f_ins_c2_3: 'in the USA'
                 q1f_ins_c2_4: 'in a different country'
               '#default_value': q1f_ins_c2_1
           q1f_institute_3:
@@ -762,7 +759,8 @@ elements: |
               '#title': '3. Country'
               '#options':
                 q1f_ins_c3_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-                q1f_ins_c3_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+                q1f_ins_c3_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+                q1f_ins_c3_3: 'in the USA'
                 q1f_ins_c3_4: 'in a different country'
               '#default_value': q1f_ins_c3_1
           q1f_2_share_data_warning_text:
@@ -1244,7 +1242,8 @@ elements: |
             '#title': '1. Country'
             '#options':
               sc2_d_share_c_1_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc2_d_share_c_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc2_d_share_c_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_c_1_country_3: 'in the USA'
               sc2_d_share_c_1_country_4: 'in a different country'
             '#required': true
           sc2_d_share_c_2_institution:
@@ -1255,7 +1254,8 @@ elements: |
             '#title': '2. Country'
             '#options':
               sc2_d_share_c_2_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc2_d_share_c_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc2_d_share_c_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_c_2_country_3: 'in the USA'
               sc2_d_share_c_2_country_4: 'in a different country'
           sc2_d_share_c_3_institution:
             '#type': textfield
@@ -1265,7 +1265,8 @@ elements: |
             '#title': '3. Country'
             '#options':
               sc2_d_share_c_3_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc2_d_share_c_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc2_d_share_c_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_c_3_country_3: 'in the USA'
               sc2_d_share_c_3_country_4: 'in a different country'
         sc2_d_1_3:
           '#type': checkbox
@@ -1288,7 +1289,8 @@ elements: |
             '#title': '1. Country'
             '#options':
               sc2_d_share_s_1_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc2_d_share_s_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc2_d_share_s_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_s_1_country_3: 'in the USA'
               sc2_d_share_s_1_country_4: 'in a different country'
             '#required': true
           sc2_d_share_s_2_institution:
@@ -1299,7 +1301,8 @@ elements: |
             '#title': '2. Country'
             '#options':
               sc2_d_share_s_2_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc2_d_share_s_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc2_d_share_s_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_s_2_country_3: 'in the USA'
               sc2_d_share_s_2_country_4: 'in a different country'
           sc2_d_share_s_3_institution:
             '#type': textfield
@@ -1309,7 +1312,8 @@ elements: |
             '#title': '3. Country'
             '#options':
               sc2_d_share_s_3_country_1: 'within the European Economic Area (EEA) (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc2_d_share_s_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc2_d_share_s_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc2_d_share_s_3_country_3: 'in the USA'
               sc2_d_share_s_3_country_4: 'in a different country'
         sc2_country_2_warning_text:
           '#type': processed_text
@@ -1954,7 +1958,8 @@ elements: |
             '#title': '1. Country'
             '#options':
               sc_3_d_cd_share_2_1_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc_3_d_cd_share_2_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc_3_d_cd_share_2_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_2_1_country_3: 'in the USA'
               sc_3_d_cd_share_2_1_country_4: 'in a different country'
             '#required': true
           sc_3_d_cd_share_2_2_institution:
@@ -1965,7 +1970,8 @@ elements: |
             '#title': '2. Country'
             '#options':
               sc_3_d_cd_share_2_2_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc_3_d_cd_share_2_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc_3_d_cd_share_2_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_2_2_country_3: 'in the USA'
               sc_3_d_cd_share_2_2_country_4: 'in a different country'
           sc_3_d_cd_share_2_3_institution:
             '#type': textfield
@@ -1975,7 +1981,8 @@ elements: |
             '#title': '3. Country'
             '#options':
               sc_3_d_cd_share_2_3_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc_3_d_cd_share_2_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc_3_d_cd_share_2_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_2_3_country_3: 'in the USA'
               sc_3_d_cd_share_2_3_country_4: 'in a different country'
         sc_3_d_cd_share_3:
           '#type': checkbox
@@ -2014,7 +2021,8 @@ elements: |
             '#title': '1. Country'
             '#options':
               sc_3_d_cd_share_3_1_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc_3_d_cd_share_3_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc_3_d_cd_share_3_1_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_3_1_country_3: 'in the USA'
               sc_3_d_cd_share_3_1_country_4: 'in a different country'
             '#required': true
           sc_3_d_cd_share_3_2_institution:
@@ -2025,7 +2033,8 @@ elements: |
             '#title': '2. Country'
             '#options':
               sc_3_d_cd_share_3_2_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc_3_d_cd_share_3_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc_3_d_cd_share_3_2_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_3_2_country_3: 'in the USA'
               sc_3_d_cd_share_3_2_country_4: 'in a different country'
           sc_3_d_cd_share_3_3_institution:
             '#type': textfield
@@ -2035,7 +2044,8 @@ elements: |
             '#title': '3. Country'
             '#options':
               sc_3_d_cd_share_3_3_country_1: 'within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK'
-              sc_3_d_cd_share_3_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay) -- Please be aware that on 16 July 2020, the European Court of Justice invalidated the Privacy Shield, thereby rendering the USA inadequate regarding the transfer of personal data from the European Union. This legal issue is currently unsolved.'
+              sc_3_d_cd_share_3_3_country_2: 'in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)'
+              sc_3_d_cd_share_3_3_country_3: 'in the USA'
               sc_3_d_cd_share_3_3_country_4: 'in a different country'
         sc3_country_2_warning_text:
           '#type': processed_text
