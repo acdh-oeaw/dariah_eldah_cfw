@@ -1,0 +1,397 @@
+# LANGUAGE translation of PROJECT
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2021-01-25 08:19+0200\n"
+"PO-Revision-Date: 2021-01-25 08:41+0200\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Language: de\n"
+
+msgid "Submission is not available, please create a new one!"	
+msgstr ""
+
+"msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. 
+    You can obtain the text for your consent form by downloading it from this page. 
+    Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, 
+    the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. 
+    If you want to provide your result as an example for other CFW users, please send it to us at <a href=""mailto:eldah@dariah.eu"">eldah@dariah.eu</a> "	
+msgstr ""
+
+msgid "Download the Raw text"	
+msgstr ""
+
+msgid "Information on Data Processing and Declaration of Consent"
+msgstr ""
+
+msgid "Introduction"
+msgstr ""
+
+msgid "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)"	
+msgstr ""
+
+msgid "Your <b>"Personal Data"</b> is any information related to you. <b>"Processing"</b> is any operation performed on the data."	
+msgstr ""
+
+msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
+msgstr ""
+
+msgid "Who am I and how can you contact me?"	
+msgstr ""
+
+msgid "Name"	
+msgstr ""
+
+msgid "Address"	
+msgstr ""
+
+msgid "E-mail"	
+msgstr ""
+
+msgid "Who are we and how can you contact us?"	
+msgstr ""
+
+msgid "acting as the data controller within the meaning of the GDPR."	
+msgstr ""
+
+msgid "You can also contact our <b>Data Protection Officer</b> {{ name }} at {{ email-address }} href="mailto:{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}">{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}</a>"	
+msgstr ""
+
+msgid "For what purpose do I process your data?"	
+msgstr ""
+
+msgid "For what purpose do we process your data?"	
+msgstr ""
+
+msgid "Your data will be processed within the <b> {{ project name }}</b> project (hereinafter: the project)."	
+msgstr ""
+
+msgid "Project description"	
+msgstr ""
+
+"msgid "To learn more about the <b>{{ project }}</b> project, please see  {{ website url }}"	
+msgstr ""
+
+msgid "Please be informed that your data may also be used in different research projects in the domain of {{website }} in accordance with the GDPR."
+msgstr ""
+
+msgid "What information about you do I collect and process?"	
+msgstr ""
+
+msgid "What information about you do we collect and process?"	
+msgstr ""
+
+msgid "The following types of information about you are collected and processed within the project:"	
+msgstr ""
+
+msgid "Furthermore, the following special categories of personal data related to you are also processed"	
+msgstr ""
+
+msgid "The data are collected directly from you through"	
+msgstr ""
+
+msgid "Your IP address is automatically collected when you connect to the website."	
+msgstr ""
+
+msgid "Legal basis for the processing of your data"	
+msgstr ""
+
+msgid "Your data is processed on the basis of your consent (Art. 6.1(a) of the GDPR) which you give by accepting this notice."	
+msgstr ""
+
+"msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of our legitimate interest in carrying out the project, or further research in the field of {{ project }}. Then, the processing is based on Art. 6.1(f) of the GDPR."
+msgstr ""
+
+msgid "For how long do we keep your data?"	
+msgstr ""
+
+msgid "Your data will be stored"	
+msgstr ""
+
+msgid "until the end of the funding period or research project {{ data }}."	
+msgstr ""
+
+msgid "for a period of {{ data }} months after collection."	
+msgstr ""
+
+msgid "for as long as necessary for the fulfillment of the defined research purposes."	
+msgstr ""
+
+msgid "Will your data be shared with anyone?"	
+msgstr ""
+
+msgid "Your personal data will not be shared with or disclosed to anyone "	
+msgstr ""
+
+msgid "outside the {{ data }}"
+msgstr ""
+
+msgid "Within the project, your personal data will be shared with researchers from the following partner institutions"	
+msgstr ""
+
+msgid "Country"	
+msgstr ""
+
+msgid "within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK"	
+msgstr ""
+
+msgid "in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)"	
+msgstr ""
+
+msgid "in the USA"	
+msgstr ""
+
+msgid "in a different country"	
+msgstr ""
+
+msgid "Your data may be shared with other researchers via specialised repositories or other appropriate communication channels."	
+msgstr ""
+
+msgid "To safeguard your privacy, the data will be shared in pseudonymised form, i.e. without the elements by which you could be identified, which will be stored separately and not shared"	
+msgstr ""
+
+msgid "Will your data be transferred outside the European Economic Area (EEA)?"	
+msgstr ""
+
+msgid "Your data will not be transferred outside the European Economic Area."	
+msgstr ""
+
+msgid "Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (Art. 45 of the GDPR)."	
+msgstr ""
+
+msgid "Your data will be transferred to our partners in the United States of America within the Privacy Shield framework."	
+msgstr ""
+
+msgid "Your data will not be transferred outside the European Economic Area."	
+msgstr ""
+
+msgid "No profiling or automated decision-making"	
+msgstr ""
+
+msgid "Your data will not be used for profiling or automated decision-making purposes."	
+msgstr ""
+
+msgid "I"	
+msgstr ""
+
+msgid "me"	
+msgstr ""
+
+msgid "We"	
+msgstr ""
+
+msgid "us"	
+msgstr ""
+
+msgid "Your rights with regards to the processing of your data"	
+msgstr ""
+
+msgid "The GDPR grants you certain rights with regards to the processing of your personal data. These rights include"	
+msgstr ""
+
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether {{ weI }} have your personal data, as well as information about how {{ we/I }} process it. You can also request a copy of your personal data, for which {{ We/I }} may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact {{ me/us }} at {{ controller_email }}"
+msgstr ""
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that {{ we/I }} process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact {{ us/me }} at {{ controller_email }}"	
+msgstr ""
+
+msgid "<b>Erasure</b> ("right to be forgotten" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data."	
+msgstr ""
+
+msgid "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent;"	
+msgstr ""
+
+msgid "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format;"	
+msgstr ""
+
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case {{ weI }} shall no longer process your data."	
+msgstr ""
+
+msgid "Moreover, you have the right to"	
+msgstr ""
+
+msgid "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at {{ controller_email }}. The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal; lodge a <b>complaint</b> with a supervisory authority."
+msgstr ""
+	
+msgid "At"	
+msgstr ""
+
+msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)"	
+msgstr ""
+
+msgid "Your <b>"Personal Data"</b> is any information related to you. <b>"Processing"</b> is any operation performed on the data."	
+msgstr ""
+
+msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
+msgstr ""
+
+msgid "You can also contact our <b>Data Protection Officer</b>  "	
+msgstr ""
+
+msgid "We process your data for the following purposes"
+msgstr ""
+
+msgid "Keeping subscribers informed, community building"	
+msgstr ""
+
+msgid "Promoting events, institutions, etc."	
+msgstr ""
+
+msgid "Providing / keeping a mailinglist to communicate to subscribers"	
+msgstr ""
+
+msgid "Keeping a mailinglist to provide a communication platform for subscribers"	
+msgstr ""
+
+msgid "Documentation of mailinglist activity, statistic analysis"	
+msgstr ""
+
+msgid "Organisation and/or management of the event"	
+msgstr ""
+
+msgid "Organisation of related events in the future (e.g. next edition of the conference)"	
+msgstr ""
+
+msgid "Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes)"	
+msgstr ""
+
+msgid "Promoting and documenting the event itself on our website and / or social media"	
+msgstr ""
+
+msgid "Promoting and documenting the research presented at the event (publish videos / photos of the lecture)"	
+msgstr ""
+
+msgid "Statistic analysis of the event (e.g. in relation to past and future events)"	
+msgstr ""
+
+msgid "Administration of participation fees and/or travel expenses"	
+msgstr ""
+
+msgid "Generation of attendance certificates, invoices and payment confirmations"	
+msgstr ""
+
+msgid "Community building (allowing participants to stay in touch with each other after the event)"	
+msgstr ""
+
+msgid "For the purposes listed above, we process the following information related to you"	
+msgstr ""
+
+msgid "Name, surname"	
+msgstr ""
+
+msgid "E-mail address"	
+msgstr ""
+
+msgid "IP address"	
+msgstr ""
+
+msgid "Affiliation"	
+msgstr ""
+
+msgid "Professional title / academic status"	
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Social media identifiers"	
+msgstr ""
+
+msgid "Other"	
+msgstr ""
+
+msgid "Photographs, audio or video recordings"	
+msgstr ""
+
+msgid "Account or credit/debit card information"	
+msgstr ""
+
+msgid "Dietary requirements"	
+msgstr ""
+
+msgid "Participation in previous events organized by the organizer"	
+msgstr ""
+
+msgid "We obtain this information"	
+msgstr ""
+
+msgid "(apart from your IP address)"	
+msgstr ""
+
+msgid "directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications"	
+msgstr ""
+
+msgid "Your IP address is automatically collected when you fill in the online form."	
+msgstr ""
+
+msgid "Dietary requirements can reveal your philosophical opinions or religious beliefs, therefore we regard them as sensitive data. The processing of this information is based on your explicit consent (Art. 9.2(a) of the GDPR)."	
+msgstr ""
+
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of"	
+msgstr ""
+
+msgid "our legitimate interest in organising the  "	
+msgstr ""
+
+msgid "event"	
+msgstr ""
+
+msgid "and promoting it, and your legitimate interest in participating in it, and in staying informed about the recent developments in the research community."	
+msgstr ""
+
+msgid "your legitimate interest in staying informed about recent developments in the research community. Then, the processing is based on Art. 6.1(f) of the GDPR."	
+msgstr ""
+
+msgid "These are the durations your data will be stored for"	
+msgstr ""
+
+msgid "months"	
+msgstr ""
+
+msgid "years"	
+msgstr ""
+
+msgid " as long as necessary to achieve the purpose of data collection."	
+msgstr ""
+
+msgid "years after the last mailinglist activity."	
+msgstr ""
+
+msgid "Info text"	
+msgstr ""
+
+msgid "Participation in previous events organized by us"	
+msgstr ""
+
+msgid "After these periods, your data will be deleted or anonymised according to the highest standards."	
+msgstr ""
+
+msgid "Your personal data will not be shared with or disclosed to anyone outside our institution {{ data }}"	
+msgstr ""
+
+msgid "For all purposes listed above, your personal data can be shared with the following partner institutions"
+msgstr ""
+
+msgid "Institution"	
+msgstr ""
+
+msgid "Information about your dietary requirements, which may reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you."	
+msgstr ""
+
+msgid "Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of {{ data}}."	
+msgstr ""
+
+msgid "No profiling or automated decision-making"	
+msgstr ""
+
+msgid "Your data will not be used for profiling or automated decision-making purposes."	
+msgstr ""
+
+msgid "or by unsubscribing the newsletter"	
+msgstr ""
+
+msgid "<b>lodge a complaint</b> with a supervisory authority."	
+msgstr ""
