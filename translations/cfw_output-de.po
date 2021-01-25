@@ -33,7 +33,7 @@ msgstr ""
 msgid "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)"	
 msgstr ""
 
-msgid "Your <b>"Personal Data"</b> is any information related to you. <b>"Processing"</b> is any operation performed on the data."	
+msgid "Your <b>\"Personal Data\"</b> is any information related to you. <b>"Processing"</b> is any operation performed on the data."	
 msgstr ""
 
 msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
