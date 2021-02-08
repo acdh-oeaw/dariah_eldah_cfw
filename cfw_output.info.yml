@@ -3,4 +3,4 @@ description: Acdh-oeaw, CFW Form output plugin
 package: Custom
 
 type: module
-core: 8.x
+core_version_requirement: ^8.8 || ^9
