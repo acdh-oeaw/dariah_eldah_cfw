@@ -11,5 +11,12 @@
         }
     ],
     "require": {        
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "file-mapping": {
+                "[web-root]/.htaccess": "htaccess",                
+            }
+        }
     }
 }
