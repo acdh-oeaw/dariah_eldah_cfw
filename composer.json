@@ -15,7 +15,7 @@
     "extra": {
         "drupal-scaffold": {
             "file-mapping": {
-                "[web-root]/.htaccess": "htaccess",                
+                "[web-root]/.htaccess": "htaccess"               
             }
         }
     }
