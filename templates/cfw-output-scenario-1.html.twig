@@ -136,16 +136,20 @@
                 {% endif %}         
                 <!-- [list Data_Categories] [Data_Categories_other] -->
                 <br/>
-                Furthermore, the following special categories of personal data related to you are also processed: <br/>
-                {% if data.sensitive_categories.text is iterable %}
-                    <ul>
-                    {% for value in data.sensitive_categories.text %}
-                        <li>{{ value }}</li>
-                    {% endfor %}
-                    </ul>
-                {% else %}         
-                    {{ data.sensitive_categories.text.0 }}
-                {% endif %}
+                {% if not data.sensitive_categories.text is empty %}          
+                    Furthermore, the following special categories of personal data related to you are also processed: <br/>
+                    
+                    {% if data.sensitive_categories.text is iterable %}                        
+                        <ul>
+                        {% for value in data.sensitive_categories.text %}
+                            <li>{{ value }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}    
+                        {{ data.sensitive_categories.text.0 }}
+                    {% endif %}
+                    <br/>
+                {% endif %}  
                 <!-- [list Sensitive_Data] -->
                 <br/>
                 The data are collected directly from you through<br/>
