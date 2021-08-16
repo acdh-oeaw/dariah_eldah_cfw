@@ -18,12 +18,12 @@ msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard.
     You can obtain the text for your consent form by downloading it from this page. 
     Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, 
     the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. 
-    If you want to provide your result as an example for other CFW users, please send it to us at <a href=""mailto:eldah@dariah.eu"">eldah@dariah.eu</a> "	
+    If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"	
 msgstr "Vielen Dank, dass Sie den DARIAH ELDAH Consent Form Wizard verwenden.
     Den Text für Ihre Einwilligungserklärung können Sie auf dieser Seite herunterladen.
     Bitte beachten Sie, dass Ihnen nur Rohtext zur Verfügung gestellt wird. Bitte beachten Sie auch, dass die Informationen,
     die Sie zur Einholung Ihrer Einwilligungserklärung in das Tool eingegeben haben, aus Datenschutzgründen nicht gespeichert werden und somit beim Schließen der Website verloren gehen.
-    Wenn Sie Ihr Ergebnis als Musterbeispiel für andere CFW Nutzer zur Verfügung stellen möchten, senden Sie es uns bitte an <a href=""mailto:eldah@dariah.eu"">eldah@dariah.eu</a> "
+    Wenn Sie Ihr Ergebnis als Musterbeispiel für andere CFW Nutzer zur Verfügung stellen möchten, senden Sie es uns bitte an <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
 
 msgid "Download the Raw text"	
 msgstr "Rohtext herunterladen"
@@ -37,8 +37,8 @@ msgstr "Einführung"
 msgid "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)"	
 msgstr "respektiert Ihre Privatsphäre und verarbeitet Ihre personenbezogenen Daten in Übereinstimmung mit der EU-Datenschutzgrundverordnung (DSGVO)"
 
-msgid "Your <b>\"Personal Data\"</b> is any information related to you. <b>"Processing"</b> is any operation performed on the data."	
-msgstr "Ihre <b>\"personenbezogenen Daten\"</b> sind alle Informationen, die Sie betreffen. <b>"Verarbeitung"</b> ist jeder mit den Daten durchgeführte Vorgang."
+msgid "Your <b>Personal Data</b> is any information related to you. <b>Processing</b> is any operation performed on the data."	
+msgstr "Ihre <b>personenbezogenen Daten</b> sind alle Informationen, die Sie betreffen. <b>Verarbeitung</b> ist jeder mit den Daten durchgeführte Vorgang."
 
 msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
 msgstr "Dem <b>Transparenzprinzip</b> folgend, informiert Sie dieses Dokument über die Verarbeitung Ihrer personenbezogenen Daten, wie es nach Art. 12, 13 und 14 der DSGVO vorgeschrieben ist."
@@ -61,8 +61,11 @@ msgstr "Wer sind wir und wie können Sie uns kontaktieren?"
 msgid "acting as the data controller within the meaning of the GDPR."	
 msgstr "als Verantwortliche/r im Sinne der DSGVO."
 
-msgid "You can also contact our <b>Data Protection Officer</b> {{ name }} at {{ email-address }} href="mailto:{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}">{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}</a>"	
-msgstr "Sie können auch unsere/n <b>Datenschutzbeauftragte/n</b> {{ name }} über {{ email-address }} href="mailto:{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}">{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}</a> kontaktieren"
+msgid "You can also contact our <b>Data Protection Officer</b>"	
+msgstr "Sie können auch unsere/n <b>Datenschutzbeauftragte/n</b> kontaktieren"
+
+msgid "at"
+msgstr "über"
 
 msgid "For what purpose do I process your data?"	
 msgstr "Zu welchem ​​Zweck verarbeite ich Ihre Daten?"
@@ -70,17 +73,26 @@ msgstr "Zu welchem ​​Zweck verarbeite ich Ihre Daten?"
 msgid "For what purpose do we process your data?"	
 msgstr "Zu welchem ​​Zweck verarbeiten wir Ihre Daten?"
 
-msgid "Your data will be processed within the <b> {{ project name }}</b> project (hereinafter: the project)."	
-msgstr "Ihre Daten werden im Rahmen des <b> {{ project name }}</b> Projekts (im Folgenden: das Projekt) verarbeitet"
+msgid "Your data will be processed within the"	
+msgstr "Ihre Daten werden im Rahmen des" 
+
+msgid "project (hereinafter: the project)."
+msgstr "Projekts (im Folgenden: das Projekt) verarbeitet"
 
 msgid "Project description"	
 msgstr "Projektbeschreibung"
 
-msgid "To learn more about the <b>{{ project }}</b> project, please see  {{ website url }}"	
-msgstr "Weitere Informationen zum <b>{{ project }}</b> Projekt finden Sie unter {{ website url }}"
+msgid "To learn more about the"
+msgstr "Weitere Informationen zum"
 
-msgid "Please be informed that your data may also be used in different research projects in the domain of {{website }} in accordance with the GDPR."
-msgstr "Bitte beachten Sie, dass Ihre Daten gemäß der DSGVO auch in anderen Forschungsprojekten im Rahmen von {{website }} verwendet werden können."
+msgid "project, please see"	
+msgstr "Projekt finden Sie unter"
+
+msgid "Please be informed that your data may also be used in different research projects in the domain of"
+msgstr "Bitte beachten Sie, dass Ihre Daten gemäß der DSGVO auch in anderen Forschungsprojekten im Rahmen von"
+
+msgid "in accordance with the GDPR."
+msgstr "verwendet werden können."
 
 msgid "What information about you do I collect and process?"	
 msgstr "Welche Informationen über Sie erhebe und verarbeite ich?"
@@ -106,8 +118,11 @@ msgstr "Rechtsgrundlage für die Verarbeitung Ihrer Daten"
 msgid "Your data is processed on the basis of your consent (Art. 6.1(a) of the GDPR) which you give by accepting this notice."	
 msgstr "Die Verarbeitung Ihrer Daten erfolgt auf Grundlage Ihrer Einwilligung (Art. 6.1(a) der DSGVO), die Sie erteilen, indem Sie dieser Mitteilung zustimmen."
 
-msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of our legitimate interest in carrying out the project, or further research in the field of {{ project }}. Then, the processing is based on Art. 6.1(f) of the GDPR."
-msgstr "In Ausnahmefällen, wenn die Einwilligung keine geeignete Rechtsgrundlage ist, können Ihre personenbezogenen Daten auch aufgrund unseres berechtigten Interesses an der Durchführung des Projekts oder der weiteren Forschung im Rahmen von {{ Projekt }} verarbeitet werden. Die Verarbeitung basiert dann auf Art. 6.1(f) der DSGVO."
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of our legitimate interest in carrying out the project, or further research in the field of"
+msgstr "In Ausnahmefällen, wenn die Einwilligung keine geeignete Rechtsgrundlage ist, können Ihre personenbezogenen Daten auch aufgrund unseres berechtigten Interesses an der Durchführung des Projekts oder der weiteren Forschung im Rahmen von"
+
+msgid "Then, the processing is based on Art. 6.1(f) of the GDPR."
+msgstr "verarbeitet werden. Die Verarbeitung basiert dann auf Art. 6.1(f) der DSGVO."
 
 msgid "For how long do we keep your data?"	
 msgstr "Wie lange speichern wir Ihre Daten?"
@@ -115,11 +130,14 @@ msgstr "Wie lange speichern wir Ihre Daten?"
 msgid "Your data will be stored"	
 msgstr "Ihre Daten werden gespeichert"
 
-msgid "until the end of the funding period or research project {{ data }}."	
-msgstr "Bis zum Ende der Förderdauer bzw. des Forschungsprojekts {{ data }}."
+msgid "until the end of the funding period or research project"	
+msgstr "Bis zum Ende der Förderdauer bzw. des Forschungsprojekts"
 
-msgid "for a period of {{ data }} months after collection."	
-msgstr "Für einen Zeitraum von {{ data }} Monaten nach der Erhebung."
+msgid "for a period of"
+msgstr "Für einen Zeitraum von"
+
+msgid "months after collection."	
+msgstr "Monaten nach der Erhebung."
 
 msgid "for as long as necessary for the fulfillment of the defined research purposes."	
 msgstr "Solange wie es für die Erfüllung der definierten Forschungszwecke erforderlich ist."
@@ -127,11 +145,11 @@ msgstr "Solange wie es für die Erfüllung der definierten Forschungszwecke erfo
 msgid "Will your data be shared with anyone?"	
 msgstr "Werden Ihre Daten an Dritte weitergegeben?"
 
-msgid "Your personal data will not be shared with or disclosed to anyone "	
-msgstr "Ihre personenbezogenen Daten werden nicht mit Dritten geteilt oder Dritten offengelegt "
+msgid "Your personal data will not be shared with or disclosed to anyone"	
+msgstr "Ihre personenbezogenen Daten werden nicht mit Dritten geteilt oder Dritten offengelegt"
 
-msgid "outside the {{ data }}"
-msgstr "außerhalb von {{ data }}"
+msgid "outside the"
+msgstr "außerhalb von"
 
 msgid "Within the project, your personal data will be shared with researchers from the following partner institutions"	
 msgstr "Im Rahmen des Projekts werden Ihre personenbezogenen Daten an Forschende der folgenden Partnerinstitutionen weitergegeben"
@@ -196,29 +214,47 @@ msgstr "Ihre Rechte bezüglich der Verarbeitung Ihrer Daten"
 msgid "The GDPR grants you certain rights with regards to the processing of your personal data. These rights include"	
 msgstr "Die DSGVO gewährt Ihnen bestimmte Rechte in Bezug auf die Verarbeitung Ihrer personenbezogenen Daten. Diese Rechte umfassen"
 
-msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether {{ we/I }} have your personal data, as well as information about how {{ we/I }} process it. You can also request a copy of your personal data, for which {{ We/I }} may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact {{ me/us }} at {{ controller_email }}"
-msgstr "<b>Auskunft</b> (Art. 15 der DSGVO): Sie haben das Recht, eine Bestätigung darüber zu erhalten, ob {{ we/I }} über Ihre personenbezogenen Daten verfüge(n), sowie Informationen darüber zu erhalten, wie {{ we/I }} diese verarbeite(n). Sie können auch eine Kopie Ihrer personenbezogenen Daten anfordern, für die {{ We/I }} Ihnen eine angemessene Gebühr basierend auf den Verwaltungskosten in Rechnung stellen kann/können. Um von Ihrem Auskunftsrecht Gebrauch zu machen, wenden Sie sich an {{ me/us }} unter {{ controller_email }}"
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether"     
+msgstr "<b>Auskunft</b> (Art. 15 der DSGVO): Sie haben das Recht, eine Bestätigung darüber zu erhalten, ob" 
 
-msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that {{ we/I }} process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact {{ us/me }} at {{ controller_email }}"	
-msgstr "<b>Berichtigung</b> (Art. 16 der DSGVO): Wenn Ihre personenbezogenen Daten, die {{ we/I }} verarbeite(n), unvollständig oder unrichtig sind, haben Sie das Recht, unverzüglich die Berichtigung dieser Daten zu verlangen. Um von Ihrem Recht auf Berichtigung Gebrauch zu machen, wenden Sie sich an {{ us/me }} unter {{ controller_email }}"
+msgid "have your personal data, as well as information about how"
+msgstr "über Ihre personenbezogenen Daten verfüge(n), sowie Informationen darüber zu erhalten, wie"
+
+msgid "process it. You can also request a copy of your personal data, for which"
+msgstr "diese verarbeite(n). Sie können auch eine Kopie Ihrer personenbezogenen Daten anfordern, für die"
+
+msgid "may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact"
+msgstr "Ihnen eine angemessene Gebühr basierend auf den Verwaltungskosten in Rechnung stellen kann/können. Um von Ihrem Auskunftsrecht Gebrauch zu machen, wenden Sie sich an"
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that" 
+msgstr "<b>Berichtigung</b> (Art. 16 der DSGVO): Wenn Ihre personenbezogenen Daten, die"
+
+msgid "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact"
+msgstr "verarbeite(n), unvollständig oder unrichtig sind, haben Sie das Recht, unverzüglich die Berichtigung dieser Daten zu verlangen. Um von Ihrem Recht auf Berichtigung Gebrauch zu machen, wenden Sie sich an"
 
 msgid "<b>Erasure</b> (\"right to be forgotten\" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data."
 msgstr "<b>Löschung</b> (\"Recht auf Vergessenwerden\" – Art. 17 der DSGVO): Unter bestimmten Umständen (z.B. wenn Ihre Daten unrechtmäßig oder unnötig verarbeitet werden) können Sie die Löschung Ihrer personenbezogenen Daten verlangen."
 
-msgid "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent;"	
-msgstr "<b>Einschränkung der Verarbeitung</b> (Art. 18 der DSGVO): Unter bestimmten Umständen (z.B. wenn Sie die Richtigkeit Ihrer von uns verarbeiteten Daten oder die Rechtmäßigkeit der Verarbeitung anzweifeln) können Sie die Einschränkung der Verarbeitung Ihrer Daten verlangen. Solche Daten werden nicht gelöscht, können jedoch prinzipiell nur mit Ihrer Einwilligung verarbeitet werden;"
+msgid "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent"	
+msgstr "<b>Einschränkung der Verarbeitung</b> (Art. 18 der DSGVO): Unter bestimmten Umständen (z.B. wenn Sie die Richtigkeit Ihrer von uns verarbeiteten Daten oder die Rechtmäßigkeit der Verarbeitung anzweifeln) können Sie die Einschränkung der Verarbeitung Ihrer Daten verlangen. Solche Daten werden nicht gelöscht, können jedoch prinzipiell nur mit Ihrer Einwilligung verarbeitet werden"
 
-msgid "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format;"	
-msgstr "<b>Datenübertragbarkeit</b> (Art. 20 der DSGVO): Unter bestimmten Umständen können Sie die Übermittlung Ihrer Daten an eine/n andere/n Verantwortliche/n in einem strukturierten, gängigen und maschinenlesbaren Format verlangen;"
+msgid "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format"	
+msgstr "<b>Datenübertragbarkeit</b> (Art. 20 der DSGVO): Unter bestimmten Umständen können Sie die Übermittlung Ihrer Daten an eine/n andere/n Verantwortliche/n in einem strukturierten, gängigen und maschinenlesbaren Format verlangen"
 
-msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case {{ weI }} shall no longer process your data."	
-msgstr "<b>Widerspruchsrecht</b> (Art. 21 der DSGVO): Wenn Sie in die Verarbeitung nicht eingewilligt haben oder dies nicht zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, können Sie jederzeit Widerspruch dagegen einlegen, in welchem Fall {{ weI }} Ihre Daten nicht mehr verarbeiten werde(n)."
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case"	
+msgstr "<b>Widerspruchsrecht</b> (Art. 21 der DSGVO): Wenn Sie in die Verarbeitung nicht eingewilligt haben oder dies nicht zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, können Sie jederzeit Widerspruch dagegen einlegen, in welchem Fall"
+
+msgid  "shall no longer process your data."
+msgstr "Ihre Daten nicht mehr verarbeiten werde(n)."
 
 msgid "Moreover, you have the right to"	
 msgstr "Darüber hinaus haben Sie das Recht,"
 
-msgid "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at {{ controller_email }}. The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal; lodge a <b>complaint</b> with a supervisory authority."
-msgstr "<b>Ihre Einwilligung</b> zur Verarbeitung Ihrer personenbezogenen Daten jederzeit <b>zu widerrufen</b> (Art. 7(3) der DSGVO), indem Sie uns unter {{ controller_email }} kontaktieren. Der Widerruf der Einwilligung hat keinen Einfluss auf die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung; eine <b>Beschwerde</b> reichen Sie bei einer Aufsichtsbehörde ein."
+msgid "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at"  
+msgstr "<b>Ihre Einwilligung</b> zur Verarbeitung Ihrer personenbezogenen Daten jederzeit <b>zu widerrufen</b> (Art. 7(3) der DSGVO), indem Sie uns unter kontaktieren" 
+
+msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal; lodge a <b>complaint</b> with a supervisory authority."
+msgstr "Der Widerruf der Einwilligung hat keinen Einfluss auf die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung; eine <b>Beschwerde</b> reichen Sie bei einer Aufsichtsbehörde ein."
 	
 msgid "At"	
 msgstr "An"
@@ -385,8 +421,8 @@ msgstr "Einrichtung"
 msgid "Information about your dietary requirements, which may reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you."	
 msgstr "Informationen über Ihre Ernährungsbedürfnisse, die Ihre philosophischen Ansichten oder religiösen Überzeugungen offenbaren können, werden nur in aggregierter Form weitergegeben, sodass Sie nicht identifiziert werden können."
 
-msgid "Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of {{ data}}."	
-msgstr "Darüber hinaus werden zum Zwecke des Community Aufbaus Ihr Name, Ihre Zugehörigkeit und Ihre Kontaktdaten an andere Teilnehmer von {{ data}} weitergegeben."
+msgid "Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of"	
+msgstr "Darüber hinaus werden zum Zwecke des Community Aufbaus Ihr Name, Ihre Zugehörigkeit und Ihre Kontaktdaten an andere Teilnehmer weitergegeben, von "
 
 msgid "No profiling or automated decision-making"	
 msgstr "Keine Profilerstellung oder automatisierte Entscheidungsfindung"
@@ -399,3 +435,6 @@ msgstr "oder durch Abmelden des Newsletters"
 
 msgid "<b>lodge a complaint</b> with a supervisory authority."	
 msgstr "<b>eine Beschwerde</b> bei einer Aufsichtsbehörde <b>einreichen</b>."
+
+msgid "Name, surname"
+msgstr "Name, Nachname"
