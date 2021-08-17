@@ -208,7 +208,7 @@
                 {{ "We obtain this information"|trans }}
                 {% if data.sc2_c_1_1_ip.value.0 %}
                     {{ "(apart from your IP address)"|trans }}
-                {% endif%} {{ "directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications."|trans }}
+                {% endif%} {{ "directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications"|trans }}.
                 
                 <br/><br/>
                 {% if data.sc2_c_1_1_ip.value.0 %}
@@ -243,8 +243,7 @@
                 {% endif %}
                 
                 {% if data.sc2_a_institution_name.value.0  %}
-                    {{ "your legitimate interest in staying informed about recent developments in the research community."|trans }}
-                    {{ "Then, the processing is based on Art. 6.1(f) of the GDPR."|trans }}
+                    {{ "your legitimate interest in staying informed about recent developments in the research community. Then, the processing is based on Art. 6.1(f) of the GDPR."|trans }}
                     <br/><br/>
                 {% endif %}
                 
@@ -847,7 +846,7 @@
                 
                 {{ "The GDPR grants you certain rights with regards to the processing of your personal data. These rights include"|trans }}:
                 <br/>
-                {{ "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether"|trans }} {{ "we"|trans  }} {{ "process your personal data, as well as information about how"|trans }} {{ "we"|trans  }}  {{ "process it. You can also request a copy of your personal data, for which"|trans  }} {{ "we"|trans  }}  {{ "may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"|trans }}  
+                {{ "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"|trans }}  
                 {% if data.sc2_a_institution_e_mail.value.0  %}
                     <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a>
                 {% endif %}
@@ -855,7 +854,7 @@
                     <a href="mailto:{{ data.sc_3_a_email.value.0 }}">{{ data.sc_3_a_email.value.0 }}</a>
                 {% endif %};
                 <br/>
-                {{ "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that"|trans  }} {{ "we"|trans  }} {{ "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"|trans }} 
+                {{ "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"|trans }} 
                 {% if data.sc2_a_institution_e_mail.value.0  %}
                     <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a>
                 {% endif %}
@@ -865,14 +864,15 @@
                 <br/>
                 {{ '<b>Erasure</b> ("right to be forgotten" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data.'|trans }} 
                 <br/>
-                {{ "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that"|trans }} {{ "we"|trans  }}  {{ "process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent"|trans }};
+                {{ "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent"|trans }};
                 <br/>
                 {{ "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format"|trans }};
                 <br/>
-                {{ "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case"|trans }} {{ "we"|trans  }}  {{ "shall no longer process your data."|trans }}
-                {{ "Moreover, you have the right to:"|trans }}
+                {{ "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."|trans }}
+                {{ "Moreover, you have the right to"|trans }}:
                 <br/>
-                {{ "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at "|trans }}
+                    
+                {{ "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at"|trans }}
                 {% if data.sc2_a_institution_e_mail.value.0  %}
                     <a href="mailto:{{ data.sc2_a_institution_e_mail.value.0 }}">{{ data.sc2_a_institution_e_mail.value.0 }}</a>
                 {% endif %}
@@ -883,7 +883,7 @@
                     {{ "or by unsubscribing the newsletter"|trans }}
                 {% endif %}
                 .
-                {{ "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal"|trans }};
+                {{ "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal."|trans }};
                 <br/>
                 {{ "<b>lodge a complaint</b> with a supervisory authority."|trans }}
                 <br/>

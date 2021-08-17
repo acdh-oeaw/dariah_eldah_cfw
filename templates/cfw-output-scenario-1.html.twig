@@ -128,7 +128,7 @@
                 {% if data.generic_categories.text is iterable %}
                     <ul>
                     {% for value in data.generic_categories.text %}
-                        <li>{{ ':value'|t({':value': value}) }}</li>
+                        <li> {{ value|t() }} </li>
                     {% endfor %}
                     </ul>
                 {% else %}         
@@ -138,16 +138,17 @@
                 <br/>
                 
                 {% if not data.sensitive_categories.text is empty %}          
-                    {{ "Furthermore, the following special categories of personal data related to you are also processed:"|trans }} <br/>
-                    
+                    {{ "Furthermore, the following special categories of personal data related to you are also processed"|trans }}: <br/>
+                 
                     {% if data.sensitive_categories.text is iterable %}                        
                         <ul>
+                           
                         {% for value in data.sensitive_categories.text %}
-                            <li>{{ ':value'|t({':value': value}) }}</li>
+                            <li> {{ value|t() }} </li>
                         {% endfor %}
                         </ul>
                     {% else %}    
-                        {{ data.sensitive_categories.text.0 }}
+                        {{ data.sensitive_categories.text }}
                     {% endif %}
                     <br/>
                 {% endif %}    
@@ -157,7 +158,7 @@
                 {% if data.a_in_what_form_are_you_gathering_recording_the_data_from_your_pa.text is iterable %}
                     <ul>
                     {% for value in data.a_in_what_form_are_you_gathering_recording_the_data_from_your_pa.text %}
-                        <li>{{ ':value'|t({':value': value}) }}</li>
+                        <li> {{ value|t() }} </li>
                     {% endfor %}
                     </ul>
                 {% else %}         
@@ -388,12 +389,13 @@
                     {% set weI = "We" %}
                     {% set usMe =  "us" %}
                 {% endif %}
+                
                 <h2>{{ "Your rights with regards to the processing of your data"|trans }}</h2>
                 {{ "The GDPR grants you certain rights with regards to the processing of your personal data. These rights include"|trans }}:<br/>
                     <ul>    
-                        <li>{{ "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether"|trans }} {{ weI }} {{ "have your personal data, as well as information about how"|trans }} {{ weI }} {{ "process it. You can also request a copy of your personal data, for which"|trans }} {{ weI }} {{ "may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact"|trans }} {{ usMe }} {{ "at"|trans }} {{ controller_email }};</li>
+                        <li>{{ "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether"|trans }} {{ weI|t() }} {{ "have your personal data, as well as information about how"|trans }} {{ weI|t() }} {{ "process it. You can also request a copy of your personal data, for which"|trans }} {{ weI|t() }} {{ "may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact"|trans }} {{ usMe|t() }} {{ "at"|trans }} {{ controller_email }};</li>
 
-                        <li>{{ "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that"|trans }} {{ weI }} {{ "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact"|trans }} {{ usMe }} {{ "at"|trans }} {{ controller_email }};</li>
+                        <li>{{ "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that"|trans }} {{ weI|t() }} {{ "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact"|trans }} {{ usMe|t() }} {{ "at"|trans }} {{ controller_email }};</li>
 
                         <li>{{ '<b>Erasure</b> ("right to be forgotten" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data.'|trans }} </li>
 
@@ -401,7 +403,7 @@
 
                         <li>{{ "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format"|trans }};</li>
 
-                        <li>{{ "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case"|trans }} {{ weI }} {{ "shall no longer process your data."|trans }} </li>
+                        <li>{{ "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case"|trans }} {{ weI|t() }} {{ "shall no longer process your data."|trans }} </li>
 
                         <li><b>{{ "Moreover, you have the right to"|trans }}:</b><br>
                         <li>{{ "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at"|trans }} {{ controller_email }}. {{ "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal; lodge a <b>complaint</b> with a supervisory authority."|trans }}</li>
