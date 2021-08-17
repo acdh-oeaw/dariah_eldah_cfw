@@ -1,0 +1,22 @@
+{
+    "name": "acdh-oeaw/cfw_output",
+    "description": "Drupal module to create custom output for the DARIAH CONSENT WEBFORM",
+    "type": "drupal-module",
+    "homepage": "https://github.com/acdh-oeaw/dariah_eldah_cfw",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norbert Czirjak",
+            "email": "norbert.czirjak@oeaw.ac.at"
+        }
+    ],
+    "require": {        
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "file-mapping": {
+                "[web-root]/.htaccess": "htaccess"               
+            }
+        }
+    }
+}
