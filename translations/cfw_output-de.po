@@ -263,7 +263,7 @@ msgid "we value your privacy and process your data in compliance with the EU Gen
 msgstr "wir respektieren Ihre Privatsphäre und verarbeiten Ihre Daten in Übereinstimmung mit der EU-Datenschutzgrundverordnung (DSGVO)"
 
 msgid "Your <b>\"Personal Data\"</b> is any information related to you. <b>\"Processing\"</b> is any operation performed on the data."	
-msgstr "Ihre <b>\"personenbezogenen Daten\"</b> sind alle Informationen, die Sie betreffen. <b>"Verarbeitung"</b> ist jeder mit den Daten durchgeführte Vorgang."
+msgstr "Ihre <b>\"personenbezogenen Daten\"</b> sind alle Informationen, die Sie betreffen. <b>\"Verarbeitung\"</b> ist jeder mit den Daten durchgeführte Vorgang."
 
 msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
 msgstr "Dem <b>Transparenzprinzip</b> folgend, informiert Sie dieses Dokument über die Verarbeitung Ihrer personenbezogenen Daten, wie es nach Art. 12, 13 und 14 der DSGVO vorgeschrieben ist."
@@ -446,8 +446,8 @@ msgstr "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confir
 msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
 msgstr "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
 
-msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."|trans }}
-msgstr "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."|trans }}
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
+msgstr "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
                 
 msgid "Moreover, you have the right to"
 msgstr "Moreover, you have the right to"
