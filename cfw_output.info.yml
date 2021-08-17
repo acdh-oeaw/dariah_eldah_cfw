@@ -1,6 +1,11 @@
-name: CFW_Output
+name: cfw_output
+type: module
 description: Acdh-oeaw, CFW Form output plugin
+core_version_requirement: ^8.8 || ^9
 package: Custom
 
-type: module
-core: 8.x
+'interface translation project': cfw_output
+'interface translation server pattern': modules/custom/cfw_output/translations/cfw_output-%language.po    
+
+# version: 1.1
+# project: ACDH
