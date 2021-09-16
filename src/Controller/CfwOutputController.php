@@ -5,6 +5,7 @@ namespace Drupal\cfw_output\Controller;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\cfw_output\Model\CfwOutputModel;
 use \Drupal\cfw_output\Helper\CfwOutputHelper;
+use Symfony\Component\HttpFoundation\Response;
 
 class CfwOutputController extends ControllerBase
 {
@@ -49,7 +50,7 @@ class CfwOutputController extends ControllerBase
             }else {
                 $theme = 'cfw-output-scenario-1';
             }
-          
+            
             $webform_submission = \Drupal\webform\Entity\WebformSubmission::load($formid);
             // Check if submission is returned.
             if (!empty($webform_submission)) {
@@ -68,5 +69,14 @@ class CfwOutputController extends ControllerBase
             '#data' => $userSubmission,
             '#cache' => ['max-age' => 0]
         ];
+    }
+    
+    public function dariah_change_lng(string $lng = 'en'): Response
+    {
+        $_SESSION['language'] = strtolower($lng);
+        $response = new Response();
+        $response->setContent(json_encode("language changed to: " . $lng));
+        $response->headers->set('Content-Type', 'application/json');
+        return $response;
     }
 }

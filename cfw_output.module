@@ -16,6 +16,9 @@ function cfw_output_theme($existing, $type, $theme, $path)
             'variables' => ['data' => NULL],
         ],
         'cfw-output-no-data' => [
-        ]
+        ],
+        'helper-lng-switcher' => [
+            'variables' => ['language' => NULL]
+        ],
     ];
 }

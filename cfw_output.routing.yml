@@ -4,3 +4,10 @@ cfw_output_result:
     _controller: '\Drupal\cfw_output\Controller\CfwOutputController::cfw_result'
   requirements:
     _permission: 'access content'
+    
+dariah_change_lng:    
+    path: '/dariah_change_lng/{lng}'
+    defaults:
+        _controller: '\Drupal\cfw_output\Controller\CfwOutputController::dariah_change_lng'
+    requirements:
+        _access: 'TRUE'    
