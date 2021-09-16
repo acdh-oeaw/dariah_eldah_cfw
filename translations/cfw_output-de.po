@@ -1,7 +1,7 @@
-# LANGUAGE translation of PROJECT
-"Project-Id-Version: PROJECT VERSION\n"
+# LANGUAGE translation of DARIAH ELDAH
+"Project-Id-Version: 1.1\n"
 "POT-Creation-Date: 2021-01-25 08:19+0200\n"
-"PO-Revision-Date: 2021-01-25 08:41+0200\n"
+"PO-Revision-Date: 2021-09-16 08:41+0200\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -438,17 +438,17 @@ msgstr "<b>eine Beschwerde</b> bei einer Aufsichtsbehörde <b>einreichen</b>."
 
 ## extra translation 16.08.2021
 msgid "Name, surname"
-msgstr "Name, Nachname"
+msgstr "Name, Vorname"
 
 msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"
-msgstr "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"
+msgstr "<b>Auskunftsrecht</b> (Art. 15 DSGVO): Sie haben das Recht, eine Bestätigung darüber zu erhalten, ob wir Ihre personenbezogenen Daten verarbeiten, sowie Informationen darüber, wie wir sie verarbeiten. Sie können auch eine Kopie Ihrer personenbezogenen Daten anfordern, wofür wir Ihnen eine angemessene Gebühr auf der Grundlage der Verwaltungskosten berechnen können. Um Ihr Auskunftsrecht auszuüben, wenden Sie sich bitte an"
 
 msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
-msgstr "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
+msgstr "<b>Recht auf Berichtigung</b> (Art. 16 DSGVO): Wenn Ihre personenbezogenen Daten, die wir verarbeiten, unvollständig oder unrichtig sind, haben Sie das Recht, die unverzügliche Berichtigung dieser Daten zu verlangen. Um Ihr Recht auf Berichtigung auszuüben, kontaktieren Sie uns unter"
 
 msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
-msgstr "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
-                
+msgstr "<b>Widerspruchsrecht</b> (Art. 21 DSGVO): "Wenn Sie der Verarbeitung nicht zugestimmt haben oder diese nicht zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, können Sie jederzeit Widerspruch einlegen; in diesem Fall werden wir Ihre Daten nicht mehr verarbeiten."     
+
 msgid "Moreover, you have the right to"
 msgstr "Darüber hinaus haben Sie das Recht"
 
@@ -456,26 +456,25 @@ msgid "The withdrawal of consent will not affect the lawfulness of processing ba
 msgstr "Der Widerruf der Einwilligung hat keinen Einfluss auf die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung."
 
 msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)."
-msgstr "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)."
+msgstr "wir schätzen Ihre Privatsphäre und verarbeiten Ihre Daten in Übereinstimmung mit der EU-Datenschutzgrundverordnung (DSGVO)."
 
 msgid "Ethnic origin"
-msgstr "Ethnic origin"
+msgstr "Ethnizität"
 
 msgid "Political opinions, religious or philosophical beliefs, trade union membership"
-msgstr "Political opinions, religious or philosophical beliefs, trade union membership"
+msgstr "Politische Ansichten, religiöse oder philosophische Überzeugungen, Gewerkschaftszugehörigkeit"
     
 msgid "Genetic data, biometric data for the purpose of uniquely identifying a natural person"
-msgstr "Genetic data, biometric data for the purpose of uniquely identifying a natural person"
+msgstr "Genetische Daten, biometrische Daten zum Zweck der eindeutigen Identifizierung einer natürlichen Person"
     
 msgid "Data concerning health"
-msgstr "Data concerning health"     
+msgstr "Gesundheitsdaten"     
     
 msgid "Data concerning a natural person's sex life or sexual orientation"
-msgstr "Data concerning a natural person's sex life or sexual orientation"
+msgstr "Daten bezüglich der sexuellen Orientierung einer natürlichen Person"
 
 msgid "Educational background / title"
-msgstr "Educational background / title"
+msgstr "Akademischer Hintergrund background / Titel"
 
 msgid "Affiliation / professional situation / occupation"
-msgstr "Affiliation / professional situation / occupation"
- 
+msgstr "Berufliche Zugehörigkeit / Berufliche Situation / Tätigkeitsbezeichnung"
