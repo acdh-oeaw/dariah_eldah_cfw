@@ -438,43 +438,43 @@ msgstr "<b>presentare un reclamo</b> a un’autorità di vigilanza."
 
 ## extra translation 16.08.2021
 msgid "Name, surname"
-msgstr "Name, Vorname"
+msgstr "Nome, cognome"
 
 msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"
-msgstr "<b>Auskunftsrecht</b> (Art. 15 DSGVO): Sie haben das Recht, eine Bestätigung darüber zu erhalten, ob wir Ihre personenbezogenen Daten verarbeiten, sowie Informationen darüber, wie wir sie verarbeiten. Sie können auch eine Kopie Ihrer personenbezogenen Daten anfordern, wofür wir Ihnen eine angemessene Gebühr auf der Grundlage der Verwaltungskosten berechnen können. Um Ihr Auskunftsrecht auszuüben, wenden Sie sich bitte an"
+msgstr "<b>Accesso</b> (Art. 15 del GDPR): hai “il diritto di ottenere conferma del fatto che trattiamo i tuoi dati personali, nonché informazioni su come li trattiamo. Puoi richiedere una copia dei tuoi dati personali, per i quali possiamo addebitarti un costo ragionevole basato sui costi amministrativi. Per esercitare il tuo diritto di accesso, contattaci a"
 
 msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
-msgstr "<b>Recht auf Berichtigung</b> (Art. 16 DSGVO): Wenn Ihre personenbezogenen Daten, die wir verarbeiten, unvollständig oder unrichtig sind, haben Sie das Recht, die unverzügliche Berichtigung dieser Daten zu verlangen. Um Ihr Recht auf Berichtigung auszuüben, kontaktieren Sie uns unter"
+msgstr "<b>Rettifica</b> (Art. 16 del GDPR): nel caso in cui i tuoi dati personali che trattiamo siano incompleti o inaccurati, hai il diritto di richiedere una rettifica di questi senza indebito ritardo, Per esercitare il tuo diritto di rettifica, contattaci a"
 
 msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
-msgstr "<b>Widerspruchsrecht</b> (Art. 21 DSGVO): "Wenn Sie der Verarbeitung nicht zugestimmt haben oder diese nicht zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, können Sie jederzeit Widerspruch einlegen; in diesem Fall werden wir Ihre Daten nicht mehr verarbeiten."     
+msgstr "<b>Diritto di opposizione</b> (Art. 21 del GDPR): nel caso in cui tu non abbia dato il consenso al trattamento, o se questo non sia necessario per rispettare un obbligo di legge, puoi sempre opporti. In questo caso non dovremo più trattare i tuoi dati."
 
 msgid "Moreover, you have the right to"
-msgstr "Darüber hinaus haben Sie das Recht"
+msgstr "Inoltre, hai il diritto di"
 
 msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal."
-msgstr "Der Widerruf der Einwilligung hat keinen Einfluss auf die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung."
+msgstr "La revoca del consenso non pregiudica la liceità del trattamento basato sul consenso prima della revoca stessa"
 
 msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)."
-msgstr "wir schätzen Ihre Privatsphäre und verarbeiten Ihre Daten in Übereinstimmung mit der EU-Datenschutzgrundverordnung (DSGVO)."
+msgstr "Noi rispettiamo la tua privacy e trattiamo i tuoi dati in conformità con il regolamento generale sulla protezione dei dati (GDPR)"
 
 msgid "Ethnic origin"
-msgstr "Ethnizität"
+msgstr "Origine razziale o etnica"
 
 msgid "Political opinions, religious or philosophical beliefs, trade union membership"
-msgstr "Politische Ansichten, religiöse oder philosophische Überzeugungen, Gewerkschaftszugehörigkeit"
+msgstr "Opinioni politiche, convinzioni religiose o filosofiche, l’appartenenza a un sindacato"
     
 msgid "Genetic data, biometric data for the purpose of uniquely identifying a natural person"
-msgstr "Genetische Daten, biometrische Daten zum Zweck der eindeutigen Identifizierung einer natürlichen Person"
+msgstr "Dati genetici, dati biometrici trattati solo per identificare un essere umano"
     
 msgid "Data concerning health"
-msgstr "Gesundheitsdaten"     
+msgstr "Dati relativi alla salute"     
     
 msgid "Data concerning a natural person's sex life or sexual orientation"
-msgstr "Daten bezüglich der sexuellen Orientierung einer natürlichen Person"
+msgstr "Dati relativi alla vita sessuale o all’orientamento sessuale di una persona"
 
 msgid "Educational background / title"
-msgstr "Akademischer Hintergrund background / Titel"
+msgstr "Formazione / Titolo"
 
 msgid "Affiliation / professional situation / occupation"
-msgstr "Berufliche Zugehörigkeit / Berufliche Situation / Tätigkeitsbezeichnung"
+msgstr "Affiliazione / situazione professionale / professione"
