@@ -1,0 +1,479 @@
+# LANGUAGE translation of DARIAH ELDAH
+"Project-Id-Version: 1.1\n"
+"POT-Creation-Date: 2021-10-06 08:19+0200\n"
+"PO-Revision-Date: 2021-09-16 08:41+0200\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Language: hr\n"
+
+msgid "Submission is not available, please create a new one!"
+msgstr "Prijava nije dostupna, molimo Vas da izradite novu!"	
+
+msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard.
+    You can obtain the text for your consent form by downloading it from this page.
+    Please note that you will be provided raw text only. Please also be aware that for data privacy reasons,
+    the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website.
+    If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"	
+msgstr "Hvala Vam što koristite DARIAH ELDAH-ov Consent Form Wizard. Na ovoj mrežnoj stranici možete preuzeti tekst Vašeg obrasca za privolu. 
+    Imajte na umu da ćete dobiti samo neobrađeni tekst. Također, radi zaštite privatnosti podataka, informacije koje ste unijeli u alat kako biste dobili obrazac 
+    za privolu neće biti pohranjene i nestat će nakon što zatvorite mrežnu stranicu. Ako želite podijeliti svoj obrazac s drugim korisnicima CFW-a, pošaljite nam 
+    ga na adresu mrežne pošte <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+
+msgid "Download the Raw text"	
+msgstr "Preuzmite neobrađeni tekst" 
+
+msgid "Information on Data Processing and Declaration of Consent"
+msgstr "Informacije o obradi podataka i deklaracija o pristanku"
+
+msgid "Introduction"
+msgstr "Uvod"
+
+msgid "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)"	
+msgstr "cijeni Vašu privatnost i obrađuje Vaše osobne podatke u skladu s EU-ovom Općom uredbom o zaštiti podataka (GDPR)"
+
+msgid "Your <b>Personal Data</b> is any information related to you. <b>Processing</b> is any operation performed on the data."	
+msgstr "Vaši <b>osobni podatci</b> su sve informacije koje se odnose na vas. <b>Obrada</b> je svako postupanje s podatcima."
+
+msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
+msgstr "U skladu s <b>načelom transparentnosti</b>, ovaj će Vam dokument pružiti informacije o obradi Vaših osobnih podataka prema zahtjevima čl. 12, 13 i 14 GDPR-a."
+
+msgid "Who am I and how can you contact me?"	
+msgstr "Tko sam ja i kako me možete kontaktirati?"
+
+msgid "Name"	
+msgstr "Ime"
+
+msgid "Address"	
+msgstr "Adresa"
+
+msgid "E-mail"	
+msgstr "Adresa mrežne pošte"
+
+msgid "Who are we and how can you contact us?"	
+msgstr "Tko smo mi i kako nas možete kontaktirati?"
+
+msgid "acting as the data controller within the meaning of the GDPR."	
+msgstr "djeluje kao voditelj obrade podataka u smislu GDPR-a."
+
+msgid "You can also contact our <b>Data Protection Officer</b>"	
+msgstr "Možete se obratiti i našem <b>službeniku za zaštitu podataka</b>"
+
+msgid "at"
+msgstr "na"
+
+msgid "For what purpose do I process your data?"	
+msgstr "U koje svrhe obrađujem Vaše podatke?"
+
+msgid "For what purpose do we process your data?"	
+msgstr "U koje svrhe obrađujemo Vaše podatke?"
+
+msgid "Your data will be processed within the"	
+msgstr "Vaši će podatci biti obrađeni u okviru"
+
+msgid "project (hereinafter: the project)."
+msgstr "projekta (u daljnjem tekstu: Projekt)."
+
+msgid "Project description"	
+msgstr "Opis Projekta"
+
+msgid "To learn more about the"
+msgstr "Kako biste saznali više o"
+
+msgid "project, please see"	
+msgstr "Projektu, pogledajte "
+
+msgid "Please be informed that your data may also be used in different research projects in the domain of"
+msgstr "Imajte na umu da se Vaši podatci mogu koristiti i u različitim istraživačkim projektima na području"
+
+msgid "in accordance with the GDPR."
+msgstr "u skladu s GDPR-om."
+
+msgid "What information about you do I collect and process?"	
+msgstr "Koje podatke o Vama prikupljam i obrađujem?"
+
+msgid "What information about you do we collect and process?"	
+msgstr "Koje podatke o Vama prikupljamo i obrađujemo?"
+
+msgid "The following types of information about you are collected and processed within the project:"	
+msgstr "U okviru projekta, prikupljaju se i obrađuju sljedeći podatci o Vama:"
+
+msgid "Furthermore, the following special categories of personal data related to you are also processed"	
+msgstr "Nadalje, obrađuju se i sljedeće posebne kategorije osobnih podataka koji se odnose na Vas"
+
+msgid "The data are collected directly from you through"	
+msgstr "Podatci se prikupljaju izravno od Vas putem"
+
+msgid "Your IP address is automatically collected when you connect to the website."	
+msgstr "Vaša IP adresa automatski se prikuplja kada pristupite ovoj mrežnoj stranici."
+
+msgid "Legal basis for the processing of your data"	
+msgstr "Pravna osnova za obradu Vaših podataka"
+
+msgid "Your data is processed on the basis of your consent (Art. 6.1(a) of the GDPR) which you give by accepting this notice."	
+msgstr "Vaši se podatci obrađuju na temelju privole (Čl. 6.1(a) GDPR-a) koju dajete prihvaćanjem ove obavijesti. "
+
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of our legitimate interest in carrying out the project, or further research in the field of"
+msgstr "Iznimno, kada privola nije odgovarajuća pravna osnova, vaši se osobni podatci mogu obraditi i na osnovu našeg legitimnog interesa za provedbu projekta ili daljnje istraživanje na području"
+
+msgid "Then, the processing is based on Art. 6.1(f) of the GDPR."
+msgstr "U tom slučaju, obrada se temelji na Čl. 6.1(f) GDPR-a."
+
+msgid "For how long do we keep your data?"	
+msgstr "Koliko dugo čuvamo Vaše podatke?"
+
+msgid "Your data will be stored"	
+msgstr "Vaši će se podatci čuvati"
+
+msgid "until the end of the funding period or research project"	
+msgstr "do kraja razdoblja financiranja ili do završetka istraživačkog projekta"
+
+msgid "for a period of"
+msgstr "na razdoblje od"
+
+msgid "months after collection."	
+msgstr "mjeseci nakon prikupljanja."
+
+msgid "for as long as necessary for the fulfillment of the defined research purposes."	
+msgstr "onoliko dugo koliko je potrebno za ispunjenje definiranih ciljeva istraživanja."
+
+msgid "Will your data be shared with anyone?"	
+msgstr "Hoće li se vaši podatci s nekim dijeliti?"
+
+msgid "Your personal data will not be shared with or disclosed to anyone"	
+msgstr "Vaši osobni podatci neće se dijeliti niti otkrivati drugima"
+
+msgid "outside the"
+msgstr "van"
+
+msgid "Within the project, your personal data will be shared with researchers from the following partner institutions"	
+msgstr "U okviru projekta, vaši će se osobni podatci dijeliti sa znanstvenicima iz sljedećih partnerskih ustanova"
+
+msgid "Country"	
+msgstr "Zemlja"
+
+msgid "within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK"	
+msgstr "unutar Europskog gospodarskog prostora (članice EU-a, Island, Lihtenštajn, Norveška) ili u Ujedinjenom Kraljevstvu"
+
+msgid "in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)"	
+msgstr "u zemlji koja prema mišljenju EU-a ima odgovarajuće mjere zaštite privatnosti osobnih podataka (Andora, Argentina, Kanada, Farski otoci, Guernsey, Izrael, otok Man, Japan, Jersey, Novi Zeland, Švicarska, Urugvaj)."
+
+msgid "in the USA"	
+msgstr "u SAD-u"
+
+msgid "in a different country"	
+msgstr "u nekoj drugoj zemlji"
+
+msgid "Your data may be shared with other researchers via specialised repositories or other appropriate communication channels."	
+msgstr "Vaši bi podatci mogli biti podijeljeni s drugim znanstvenicima putem specijaliziranih repozitorija ili drugih odgovarajućih komunikacijskih kanala"
+
+msgid "To safeguard your privacy, the data will be shared in pseudonymised form, i.e. without the elements by which you could be identified, which will be stored separately and not shared"	
+msgstr "Radi zaštite Vaše privatnosti, podatci će se dijeliti u pseudonimiziranom obliku odnosno bez elemenata po kojima biste mogli biti identificirani, a koji će biti pohranjeni odvojeno i neće se dalje dijeliti"
+
+msgid "Will your data be transferred outside the European Economic Area (EGP)?"	
+msgstr "Hoće li se vaši podatci prenositi izvan granica Europskog gospodarskog područja?"
+
+msgid "Your data will not be transferred outside the European Economic Area."	
+msgstr "Vaši se podatci neće prenositi izvan granica Europskog gospodarskog područja."
+
+msgid "Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (Art. 45 of the GDPR)."	
+msgstr "Vaši će se podatci prenositi našim partnerima u okviru odluke Europske komisije o primjerenoj razini zaštite (Čl. 45 GDPR-a)"
+
+msgid "Your data will be transferred to our partners in the United States of America within the Privacy Shield framework."	
+msgstr "Vaši će se podatci prenositi našim partnerima u Sjedinjenim Američkim Državama unutar okvira Štita privatnosti."
+
+msgid "Your data will not be transferred outside the European Economic Area."	
+msgstr "Vaši se podatci neće prenositi izvan granica Europskog gospodarskog područja."
+
+msgid "No profiling or automated decision-making"	
+msgstr "Bez profiliranja ili automatiziranog donošenja odluka"
+
+msgid "Your data will not be used for profiling or automated decision-making purposes."
+msgstr "Vaši podatci neće biti korišteni za profiliranje ili automatizirano donošenje odluka."
+
+msgid "I"	
+msgstr "Ja"
+
+msgid "me"	
+msgstr "mene"
+
+msgid "We"	
+msgstr "Mi"
+
+msgid "us"	
+msgstr "nas"
+
+msgid "Your rights with regards to the processing of your data"	
+msgstr "Vaša prava vezano za obradu Vaših podataka"
+
+msgid "The GDPR grants you certain rights with regards to the processing of your personal data. These rights include"	
+msgstr "GDPR Vam daje određena prava vezano za obradu Vaših osobnih podataka. Ova prava uključuju"
+
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether"     
+msgstr "<b>Pravo pristupa</b> (Čl. 15 GDPR-a): imate pravo dobiti potvrdu o tome tko"
+
+msgid "have your personal data, as well as information about how"
+msgstr "raspolaže Vašim osobnim podatcima te na koji način"
+
+msgid "process it. You can also request a copy of your personal data, for which"
+msgstr "ih obrađuje. Možete zatražiti i kopiju osobnih podataka, za što"
+
+msgid "may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact"
+msgstr "smije naplatiti razumnu naknadu na temelju administrativnih troškova. Kako biste ostvarili svoje pravo, javite se"
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that"
+msgstr "<b>Pravo na ispravak</b> (Čl. 16 GDPR-a): ako su vaši osobni podatci koji"
+
+msgid "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact"
+msgstr "se obrađuju nepotpuni ili netočni, imate pravo zatražiti ispravak bez nepotrebnog odgađanja. Kako biste ostvarili svoje pravo na ispravak, javite se"
+
+msgid "<b>Erasure</b> (\"right to be forgotten\" - Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data."
+msgstr "<b>Pravo na brisanje</b> (\"pravo na zaborav\" - Čl. 17 GDPR-a): U određenim okolnostima (npr. ako su vaši podatci nezakonito ili nepotrebno obrađeni) možete zatražiti brisanje Vaših osobnih podataka."
+
+msgid "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent"	
+msgstr "<b>Pravo na ograničenje obrade</b> (Čl. 18 GDPR-a): u određenim okolnostima (npr. ako osporavate točnost obrađenih osobnih podataka ili zakonitost obrade) možete zatražiti ograničenje obrade osobnih podataka. Podatci neće biti izbrisani, ali smiju se obrađivati samo uz Vašu privolu."
+
+msgid "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format"	
+msgstr "<b>Pravo na prenosivost podataka</b> (Art. 20 der DSGVO): u određenim okolnostima, možete zatražiti prijenos svojih podataka drugom voditelju obrade u strukturiranom, uobičajeno upotrebljavanom i strojno čitljivom obliku"
+
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case"	
+msgstr "<b>Pravo na prigovor</b> (Čl. 21 GDPR-a): ako niste dali privolu za obradu, ili ako nije potrebno pridržavati se zakonske obveze, uvijek možete uložiti prigovor, te u tom slučaju"
+
+msgid  "shall no longer process your data."
+msgstr "vaši podatci neće biti dalje obrađivani."
+
+msgid "Moreover, you have the right to"	
+msgstr "Nadalje, imate pravo"
+
+msgid "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at"  
+msgstr "<b>u bilo kojem trenutku povući privolu</b> za obradu Vaših osobnih podataka  </b> (Čl. 7(3) GDPR-a), na način da nam se javite na"
+
+msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal; lodge a <b>complaint</b> with a supervisory authority."
+msgstr "Povlačenje privole neće utjecati na zakonitost obrade na temelju pristanka danog prije njezinog povlačenja; možete podnijeti <b>žalbu</b> nadzornom tijelu."
+	
+msgid "At"	
+msgstr "Na"
+
+msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)"	
+msgstr "cijenimo Vašu privatnost i obrađujemo Vaše podatke u skladu s EU-ovom Općom uredbom o zaštiti podataka (GDPR)"
+
+msgid "Your <b>\"Personal Data\"</b> is any information related to you. <b>\"Processing\"</b> is any operation performed on the data."	
+msgstr "Vaši <b>\"osobni podatci\"</b> su sve informacije koje se odnose na vas. <b>\"Obrada\"</b> je svako postupanje s podatcima."
+
+msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
+msgstr "U skladu s <b>načelom transparentnosti</b>, ovaj će Vam dokument dati informacije o obradi Vaših osobnih podataka prema zahtjevima čl. 12, 13 i 14 GDPR-a."
+
+msgid "You can also contact our <b>Data Protection Officer</b>"	
+msgstr "Možete se obratiti i našem <b>Službeniku za zaštitu podataka/n</b>"
+
+msgid "We process your data for the following purposes"
+msgstr "Obrađujemo Vaše podatke u sljedeće svrhe"
+
+msgid "Keeping subscribers informed, community building"	
+msgstr "Informiranje pretplatnika, izgradnja zajednice"
+
+msgid "Promoting events, institutions, etc."	
+msgstr "Promocija događanja, ustanova i dr."
+
+msgid "Providing / keeping a mailinglist to communicate to subscribers"	
+msgstr "Pokretanje / vođenje mailing liste u svrhu komunikacije s pretplatnicima"
+
+msgid "Keeping a mailinglist to provide a communication platform for subscribers"	
+msgstr "Vođenje mailing liste u svrhu osiguravanja komunikacijske platforme za pretplatnike"
+
+msgid "Documentation of mailinglist activity, statistic analysis"	
+msgstr "Dokumentiranje aktivnosti mailing liste, statistička analiza "
+
+msgid "Organisation and/or management of the event"	
+msgstr "Organizacija i/ili menadžment događanja"
+
+msgid "Organisation of related events in the future (e.g. next edition of the conference)"
+msgstr "Organizacija povezanih događanja u budućnosti (npr. sljedećeg 'izdanja' konferencije)"
+
+msgid "Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes)"	
+msgstr "Informiranje sudionika o povezanim temama (npr. ponovna upotreba kontaktnih podataka u svrhu slanja newslettera)"
+
+msgid "Promoting and documenting the event itself on our website and / or social media"
+msgstr "Promocija i dokumentiranje događanja na našoj mrežnoj stranici i/ili društvenim mrežama"
+
+msgid "Promoting and documenting the research presented at the event (publish videos / photos of the lecture)"	
+msgstr "Promocija i dokumentiranje istraživanja predstavljenog na događanju (objava video snimke i/ili fotografija predavanja) "
+
+msgid "Statistic analysis of the event (e.g. in relation to past and future events)"	
+msgstr "Statistička analiza događanja (npr. u odnosu na prošla i buduća događanja)"
+
+msgid "Administration of participation fees and/or travel expenses"	
+msgstr "Administracija kotizacija i/ili putnih troškova "
+
+msgid "Generation of attendance certificates, invoices and payment confirmations"	
+msgstr "Izrada potvrda o prisustvovanju, računa i potvrda o plaćanju "
+
+msgid "Community building (allowing participants to stay in touch with each other after the event)"	
+msgstr "Izgradnja zajednice (omogućavanje sudionicima da ostanu u kontaktu nakon završetka događanja)"
+
+msgid "For the purposes listed above, we process the following information related to you"
+msgstr "U gore navedene svrhe, obrađujemo sljedeće podatke koji se odnose na vas"
+
+msgid "Name, surname"	
+msgstr "Ime, prezime"
+
+msgid "E-mail address"	
+msgstr "Adresa mrežne pošte"
+
+msgid "IP address"	
+msgstr "IP adresa"
+
+msgid "Affiliation"	
+msgstr "Ustanova"
+
+msgid "Professional title / academic status"	
+msgstr "Zvanje / akademski status"
+
+msgid "Gender"
+msgstr "Rod"
+
+msgid "Social media identifiers"	
+msgstr "Identifikatori društvenih medija"
+
+msgid "Other"	
+msgstr "Ostalo"
+
+msgid "Photographs, audio or video recordings"	
+msgstr "Fotografije, zvučni i video zapisi"
+
+msgid "Account or credit/debit card information"	
+msgstr "Informacije o bankovnom računu ili kreditnoj/debitnoj kartici"
+
+msgid "Dietary requirements"	
+msgstr "Posebni prehrambeni zahtjevi"
+
+msgid "Participation in previous events organized by the organizer"	
+msgstr "Sudjelovanje u prethodnim događanjima istog organizatora"
+
+msgid "We obtain this information"	
+msgstr "Ove podatke dobivamo"
+
+msgid "(apart from your IP address)"	
+msgstr "(osim Vaše IP adrese)"
+
+msgid "directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications"	
+msgstr "izravno od Vas prilikom ispunjavanja pojedinačnog obrasca. Obavezna su polja u priloženom obrascu označena zvjezdicom. Ostale informacije niste dužni dati ako to ne želite te se u tom slučaju neće biti dio naše daljnje komunikaciji" 
+
+msgid "Your IP address is automatically collected when you fill in the online form."	
+msgstr "Vaša IP adresa automatski se prikuplja prilikom ispunjavanja online obrasca."
+
+msgid "Dietary requirements can reveal your philosophical opinions or religious beliefs, therefore we regard them as sensitive data. The processing of this information is based on your explicit consent (Art. 9.2(a) of the GDPR)."	
+msgstr "Specifični prehrambeni zahtjevi mogu otkriti vaša filozofska uvjerenja ili vjerska stajališta te ih stoga smatramo osjetljivim podatcima. Obrada ovih podataka temelji se na Vašoj izričitoj privoli (Čl. 9.2(a) GDPR-a)."
+
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of"	
+msgstr "Iznimno, ako privola nije odgovarajuća pravna osnova, vaši se osobni podatci mogu obrađivati i na temelju"
+
+msgid "our legitimate interest in organising the  "	
+msgstr "našeg legitimnog interesa da organiziramo "
+
+msgid "event"	
+msgstr "događanje"
+
+msgid "and promoting it, and your legitimate interest in participating in it, and in staying informed about the recent developments in the research community."	
+msgstr "i promoviramo ga te Vašeg legitimnog interesa da u njemu sudjelujete i budete informirani o najnovijim zbivanjima u istraživačkoj zajednici."
+
+msgid "your legitimate interest in staying informed about recent developments in the research community. Then, the processing is based on Art. 6.1(f) of the GDPR."	
+msgstr "Vašeg legitimnog interesa da budete informirani o najnovijim zbivanjima u istraživačkoj zajednici. U tom slučaju, obrada se temelji na Čl. 6.1(f) GDPR-a."
+
+msgid "These are the durations your data will be stored for"	
+msgstr "Ovo su razdoblja tijekom kojih će vaši podatci biti pohranjeni"
+
+msgid "months"	
+msgstr "mjeseci"
+
+msgid "years"	
+msgstr "godine"
+
+msgid "as long as necessary to achieve the purpose of data collection."	
+msgstr "onoliko koliko je potrebno za postizanje svrhe prikupljanja podataka."
+
+msgid "years after the last mailinglist activity."	
+msgstr "godinama nakon prestanka aktivnosti mailing liste."
+
+msgid "Info text"	
+msgstr "Informativni tekst"
+
+msgid "Participation in previous events organized by us"	
+msgstr "Sudjelovanje u našim prethodnim događanjima"
+
+msgid "After these periods, your data will be deleted or anonymised according to the highest standards."	
+msgstr "Nakon isteka ovih razdoblja, vaši će podatci biti izbrisani ili anonimizirani s skladu s najvišim standardima."
+
+msgid "Your personal data will not be shared with or disclosed to anyone outside our institution"	
+msgstr "Vaši osobni podatci neće se otkrivati niti dijeliti izvan naše ustanove"
+
+msgid "For all purposes listed above, your personal data can be shared with the following partner institutions"
+msgstr "U gore navedene svrhe, vaši se podatci mogu dijeliti sa sljedećim partnerskim ustanovama"
+
+msgid "Institution"	
+msgstr "Ustanova"
+
+msgid "Information about your dietary requirements, which may reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you."	
+msgstr "Podatci o vašim prehrambenim zahtjevima, koji mogu otkriti Vaša filozofska uvjerenja ili vjerska stajališta, bit će dijeljeni samo u agregiranom obliku, onemogućujući na taj način identfikaciju."
+
+msgid "Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of"	
+msgstr "Nadalje, u svrhu izgradnje zajednice, Vaše ime, ime Vaše ustanove i kontaktni podatci bit će dostupni ostalim sudionicima"
+
+msgid "No profiling or automated decision-making"	
+msgstr "Bez profiliranja ili automatiziranog donošenja odluka"
+
+msgid "Your data will not be used for profiling or automated decision-making purposes.	
+msgstr "Vaši podatci neće biti korišteni za profiliranje ili automatizirano donošenje odluka.
+
+msgid "or by unsubscribing the newsletter"	
+msgstr "ili za odjavu s newslettera"
+
+msgid "<b>lodge a complaint</b> with a supervisory authority."	
+msgstr "<b>uložite žalbu</b> nadležnom tijelu."
+
+## extra translation 16.08.2021
+msgid "Name, surname"
+msgstr "Ime, prezime"
+
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"
+msgstr "<b>Pravo na pristup</b> (Čl. 15 GDPR-a): imate pravo dobiti potvrdu obrađuju li se Vaši osobni podatci i na koji način. Možete zatražiti kopiju Vaših osobnih podataka, za koju smijemo naplatiti razumnu naknadu temeljenu na administrativnim troškovima. Kako biste ostvarili svoje pravo pristupa, javite nam se na"
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
+msgstr "<b>Pravo na ispravak</b> (Čl. 16 GDPR-a): ako su Vaši osobni podatci koje obrađujemo nepotpuni ili netočni, imate pravo zatražiti ispravak podataka bez nepotrebnog odgađanja. Kako biste ostvarili svoje pravo na ispravak, javite nam se na"
+
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
+msgstr "<b>Pravo na prigovor</b> (Čl. 21 GDPR-a): "ako niste dali privolu za obradu, ili ako nije potrebno pridržavati se zakonske obveze, uvijek možete uložiti prigovor, te u tom slučaju nećemo dalje obrađivati Vaše podatke."     
+
+msgid "Moreover, you have the right to"
+msgstr "Nadalje, imate pravo"
+
+msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal."
+msgstr "Povlačenje privole neće utjecati na zakonitost obrade na temelju pristanka danog prije njezinog povlačenja."
+
+msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)."
+msgstr "cijenimo Vašu privatnost i obrađujemo Vaše podatke u skladu s EU-ovom Općom uredbom o zaštiti podataka (GDPR)."
+
+msgid "Ethnic origin"
+msgstr "Etničko podrijetlo"
+
+msgid "Political opinions, religious or philosophical beliefs, trade union membership"
+msgstr "Politička stajališta, vjerska ili filozofska uvjerenja, članstvo u sindikatima"
+    
+msgid "Genetic data, biometric data for the purpose of uniquely identifying a natural person"
+msgstr "Genetski podatci, biometrijski podatci u svrhu jedinstvenog identificiranja fizičke osobe"
+    
+msgid "Data concerning health"
+msgstr "Podatci koji se odnose na zdravlje"     
+    
+msgid "Data concerning a natural person's sex life or sexual orientation"
+msgstr "Podatci koji se odnose na spolni život ili seksualnu orijentaciju fizičke osobe"
+
+msgid "Educational background / title"
+msgstr "Obrazovanje / stečena titula"
+
+msgid "Affiliation / professional situation / occupation"
+msgstr "Ustanova zaposlenja / profesionalni status / zanimanje"
