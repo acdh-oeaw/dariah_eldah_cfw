@@ -1,9 +1,5 @@
 
-<h3 style='color:red;'>{{ "Thank you for using the DARIAH ELDAH Consent Form Wizard. 
-    You can obtain the text for your consent form by downloading it from this page. 
-    Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, 
-    the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. 
-    If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"|trans }}
+<h3 style='color:red;'>{{ "Thank you for using the DARIAH ELDAH Consent Form Wizard. You can obtain the text for your consent form by downloading it from this page. Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"|trans }}
 </h3>
 <br/>
 <h2><a href='#' id='get-raw-text' >{{ "Download the Raw text"|trans }}</a></h2>
@@ -15,7 +11,7 @@
           <h2>{{ "Introduction"|trans }}</h2>
             <p class="lead">
                 <!-- [Project_name]  -->
-                {{ data.please_state_the_name_of_your_project_.value.0 }} {{ "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)."|trans }}
+                {{ data.please_state_the_name_of_your_project_.value.0 }} {{ "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)"|trans }}.
                 <br><br>
                 {{ 'Your <b>Personal Data</b> is any information related to you. <b>Processing</b> is any operation performed on the data.'|trans }}
                 <br><br>
@@ -62,7 +58,7 @@
             <div class="row">
                 <div class='col-lg-12'>
                     <br/>
-                    {{ 'You can also contact our <b>Data Protection Officer</b> {{ data.name_of_the_data_protection_officer.value.0 }} at <a href="mailto:{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}">{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}</a>'|trans }}<br/>
+                    {{ "You can also contact our <b>Data Protection Officer</b>"|trans }} {{ data.name_of_the_data_protection_officer.value.0 }} at <a href="mailto:{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}">{{ data.contact_information_e_mail_of_the_data_protection_officer_.value.0 }}</a>'|trans }}<br/>
                 </div>
             </div>  
         {% endif %}

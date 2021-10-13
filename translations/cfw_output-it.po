@@ -14,16 +14,8 @@
 msgid "Submission is not available, please create a new one!"	
 msgstr "La richiesta non è disponibile, per favore creane una nuova!"
 
-msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. 
-    You can obtain the text for your consent form by downloading it from this page. 
-    Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, 
-    the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. 
-    If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"	
-msgstr "Ti ringraziamo per aver utilizzato il DARIAH ELDAH Consent Form Wizard.
-    Puoi ottenere il testo per il tuo modulo di consenso scaricandolo da questa pagina.
-    Nota che otterrai unicamente il testo non processato. Inoltre, ti preghiamo di essere consapevole del fatto che, per ragioni di privacy, 
-    le informazioni che hai inserito per ottenere il modulo di consenso non saranno memorizzate e andranno perse alla chiusura del sito.
-    Nel caso in cui tu voglia fornire il tuo risultato come esempio per altri utenti del CWF, sei pregato di inviarcelo alla seguente e-mail: <a href=""mailto:eldah@dariah.eu"">eldah@dariah.eu</a>"
+msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. You can obtain the text for your consent form by downloading it from this page. Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+msgstr "Ti ringraziamo per aver utilizzato il DARIAH ELDAH Consent Form Wizard. Puoi ottenere il testo per il tuo modulo di consenso scaricandolo da questa pagina. Nota che otterrai unicamente il testo non processato. Inoltre, ti preghiamo di essere consapevole del fatto che, per ragioni di privacy, le informazioni che hai inserito per ottenere il modulo di consenso non saranno memorizzate e andranno perse alla chiusura del sito. Nel caso in cui tu voglia fornire il tuo risultato come esempio per altri utenti del CWF, sei pregato di inviarcelo alla seguente e-mail: <a href=""mailto:eldah@dariah.eu"">eldah@dariah.eu</a>"
 
 msgid "Download the Raw text"	
 msgstr "Scarica il testo non processato"

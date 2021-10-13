@@ -14,16 +14,8 @@
 msgid "Submission is not available, please create a new one!"	
 msgstr "Diese Ausgabe ist nicht verfügbar. Bitte erstellen Sie eine neue!"
 
-msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. 
-    You can obtain the text for your consent form by downloading it from this page. 
-    Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, 
-    the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. 
-    If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"	
-msgstr "Vielen Dank, dass Sie den DARIAH ELDAH Consent Form Wizard verwenden.
-    Den Text für Ihre Einwilligungserklärung können Sie auf dieser Seite herunterladen.
-    Bitte beachten Sie, dass Ihnen nur Rohtext zur Verfügung gestellt wird. Bitte beachten Sie auch, dass die Informationen,
-    die Sie zur Einholung Ihrer Einwilligungserklärung in das Tool eingegeben haben, aus Datenschutzgründen nicht gespeichert werden und somit beim Schließen der Website verloren gehen.
-    Wenn Sie Ihr Ergebnis als Musterbeispiel für andere CFW Nutzer zur Verfügung stellen möchten, senden Sie es uns bitte an <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. You can obtain the text for your consent form by downloading it from this page. Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+msgstr "Vielen Dank, dass Sie den DARIAH ELDAH Consent Form Wizard verwenden. Den Text für Ihre Einwilligungserklärung können Sie auf dieser Seite herunterladen. Bitte beachten Sie, dass Ihnen nur Rohtext zur Verfügung gestellt wird. Bitte beachten Sie auch, dass die Informationen, die Sie zur Einholung Ihrer Einwilligungserklärung in das Tool eingegeben haben, aus Datenschutzgründen nicht gespeichert werden und somit beim Schließen der Website verloren gehen. Wenn Sie Ihr Ergebnis als Musterbeispiel für andere CFW Nutzer zur Verfügung stellen möchten, senden Sie es uns bitte an <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
 
 msgid "Download the Raw text"	
 msgstr "Rohtext herunterladen"

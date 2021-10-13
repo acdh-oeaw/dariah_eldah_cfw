@@ -14,15 +14,8 @@
 msgid "Submission is not available, please create a new one!"
 msgstr "Prijava nije dostupna, molimo Vas da izradite novu!"	
 
-msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard.
-    You can obtain the text for your consent form by downloading it from this page.
-    Please note that you will be provided raw text only. Please also be aware that for data privacy reasons,
-    the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website.
-    If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"	
-msgstr "Hvala Vam što koristite DARIAH ELDAH-ov Consent Form Wizard. Na ovoj mrežnoj stranici možete preuzeti tekst Vašeg obrasca za privolu. 
-    Imajte na umu da ćete dobiti samo neobrađeni tekst. Također, radi zaštite privatnosti podataka, informacije koje ste unijeli u alat kako biste dobili obrazac 
-    za privolu neće biti pohranjene i nestat će nakon što zatvorite mrežnu stranicu. Ako želite podijeliti svoj obrazac s drugim korisnicima CFW-a, pošaljite nam 
-    ga na adresu mrežne pošte <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. You can obtain the text for your consent form by downloading it from this page. Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"	
+msgstr "Hvala Vam što koristite DARIAH ELDAH-ov Consent Form Wizard. Na ovoj mrežnoj stranici možete preuzeti tekst Vašeg obrasca za privolu. Imajte na umu da ćete dobiti samo neobrađeni tekst. Također, radi zaštite privatnosti podataka, informacije koje ste unijeli u alat kako biste dobili obrazac za privolu neće biti pohranjene i nestat će nakon što zatvorite mrežnu stranicu. Ako želite podijeliti svoj obrazac s drugim korisnicima CFW-a, pošaljite nam ga na adresu mrežne pošte <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
 
 msgid "Download the Raw text"	
 msgstr "Preuzmite neobrađeni tekst" 
@@ -174,7 +167,7 @@ msgstr "Vaši bi podatci mogli biti podijeljeni s drugim znanstvenicima putem sp
 msgid "To safeguard your privacy, the data will be shared in pseudonymised form, i.e. without the elements by which you could be identified, which will be stored separately and not shared"	
 msgstr "Radi zaštite Vaše privatnosti, podatci će se dijeliti u pseudonimiziranom obliku odnosno bez elemenata po kojima biste mogli biti identificirani, a koji će biti pohranjeni odvojeno i neće se dalje dijeliti"
 
-msgid "Will your data be transferred outside the European Economic Area (EGP)?"	
+msgid "Will your data be transferred outside the European Economic Area (EEA)?"	
 msgstr "Hoće li se vaši podatci prenositi izvan granica Europskog gospodarskog područja?"
 
 msgid "Your data will not be transferred outside the European Economic Area."	
@@ -231,7 +224,7 @@ msgstr "<b>Pravo na ispravak</b> (Čl. 16 GDPR-a): ako su vaši osobni podatci k
 msgid "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact"
 msgstr "se obrađuju nepotpuni ili netočni, imate pravo zatražiti ispravak bez nepotrebnog odgađanja. Kako biste ostvarili svoje pravo na ispravak, javite se"
 
-msgid "<b>Erasure</b> (\"right to be forgotten\" - Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data."
+msgid "<b>Erasure</b> (\"right to be forgotten\" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data."
 msgstr "<b>Pravo na brisanje</b> (\"pravo na zaborav\" - Čl. 17 GDPR-a): U određenim okolnostima (npr. ako su vaši podatci nezakonito ili nepotrebno obrađeni) možete zatražiti brisanje Vaših osobnih podataka."
 
 msgid "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent"	
