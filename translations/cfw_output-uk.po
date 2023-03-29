@@ -1,0 +1,449 @@
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+# LANGUAGE translation of DARIAH ELDAH
+msgid "Submission is not available, please create a new one!"
+msgstr "Ваше подання недоступне, просимо створити нове!"
+
+msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. You can obtain the text for your consent form by downloading it from this page. Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+msgstr "Дякуємо Вам за використання Consent Form Wizard від DARIAH ELDAH. З цієї сторінки Ви можете завантажити форму тексту згоди. Зверніть увагу, Ви отримаєте лише неопрацьований текст. Також майте на увазі, що, з міркувань захисту конфіденційності даних, введена Вами в інструмент інформація для отримання форми згоди не зберігатиметься та буде втрачена після закриття веб-сайту. Якщо Ви маєте бажання надати свій результат, як приклад для інших користувачів CFW, прошу надіслати його нам на адресу електронної пошти<ahref='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+
+msgid "Download the Raw text"
+msgstr "Завантажте неопрацьований текст"
+
+msgid "Information on Data Processing and Declaration of Consent"
+msgstr "Інформація про обробку даних і декларація про згоду"
+
+msgid "Introduction"
+msgstr "Вступ"
+
+msgid "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)"
+msgstr "цінує Вашу конфіденційність і обробляє Ваші особисті дані відповідно до Загального регламенту захисту даних ЄС (GDPR)"
+
+msgid "Your <b>Personal Data</b> is any information related to you. <b>Processing</b> is any operation performed on the data."
+msgstr "Ваші <b>Особисті дані</b> – це будь-яка інформація, що стосується Вас. <b>Обробка</b> – це будь-яка операція, яка виконується над даними."
+
+msgid "Who am I and how can you contact me?"
+msgstr "Хто я і як зі мною сконтактуватися?"
+
+msgid "Name"
+msgstr "Ім’я"
+
+msgid "Address"
+msgstr "Адреса"
+
+msgid "E-mail"
+msgstr "Електронна пошта"
+
+msgid "Who are we and how can you contact us?"
+msgstr "Хто ми і як з нами сконтактуватися?"
+
+msgid "acting as the data controller within the meaning of the GDPR."
+msgstr "діє як контролер даних у розумінні GDPR."
+
+msgid "You can also contact our <b>Data Protection Officer</b>"
+msgstr "Ви можете звернутися і до нашого <b>спеціаліста із захисту даних</b>"
+
+msgid "at"
+msgstr "у"
+
+msgid "For what purpose do I process your data?"
+msgstr "З якою метою я опрацьовую Ваші дані?"
+
+msgid "For what purpose do we process your data?"
+msgstr "З якою метою ми опрацьовуємо Ваші дані?"
+
+msgid "Your data will be processed within the"
+msgstr "Ваші дані будуть опрацьовані в рамках"
+
+msgid "project (hereinafter: the project)."
+msgstr "проєкту (далі в тексті: Проєкт)."
+
+msgid "Project description"
+msgstr "Опис Проєкту"
+
+msgid "To learn more about the"
+msgstr "Щоб дізнатися більше про"
+
+msgid "project, please see"
+msgstr "Проєкт, дивіться, будь ласка"
+
+msgid "Please be informed that your data may also be used in different research projects in the domain of"
+msgstr "Просимо мати на увазі, що Ваші дані можуть бути використані також в різних дослідницьких проєктах у царині"
+
+msgid "in accordance with the GDPR."
+msgstr "згідно з GDPR."
+
+msgid "What information about you do I collect and process?"
+msgstr "Яку інформацію про Вас збираю та опрацьовую?"
+
+msgid "What information about you do we collect and process?"
+msgstr "Яку інформацію про Вас збираємо та опрацьовуємо?"
+
+msgid "The following types of information about you are collected and processed within the project:"
+msgstr "В рамках проєкту збираються і опрацьовуються наступні категорії інформації про Вас:"
+
+msgid "Furthermore, the following special categories of personal data related to you are also processed"
+msgstr "В подальшому, опрацьовуватимуться наступні, дотичні до Вас особливі категорії персональних даних"
+
+msgid "The data are collected directly from you through"
+msgstr "Дані збираються безпосередньо від Вас через"
+
+msgid "Your IP address is automatically collected when you connect to the website."
+msgstr "Ваша IP-адреса автоматично збирається під час підключення до веб-сайту."
+
+msgid "Legal basis for the processing of your data"
+msgstr "Правове підґрунтя для обробки Ваших даних"
+
+msgid "Your data is processed on the basis of your consent (Art. 6.1(a) of the GDPR) which you give by accepting this notice."
+msgstr "Ваші дані опрацьовуються на підставі згоди (стаття 6.1(a) GDPR), яку Ви надаєте, приймаючи це повідомлення."
+
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of our legitimate interest in carrying out the project, or further research in the field of"
+msgstr "Як виняток, Ваші персональні дані можуть бути опрацьованими і у випадку згоди без відповідного правового підґрунтя на підставі нашого законного інтересу щодо виконання проєкту або подальших досліджень в царині"
+
+msgid "Then, the processing is based on Art. 6.1(f) of the GDPR."
+msgstr "У цьому випадку, опрацювання відбувається на підставі ст. 6.1(f) GDPR."
+
+msgid "For how long do we keep your data?"
+msgstr "Як довго зберігатимемо Ваші дані?"
+
+msgid "Your data will be stored"
+msgstr "Ваші дані будуть збережені"
+
+msgid "until the end of the funding period or research project"
+msgstr "до завершення фінансування або дослідницького проєкту"
+
+msgid "for a period of"
+msgstr "на період"
+
+msgid "months after collection."
+msgstr "місяців після збору."
+
+msgid "for as long as necessary for the fulfillment of the defined research purposes."
+msgstr "стільки, скільки необхідно для досягнення визначених цілей дослідження."
+
+msgid "Will your data be shared with anyone?"
+msgstr "Чи ділитимуться з кимось Вашими даними?"
+
+msgid "Your personal data will not be shared with or disclosed to anyone"
+msgstr "Ваші персональні дані нікому не передаватимуть і не розголошуватимуть"
+
+msgid "outside the"
+msgstr "за межами"
+
+msgid "Within the project, your personal data will be shared with researchers from the following partner institutions"
+msgstr "У рамках проекту Ваші персональні дані будуть передані дослідникам із наступних партнерських установ"
+
+msgid "Country"
+msgstr "Країна"
+
+msgid "within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK"
+msgstr "в межах Європейської економічної зони (країни-члени ЄС, Ісландія, Ліхтенштейн, Норвегія) або у Великобританії"
+
+msgid "in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)"
+msgstr "у країні, що забезпечує відповідні ЄС гарантії конфіденційності даних (Андорра, Аргентина, Канада, Фарерські острови, Гернсі, Ізраїль, Острів Мен, Японія, Джерсі, Нова Зеландія, Швейцарія, Уругвай)"
+
+msgid "in the USA"
+msgstr "в США"
+
+msgid "in a different country"
+msgstr "в іншій країні"
+
+msgid "Your data may be shared with other researchers via specialised repositories or other appropriate communication channels."
+msgstr "Ваші дані можуть бути передані іншим дослідникам через спеціалізовані репозитарії або інші відповідні канали зв’язку."
+
+msgid "To safeguard your privacy, the data will be shared in pseudonymised form, i.e. without the elements by which you could be identified, which will be stored separately and not shared"
+msgstr "З метою забезпечення конфіденційності, Ваші дані будуть надані в псевдонімізованій формі, тобто без елементів, за якими Вас можна було б ідентифікувати, відповідно, вони зберігатимуться окремо та не будуть надані"
+
+msgid "Will your data be transferred outside the European Economic Area (EGP)?"
+msgstr "Чи передватимуться Ваші дані за межі Європейської економічної зони (ЄЕЗ)?"
+
+msgid "Your data will not be transferred outside the European Economic Area."
+msgstr "Ваші дані не передаватимуться за межі Європейської економічної зони."
+
+msgid "Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (Art. 45 of the GDPR)."
+msgstr "Ваші дані будуть передані нашим партнерам у рамках відповідного рішення Європейської комісії щодо належного рівня захисту (ст. 45 GDPR)."
+
+msgid "Your data will be transferred to our partners in the United States of America within the Privacy Shield framework."
+msgstr "Ваші дані будуть передані нашим партнерам у Сполучених Штатах Америки в рамках програми Privacy Shield (Щит конфіденціності)."
+
+msgid "No profiling or automated decision-making"
+msgstr "Без профілювання чи автоматичного прийняття рішень"
+
+msgid "Your data will not be used for profiling or automated decision-making purposes."
+msgstr "Ваші дані не використовуватимуться для профілювання чи автоматизованого прийняття рішень."
+
+msgid "I"
+msgstr "Я"
+
+msgid "me"
+msgstr "мене"
+
+msgid "We"
+msgstr "Ми"
+
+msgid "us"
+msgstr "нас"
+
+msgid "Your rights with regards to the processing of your data"
+msgstr "Ваші права на предмет опрацювання ваших даних"
+
+msgid "The GDPR grants you certain rights with regards to the processing of your personal data. These rights include"
+msgstr "GDPR надає Вам певні права щодо опрацювання Ваших персональних даних. Ці права включають"
+
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether"
+msgstr "<b>Доступ</b> (ст. 15 GDPR): ви маєте право отримати підтвердження про те, хто"
+
+msgid "have your personal data, as well as information about how"
+msgstr "володіє Вашими персональними даними, а також інформацію про те, як"
+
+msgid "process it. You can also request a copy of your personal data, for which"
+msgstr "їх опрацьовує. Також можете замовити копію своїх персональних даних, для чого"
+
+msgid "may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact"
+msgstr "може стягуватися з Вас в розумних межах оплата за адміністративні витрати. Щоб скористатися своїм правом доступу, просимо звертатися"
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that"
+msgstr "<b>Виправлення</b> (ст. 16 GDPR): якщо Ваші особисті дані, які"
+
+msgid "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact"
+msgstr "опрацьовуються, є неповним або неточним, маєте право без неоправданої затримки вимагати їхнє негайне виправлення. Щоб скористатися своїм правом на виправлення, просимо звертатись"
+
+msgid "<b>Erasure</b> (\"right to be forgotten\" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data."
+msgstr "<b>Видалення</b> (\"право на забуття\" ст. 17 GDPR): за певних обставин (наприклад, якщо Ваші дані обробляються незаконно або без потреби) можете подати запит на видалення своїх персональних даних."
+
+msgid "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent"
+msgstr "<b>Обмеження опрацювання</b> (ст. 18 GDPR): за певних обставин (наприклад, у випадку оскарження Вами точності, чи законності щодо нами опрацьованих даних) можете подати запит на обмеження опрацювання Ваших даних. Ці дані не видалятимуться, але засадничо, опрацьовуватимуться лише за Вашою згодою"
+
+msgid "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format"
+msgstr "<b>Переносність даних</b> (ст. 20 GDPR): за певних обставин, Ви можете надіслати запит про передачу Ваших даних іншому контролеру в структурованому форматі, який широко використовується та надається до прочитання на пристрої"
+
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case"
+msgstr "<b>Право на заперечення</b> (ст. 21 GDPR): якщо Ви не погоджувалися на опрацювання, або в цьому немає потреби з огляду на дотримання юридичного зобов’язання, Ви завжди можете висунути заперечення і, в цьому випадку"
+
+msgid "shall no longer process your data."
+msgstr "Ваші дані більше не опрацьовуватимуться."
+
+msgid "Moreover, you have the right to"
+msgstr "Крім того, ви маєте право"
+
+msgid "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at"
+msgstr "<b>у будь-який час</b> відкликати свою згоду на опрацювання персональних даних (ст. 7(3) GDPR), звернувшись до нас за адресою"
+
+msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal; lodge a <b>complaint</b> with a supervisory authority."
+msgstr "Відкликання згоди не вплине на законність опрацювання на основі згоди даної до її відкликання; можете подати <b>скаргу</b> до контролюючого органу."
+
+msgid "At"
+msgstr "На"
+
+msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)"
+msgstr "ми цінуємо Вашу конфіденційність і опрацьовуємо Ваші дані відповідно до Загального регламенту захисту даних ЄС (GDPR)"
+
+msgid "Your <b>\"Personal Data\"</b> is any information related to you. <b>\"Processing\"</b> is any operation performed on the data."
+msgstr "Ваші <b>\"Особисті дані\"</b> - це будь-яка інформація, що стосується Вас. <b>\"Опрацювання\"</b> – це будь-яка операція, яка виконується з даними."
+
+msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."
+msgstr "Згідно <b>принципу прозорості</b> цей документ надасть Вам інформацію про опрацювання Ваших персональних даних відповідно до вимог ст. 12, 13 і 14 GDPR."
+
+msgid "We process your data for the following purposes"
+msgstr "Ми опрацьовуємо Ваші дані з наступною метою"
+
+msgid "Keeping subscribers informed, community building"
+msgstr "Інформування передплатників, формування спільноти"
+
+msgid "Promoting events, institutions, etc."
+msgstr "Інформаційна кампанія подій, установ, тощо."
+
+msgid "Providing / keeping a mailing list to communicate to subscribers"
+msgstr "Надання / підтримка розсилки електронної пошти для спілкування з передплатниками"
+
+msgid "Keeping a mailing list to provide a communication platform for subscribers"
+msgstr "Підтримка розсилки електронної пошти з метою забезпечення комунікаційної платформи для передплатників"
+
+msgid "Documentation of mailinglist activity, statistic analysis"
+msgstr "Документування активності розсилки, статистичний аналіз"
+
+msgid "Organisation and/or management of the event"
+msgstr "Організація та/або менеджмент заходу"
+
+msgid "Organisation of related events in the future (e.g. next edition of the conference)"
+msgstr "Організація відповідних заходів у майбутньому (наприклад, наступна конференція)"
+
+msgid "Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes)"
+msgstr "Інформування учасників про пов’язані теми (наприклад, повторне використання контактних даних для розсилки новин)"
+
+msgid "Promoting and documenting the event itself on our website and / or social media"
+msgstr "Інформаційна кампанія та документування самої події на нашому веб-сайті та/ або в соціальних мережах"
+
+msgid "Promoting and documenting the research presented at the event (publish videos / photos of the lecture)"
+msgstr "Інформаційна кампанія та документування досліджень, представлених на заході (публікація відео/фото лекції)"
+
+msgid "Statistic analysis of the event (e.g. in relation to past and future events)"
+msgstr "Статистичний аналіз події (наприклад, в стосунку минулих і майбутніх подій)"
+
+msgid "Administration of participation fees and/or travel expenses"
+msgstr "Адміністрування оплати за участь та/або транспортними витратами"
+
+msgid "Generation of attendance certificates, invoices and payment confirmations"
+msgstr "Надання довідок про відвідування, рахунків та підтверджень платежів"
+
+msgid "Community building (allowing participants to stay in touch with each other after the event)"
+msgstr "Побудова спільноти (що дозволяє учасникам залишатися на зв’язку один з одним після події)"
+
+msgid "For the purposes listed above, we process the following information related to you"
+msgstr "Для вище зазначених цілей оброблятимемо наступну, пов’язану з Вами, інформацію"
+
+msgid "Name, surname"
+msgstr "Ім’я, прізвище"
+
+msgid "E-mail address"
+msgstr "Адреса електронної пошти"
+
+msgid "IP address"
+msgstr "IP адреса"
+
+msgid "Affiliation"
+msgstr "Підпорядкування"
+
+msgid "Professional title / academic status"
+msgstr "Звання / академічний статус"
+
+msgid "Gender"
+msgstr "Стать"
+
+msgid "Social media identifiers"
+msgstr "Ідентифікатори соціальних мереж"
+
+msgid "Other"
+msgstr "Інше"
+
+msgid "Photographs, audio or video recordings"
+msgstr "Фотографії, аудіо чи відеозаписи"
+
+msgid "Account or credit/debit card information"
+msgstr "Інформація про банківський рахунок або кредитну/дебетову картку"
+
+msgid "Dietary requirements"
+msgstr "Особливі вимоги щодо харчування"
+
+msgid "Participation in previous events organized by the organizer"
+msgstr "Участь у попередніх заходах, проведених організатором"
+
+msgid "We obtain this information"
+msgstr "Ми отримуємо цю інформацію"
+
+msgid "(apart from your IP address)"
+msgstr "(окрім Вашої IP-адреси)"
+
+msgid "directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications"
+msgstr "безпосередньо від Вас, з моменту заповнення відповідної форми. Обов’язковим є надання інформації позначеної у формі зірочкою. Щодо решти інформації, за Вами прийняття рішення її не надавати; у цьому випадку вона не з’явиться в нашому просторі комунікації"
+
+msgid "Your IP address is automatically collected when you fill in the online form."
+msgstr "Ваша IP-адреса автоматично фіксується під час заповнення онлайн-форми."
+
+msgid "Dietary requirements can reveal your philosophical opinions or religious beliefs, therefore we regard them as sensitive data. The processing of this information is based on your explicit consent (Art. 9.2(a) of the GDPR)."
+msgstr "Особливі вимоги щодо харчування можуть виявити Ваші філософські погляди чи релігійні переконання, тож з огляду на це ми вважаємо їх конфіденційними даними. Опрацювання цієї інформації ґрунтується на Вашій чіткій згоді (стаття 9.2(a) GDPR)."
+
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of"
+msgstr "Винятково, якщо згода не є відповідною правовою підставою, Ваші персональні дані також можуть опрацьовуватися на підставі"
+
+msgid "our legitimate interest in organising the  "
+msgstr "нашого легітимного інтересу щодо організації  "
+
+msgid "event"
+msgstr "заходу"
+
+msgid "and promoting it, and your legitimate interest in participating in it, and in staying informed about the recent developments in the research community."
+msgstr "та її популяризації, рівно ж як і Вашого легітимного зацікавлення щодо участі в заході, щоб бути в курсі останніх подій у дослідницькому співтоваристві."
+
+msgid "your legitimate interest in staying informed about recent developments in the research community. Then, the processing is based on Art. 6.1(f) of the GDPR."
+msgstr "Вашого легітимного зацікавлення бути в курсі останніх подій у дослідницькому співтоваристві. Тоді опрацювання здійснюється на підставі ст. 6.1(f) GDPR."
+
+msgid "These are the durations your data will be stored for"
+msgstr "Це тривалість зберігання Ваших даних"
+
+msgid "months"
+msgstr "місяців"
+
+msgid "years"
+msgstr "років"
+
+msgid "as long as necessary to achieve the purpose of data collection."
+msgstr "стільки, скільки необхідно для досягнення мети збору даних."
+
+msgid "years after the last mailinglist activity."
+msgstr "років після останньої активності розсилки."
+
+msgid "Info text"
+msgstr "Інформаційний текст"
+
+msgid "Participation in previous events organized by us"
+msgstr "Участь у попередніх, організованих нами, заходах"
+
+msgid "After these periods, your data will be deleted or anonymised according to the highest standards."
+msgstr "Після закінчення цих періодів Ваші дані буде видалено або анонімізовано згідно найвищих стандартів."
+
+msgid "Your personal data will not be shared with or disclosed to anyone outside our institution"
+msgstr "Ваші персональні дані не будуть передані або розголошені нікому за межами нашої установи"
+
+msgid "For all purposes listed above, your personal data can be shared with the following partner institutions"
+msgstr "Враховуючи всі подані вище цілі, ваші персональні дані можуть бути передані наступним установам-партнерам"
+
+msgid "Institution"
+msgstr "Установа"
+
+msgid "Information about your dietary requirements, which may reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you."
+msgstr "Інформація про особливості Вашого харчування, яка може виявити Ваші філософські погляди чи релігійні переконання, буде передана лише у зведеній формі, унеможливлюючи встановлення особи."
+
+msgid "Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of"
+msgstr "Крім того, з метою розбудови спільноти, ваше ім’я, приналежність та контактні дані будуть повідомлені іншим учасникам"
+
+msgid "or by unsubscribing the newsletter"
+msgstr "або для скасування підписки на розсилку"
+
+msgid "<b>lodge a complaint</b> with a supervisory authority."
+msgstr "< b>подайте скаргу</b> до контролюючого органу."
+
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"
+msgstr "<b>Доступ</b> (ст. 15 GDPR): Ви маєте право отримати підтвердження на предмет опрацювання нами Ваших персональних даних, а також інформацію про спосіб їх опрацювання. Ви також можете подати запит на отримання копії Ваших особистих даних, за що ми можемо стягнути розумну плату за адміністративні витрати. Щоб скористатися своїм правом доступу, просимо сконтактуватися з нами за адресою"
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
+msgstr "<b>Виправлення</b> (ст. 16 GDPR): якщо опрацьовувані нами Ваші персональні дані є неповними або неточними, Ви маєте право без невиправданої затримки вимагати виправлення таких даних. Щоб скористатися своїм правом на виправлення, просимо сконтактуватися з нами за адресою"
+
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
+msgstr "<b>Право на заперечення</b> (ст. 21 GDPR): якщо Ви не давали згоду на опрацювання, або якщо це не конечне для дотримання юридичного зобов’язання, Ви завжди можете заперечити проти цього, і в такому випадку ми більше не оброблятимемо Ваші дані."
+
+msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal."
+msgstr "Відкликання згоди не вплине на законність обробки, що ґрунтується на даній до відкликання згоді."
+
+msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)."
+msgstr "ми цінуємо Вашу конфіденційність і обробляємо ваші дані згівдно Загального регламенту захисту даних ЄС (GDPR)."
+
+msgid "Ethnic origin"
+msgstr "Етнічне походження"
+
+msgid "Political opinions, religious or philosophical beliefs, trade union membership"
+msgstr "Політичні погляди, релігійні або філософські переконання, членство в профспілці"
+
+msgid "Genetic data, biometric data for the purpose of uniquely identifying a natural person"
+msgstr "Генетичні дані, біометричні дані з метою однозначної ідентифікації фізичної особи"
+
+msgid "Data concerning health"
+msgstr "Дані про здоров'я"
+
+msgid "Data concerning a natural person's sex life or sexual orientation"
+msgstr "Дані про статеве життя або сексуальну орієнтацію фізичної особи"
+
+msgid "Educational background / title"
+msgstr "Освіта / здобутий титул"
+
+msgid "Affiliation / professional situation / occupation"
+msgstr "Приналежність до установи/ професійна ситуація / рід занять"
