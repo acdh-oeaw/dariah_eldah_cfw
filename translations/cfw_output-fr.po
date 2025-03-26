@@ -1,0 +1,476 @@
+# LANGUAGE translation of DARIAH ELDAH
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2025-03-14 15:40+0200\n"
+"PO-Revision-Date: 2025-03-14 15:45+0200\n"
+"Language-Team: FRENCH <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Python 3.12.3\n"
+"Last-Translator: \n"
+"Language: fr\n"
+
+msgid "Submission is not available, please create a new one!"	
+msgstr "La soumission de fichiers n'est pas disponible, veuillez en créer une nouvelle !"
+
+msgid "Thank you for using the DARIAH ELDAH Consent Form Wizard. You can obtain the text for your consent form by downloading it from this page. Please note that you will be provided raw text only. Please also be aware that for data privacy reasons, the information you entered in the tool to obtain your consent form will not be stored and will be lost when closing the website. If you want to provide your result as an example for other CFW users, please send it to us at <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>"
+msgstr "Merci d'utiliser le DARIAH ELDAH Consent Form Wizard / Assistant pour Formulaire de Consentement. Vous pouvez obtenir le texte de votre formulaire de consentement en le téléchargeant depuis cette page. Veuillez noter que seul le texte brut vous sera fourni. Sachez également que, pour des raisons de protection des données, les informations que vous avez saisies dans l'outil pour générer votre formulaire de consentement ne seront pas conservées et seront perdues à la fermeture du site. Si vous souhaitez partager votre résultat en tant qu'exemple pour d'autres utilisateurs du CFW, vous pouvez nous l'envoyer à l'adresse suivante : <a href='mailto:eldah@dariah.eu'>eldah@dariah.eu</a>."
+
+msgid "Download the Raw text"	
+msgstr "Télécharger le texte brut"
+
+msgid "Information on Data Processing and Declaration of Consent"
+msgstr "Informations sur le traitement des données et déclaration de consentement"
+
+msgid "Introduction"
+msgstr "Introduction"
+
+msgid "values your privacy and processes your personal data in compliance with the EU General Data Protection Regulation (GDPR)"	
+msgstr "respecte votre vie privée et traite vos données personnelles conformément au Règlement général sur la protection des données (RGPD) de l'UE."
+
+msgid "Your <b>Personal Data</b> is any information related to you. <b>Processing</b> is any operation performed on the data."	
+msgstr "Vos <b>données personnelles</b> sont toute information vous concernant. Le <b>traitement</b> désigne toute opération effectuée sur ces données."
+
+msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
+msgstr "Conformément au <b>principe de transparence</b>, ce document vous fournira des informations sur le traitement de vos données personnelles, comme l'exigent les articles 12, 13 et 14 du RGPD."
+
+msgid "Who am I and how can you contact me?"	
+msgstr "Qui suis-je et comment pouvez-vous me contacter ?"
+
+msgid "Name"	
+msgstr  "Nom"
+
+msgid "Address"	
+msgstr "Adresse"
+
+msgid "E-mail"	
+msgstr  "E-mail"
+
+msgid "Who are we and how can you contact us?"	
+msgstr "Qui sommes-nous et comment pouvez-vous nous contacter ?"
+
+msgid "acting as the data controller within the meaning of the GDPR."	
+msgstr "agissant en tant que responsable du traitement au sens du RGPD."
+
+msgid "You can also contact our <b>Data Protection Officer</b>"	
+msgstr "Vous pouvez également contacter notre <b>Délégué à la protection des données</b>"
+
+msgid "at"
+msgstr  "à"
+
+msgid "For what purpose do I process your data?"	
+msgstr  "Dans quel but est-ce que je traite vos données ?"
+
+msgid "For what purpose do we process your data?"	
+msgstr "Dans quel but traitons-nous vos données ?"
+
+msgid "Your data will be processed within the"	
+msgstr  "Vos données seront traitées dans le cadre de"
+
+msgid "project (hereinafter: the project)."
+msgstr "du projet (ci-après : le projet).
+
+msgid "Project description"	
+msgstr  "Description du projet"
+
+msgid "To learn more about the"
+msgstr "Pour en savoir plus sur"
+
+msgid "project, please see"	
+msgstr "le projet, veuillez consulter"
+
+msgid "Please be informed that your data may also be used in different research projects in the domain of"
+msgstr "Veuillez noter que vos données peuvent également être utilisées dans différents projets de recherche dans le domaine de"
+
+
+msgid "in accordance with the GDPR."
+msgstr "conformément au RGPD."
+
+msgid "What information about you do I collect and process?"	
+msgstr "Quelles informations vous concernant est-ce que je collecte et traite ?"
+
+msgid "What information about you do we collect and process?"	
+msgstr "Quelles informations vous concernant collectons-nous et traitons-nous ?"
+
+msgid "The following types of information about you are collected and processed within the project:"	
+msgstr  "Les types d’informations suivants vous concernant sont collectés et traités dans le cadre du projet :"
+
+msgid "Furthermore, the following special categories of personal data related to you are also processed"	
+msgstr "De plus, les catégories particulières de données personnelles suivantes vous concernant sont également traitées"
+
+msgid "The data are collected directly from you through"	
+msgstr "Les données sont collectées directement auprès de vous via"
+
+msgid "Your IP address is automatically collected when you connect to the website."	
+msgstr "Votre adresse IP est automatiquement collectée lorsque vous vous connectez au site web."
+
+msgid "Legal basis for the processing of your data"	
+msgstr "Base légale du traitement de vos données"
+
+msgid "Your data is processed on the basis of your consent (Art. 6.1(a) of the GDPR) which you give by accepting this notice."	
+msgstr “Vos données sont traitées sur la base de votre consentement (article 6.1(a) du RGPD), que vous donnez en acceptant cet avis."
+
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of our legitimate interest in carrying out the project, or further research in the field of"
+msgstr "À titre exceptionnel, lorsque le consentement ne constitue pas une base légale appropriée, vos données personnelles peuvent également être traitées sur la base de notre intérêt légitime à mener le projet ou à poursuivre des recherches supplémentaires dans le domaine de"
+
+msgid "Then, the processing is based on Art. 6.1(f) of the GDPR."
+msgstr "Dans ce cas, le traitement repose sur l'article 6.1(f) du RGPD."
+
+msgid "For how long do we keep your data?"	
+msgstr "Pendant combien de temps conservons-nous vos données ?"
+
+msgid "Your data will be stored"	
+msgstr "Vos données seront conservées"
+
+msgid "until the end of the funding period or research project"	
+msgstr "jusqu'à la fin de la période de financement ou du projet de recherche"
+
+msgid "for a period of"
+msgstr "pour une durée de"
+
+msgid "months after collection."	
+msgstr "mois après la collecte."
+
+msgid "for as long as necessary for the fulfillment of the defined research purposes."	
+msgstr "pour la durée nécessaire à la réalisation des objectifs de recherche définis."
+
+msgid "Will your data be shared with anyone?"	
+msgstr "Vos données seront-elles partagées avec quelqu’un ?"
+
+msgid "Your personal data will not be shared with or disclosed to anyone"	
+msgstr "Vos données personnelles ne seront ni partagées ni divulguées à quiconque"
+
+msgid "outside the"
+msgstr "en dehors de"
+
+msgid "Within the project, your personal data will be shared with researchers from the following partner institutions"	
+msgstr "Dans le cadre du projet, vos données personnelles seront partagées avec des chercheurs des institutions partenaires suivantes"
+
+msgid "Country"	
+msgstr "Pays"
+
+msgid "within the European Economic Area (EU member states, Iceland, Liechtenstein, Norway) or in the UK"	
+msgstr "au sein de l'Espace économique européen (États membres de l'UE, Islande, Liechtenstein, Norvège) ou au Royaume-Uni"
+
+msgid "in a country considered as having adequate data privacy safeguards by the EU (Andorra, Argentina, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Switzerland, Uruguay)"	
+msgstr dans un pays considéré par l'UE comme offrant des garanties adéquates en matière de protection des données (Andorre, Argentine, Canada, Îles Féroé, Guernesey, Israël, Île de Man, Japon, Jersey, Nouvelle-Zélande, Suisse, Uruguay)"
+
+msgid "in the USA"	
+msgstr "aux États-Unis"
+
+msgid "in a different country"	
+msgstr "dans un autre pays"
+
+msgid "Your data may be shared with other researchers via specialised repositories or other appropriate communication channels."	
+msgstr  "Vos données peuvent être partagées avec d'autres chercheurs via des référentiels spécialisés ou d'autres canaux de communication appropriés."
+
+msgid "To safeguard your privacy, the data will be shared in pseudonymised form, i.e. without the elements by which you could be identified, which will be stored separately and not shared"	
+msgstr "Pour protéger votre vie privée, les données seront partagées sous une forme pseudonymisée, c'est-à-dire sans les éléments permettant de vous identifier, lesquels seront conservés séparément et ne seront pas partagés."
+
+msgid "Will your data be transferred outside the European Economic Area (EEA)?"	
+msgstr  "Vos données seront-elles transférées en dehors de l'Espace économique européen (EEE) ?"
+
+msgid "Your data will not be transferred outside the European Economic Area."	
+msgstr "Vos données ne seront pas transférées en dehors de l'Espace économique européen."
+
+msgid "Your data will be transferred to our partners within the framework of the relevant adequacy decision of the European Commission (Art. 45 of the GDPR)."	
+msgstr "Vos données seront transférées à nos partenaires dans le cadre de la décision d’adéquation pertinente de la Commission européenne (article 45 du RGPD)."
+
+msgid "Your data will be transferred to our partners in the United States of America within the Privacy Shield framework."	
+msgstr "Vos données seront transférées à nos partenaires aux États-Unis d'Amérique dans le cadre du dispositif du Privacy Shield."
+
+msgid "Your data will not be transferred outside the European Economic Area."	
+msgstr "Vos données ne seront pas transférées en dehors de l'Espace économique européen."
+
+msgid "No profiling or automated decision-making"	
+msgstr "Aucun profilage ni prise de décision automatisée"
+
+msgid "Your data will not be used for profiling or automated decision-making purposes."	
+msgstr "Vos données ne seront pas utilisées à des fins de profilage ou de prise de décision automatisée."
+
+msgid "I"	
+msgstr "Je"
+
+msgid "me"	
+msgstr  "moi"
+
+msgid "We"	
+msgstr "Nous"
+
+msgid "us"	
+msgstr "nous"
+
+msgid "Your rights with regards to the processing of your data"	
+msgstr  "Vos droits concernant le traitement de vos données"
+
+msgid "The GDPR grants you certain rights with regards to the processing of your personal data. These rights include"	
+msgstr "Le RGPD vous accorde certains droits concernant le traitement de vos données personnelles. Ces droits incluent"
+
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether"     
+msgstr "<b>Accès</b> (article 15 du RGPD) : vous avez le droit d'obtenir la confirmation que"
+
+msgid "have your personal data, as well as information about how"
+msgstr "nous détenons vos données personnelles, ainsi que des informations sur la manière dont"
+
+msgid "process it. You can also request a copy of your personal data, for which"
+msgstr "nous les traitons. Vous pouvez également demander une copie de vos données personnelles, pour laquelle"
+
+msgid "may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact"
+msgstr "nous pouvons vous facturer des frais raisonnables basés sur les coûts administratifs. Pour exercer votre droit d'accès, contactez"
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that" 
+msgstr "<b>Rectification</b> (article 16 du RGPD) : si vos données personnelles"
+
+msgid "process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact"
+msgstr "que nous traitons sont incomplètes ou inexactes, vous avez le droit de demander leur rectification sans retard injustifié. Pour exercer votre droit de rectification, contactez"
+
+
+msgid "<b>Erasure</b> (\"right to be forgotten\" – Art. 17 of the GDPR): in certain circumstances (e.g. if your data are processed unlawfully or unnecessarily) you may request erasure of your personal data."
+msgstr "<b>Suppression</b> (« droit à l’oubli » – article 17 du RGPD) : dans certaines circonstances (par exemple, si vos données sont traitées de manière illicite ou inutilement), vous pouvez demander la suppression de vos données personnelles."
+
+msgid "<b>Restriction of processing</b> (Art. 18 of the GDPR): in certain circumstances (e.g. if you contest accuracy of your data that we process or lawfulness of the processing) you may request restriction of processing of your data. Such data will not be erased, but in principle can only be processed with your consent"	
+msgstr "<b>Limitation du traitement</b> (article 18 du RGPD) : dans certaines circonstances (par exemple, si vous contestez l’exactitude des données que nous traitons ou la licéité du traitement), vous pouvez demander la limitation du traitement de vos données. Ces données ne seront pas supprimées, mais, en principe, ne pourront être traitées qu’avec votre consentement."
+
+msgid "<b>Data portability</b> (Art. 20 of the GDPR): in certain circumstances, you may request transmission of your data to another controller in a structured, commonly used and machine-readable format"	
+msgstr "<b>Portabilité des données</b> (article 20 du RGPD) : dans certaines circonstances, vous pouvez demander le transfert de vos données à un autre responsable du traitement dans un format structuré, couramment utilisé et lisible par machine."
+
+
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case"	
+msgstr "<b>Droit d'opposition</b> (article 21 du RGPD) : si vous n'avez pas consenti au traitement ou s'il n'est pas nécessaire pour respecter une obligation légale, vous pouvez vous y opposer à tout moment, auquel cas"
+
+msgid  "shall no longer process your data."
+msgstr "nous ne traiterons plus vos données."
+
+msgid "Moreover, you have the right to"	
+msgstr "De plus, vous avez le droit de"
+
+
+msgid "<b>withdraw your consent</b> to the processing of your personal data at any time (Art. 7(3) of the GDPR) by contacting us at"  
+msgstr  "<b>retirer votre consentement</b> au traitement de vos données personnelles à tout moment (article 7(3) du RGPD) en nous contactant à"
+
+msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal; lodge a <b>complaint</b> with a supervisory authority."
+msgstr  "Le retrait du consentement n'affectera pas la légalité du traitement reposant sur le consentement avant son retrait ; déposez une <b>réclamation</b> auprès d'une autorité de contrôle."
+	
+msgid "At"	
+msgstr  "À"
+
+msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)"	
+msgstr "Nous respectons votre vie privée et traitons vos données conformément au Règlement général sur la protection des données (RGPD) de l'UE."
+
+msgid "Your <b>\"Personal Data\"</b> is any information related to you. <b>\"Processing\"</b> is any operation performed on the data."	
+msgstr "Vos <b>« données personnelles »</b> sont toute information vous concernant. Le <b>« traitement »</b> désigne toute opération effectuée sur ces données."
+
+msgid "According to the <b>Transparency Principle</b>, this document will provide you with information about the processing of your personal data as required by Art. 12, 13, and 14 of the GDPR."	
+msgstr "Conformément au <b>principe de transparence</b>, ce document vous fournit des informations sur le traitement de vos données personnelles, comme l'exigent les articles 12, 13 et 14 du RGPD."
+
+msgid "You can also contact our <b>Data Protection Officer</b>  "	
+msgstr "Vous pouvez également contacter notre <b>Délégué à la protection des données (DOP)</b>"
+
+msgid "We process your data for the following purposes"
+msgstr "Nous traitons vos données pour les finalités suivantes"
+
+msgid "Keeping subscribers informed, community building"	
+msgstr "Informer les abonnés et créer une communauté"
+
+msgid "Promoting events, institutions, etc."	
+msgstr "Promouvoir des événements, des institutions, etc."
+
+msgid "Providing / keeping a mailinglist to communicate to subscribers"	
+msgstr "Fournir / maintenir une liste de diffusion pour communiquer avec les abonnés"
+
+msgid "Keeping a mailinglist to provide a communication platform for subscribers"	
+msgstr "Maintenir une liste de diffusion afin de fournir une plateforme de communication aux abonnés"
+
+msgid "Documentation of mailinglist activity, statistic analysis"	
+msgstr  "Documentation de l'activité de la liste de diffusion, analyse statistique"
+
+msgid "Organisation and/or management of the event"	
+msgstr "Organisation et/ou gestion de l'événement"
+
+msgid "Organisation of related events in the future (e.g. next edition of the conference)"	
+msgstr "Organisation d'événements connexes à l'avenir (par exemple, la prochaine édition de la conférence)"
+
+msgid "Keeping the participants informed about related topics (e.g. reuse of contact details for newsletter purposes)"	
+msgstr "Informer les participants sur des sujets connexes (par exemple, réutilisation des coordonnées pour des listes de diffusion)"
+
+msgid "Promoting and documenting the event itself on our website and / or social media"	
+msgstr "Promouvoir et documenter l'événement sur notre site web et/ou les réseaux sociaux"
+
+msgid "Promoting and documenting the research presented at the event (publish videos / photos of the lecture)"	
+msgstr "Promouvoir et documenter les recherches présentées lors de l'événement (publication de vidéos/photos de la conférence)"
+
+msgid "Statistic analysis of the event (e.g. in relation to past and future events)"	
+msgstr "Analyse statistique de l'événement (par exemple, en lien avec les événements passés et futurs)"
+
+msgid "Administration of participation fees and/or travel expenses"	
+msgstr "Gestion des frais de participation et/ou des frais de déplacement"
+
+msgid "Generation of attendance certificates, invoices and payment confirmations"	
+msgstr "Génération des certificats de participation, des factures et des confirmations de paiement"
+
+msgid "Community building (allowing participants to stay in touch with each other after the event)"	
+msgstr "Création de communauté (permettre aux participants de rester en contact après l'événement)"
+
+msgid "For the purposes listed above, we process the following information related to you"	
+msgstr  "Pour les finalités énumérées ci-dessus, nous traitons les informations suivantes vous concernant"
+
+msgid "Name, surname"	
+msgstr "Nom, prénom"
+
+msgid "E-mail address"	
+msgstr "Adresse e-mail"
+
+msgid "IP address"	
+msgstr  "Adresse IP"
+
+msgid "Affiliation"	
+msgstr "Affiliation"
+
+msgid "Professional title / academic status"	
+msgstr  "Titre professionnel / statut académique"
+
+msgid "Gender"
+msgstr  "Genre"
+
+msgid "Social media identifiers"	
+msgstr  "Identifiants sur les réseaux sociaux"
+
+msgid "Other"	
+msgstr  "Autre"
+
+msgid "Photographs, audio or video recordings"	
+msgstr "Photographies, enregistrements audio ou vidéo"
+
+msgid "Account or credit/debit card information"	
+msgstr "Informations de compte ou de carte de crédit/débit"
+
+msgid "Dietary requirements"	
+msgstr "Restrictions alimentaires"
+
+msgid "Participation in previous events organized by the organizer"	
+msgstr "Participation à des événements précédents organisés par l'organisateur"
+
+msgid "We obtain this information"	
+msgstr  "Nous obtenons ces informations"
+
+msgid "(apart from your IP address)"	
+msgstr "(à l'exception de votre adresse IP)"
+
+msgid "directly from you when you fill in the respective form. The information the provision of which is mandatory is marked with an asterisk in the attached form. For the remaining information, you are free to decide not to provide it; in this case it will not appear in our communications"	
+msgstr  "directement auprès de vous lorsque vous remplissez le formulaire correspondant. Les informations obligatoires sont marquées par un astérisque dans le formulaire ci-joint. Pour les autres informations, vous êtes libre de ne pas les fournir ; dans ce cas, elles n'apparaîtront pas dans nos communications."
+
+msgid "Your IP address is automatically collected when you fill in the online form."	
+msgstr "Votre adresse IP est automatiquement collectée lorsque vous remplissez le formulaire en ligne."
+
+msgid "Dietary requirements can reveal your philosophical opinions or religious beliefs, therefore we regard them as sensitive data. The processing of this information is based on your explicit consent (Art. 9.2(a) of the GDPR)."	
+msgstr  "Les restrictions alimentaires peuvent révéler vos opinions philosophiques ou croyances religieuses ; nous les considérons donc comme des données sensibles. Le traitement de ces informations repose sur votre consentement explicite (Art. 9.2(a) du RGPD)."
+
+msgid "Exceptionally, where consent is not an appropriate legal basis, your personal data can also be processed on the basis of"	
+msgstr "Exceptionnellement, lorsque le consentement n'est pas une base juridique appropriée, vos données personnelles peuvent également être traitées sur la base de"
+
+msgid "our legitimate interest in organising the  "	
+msgstr "notre intérêt légitime à organiser l'"
+
+msgid "event"	
+msgstr "événement"
+
+msgid "and promoting it, and your legitimate interest in participating in it, and in staying informed about the recent developments in the research community."	
+msgstr "et à le promouvoir, ainsi que sur votre intérêt légitime à y participer et à rester informé des évolutions récentes au sein de la communauté de recherche."
+
+msgid "your legitimate interest in staying informed about recent developments in the research community. Then, the processing is based on Art. 6.1(f) of the GDPR."	
+msgstr  "votre intérêt légitime à rester informé des évolutions récentes au sein de la communauté de recherche. Dans ce cas, le traitement repose sur l'Art. 6.1(f) du RGPD."
+
+msgid "These are the durations your data will be stored for"	
+msgstr "Voici les durées pendant lesquelles vos données seront conservées"
+
+msgid "months"	
+msgstr "mois"
+
+msgid "years"	
+msgstr  "années"
+
+msgid "as long as necessary to achieve the purpose of data collection."	
+msgstr  "aussi longtemps que nécessaire pour atteindre l'objectif de la collecte des données."
+
+msgid "years after the last mailinglist activity."	
+msgstr "années après la dernière activité sur la liste de diffusion."
+
+msgid "Info text"	
+msgstr "Texte d'information"
+
+msgid "Participation in previous events organized by us"	
+msgstr "Participation à des événements précédents organisés par nous"
+
+msgid "After these periods, your data will be deleted or anonymised according to the highest standards."	
+msgstr "Après ces périodes, vos données seront supprimées ou anonymisées selon les normes les plus strictes."
+
+msgid "Your personal data will not be shared with or disclosed to anyone outside our institution"	
+msgstr  "Vos données personnelles ne seront ni partagées ni divulguées à quiconque en dehors de notre institution."
+
+msgid "For all purposes listed above, your personal data can be shared with the following partner institutions"
+msgstr "Pour toutes les finalités énumérées ci-dessus, vos données personnelles peuvent être partagées avec les institutions partenaires suivantes."
+
+msgid "Institution"	
+msgstr "Institution"
+
+msgid "Information about your dietary requirements, which may reveal your philosophical opinions or religious beliefs, will only be shared in aggregated form, making it impossible to identify you."	
+msgstr "Les informations concernant vos exigences alimentaires, qui peuvent révéler vos opinions philosophiques ou croyances religieuses, ne seront partagées que sous une forme agrégée, rendant toute identification impossible."
+
+msgid "Moreover, for the purpose of community building, your name, affiliation and contact details will be communicated to other participants of"	
+msgstr "De plus, dans le but de créer une communauté, votre nom, votre affiliation et vos coordonnées seront communiqués aux autres participants de"
+
+msgid "No profiling or automated decision-making"	
+msgstr "Aucun profilage ni prise de décision automatisée"
+
+msgid "Your data will not be used for profiling or automated decision-making purposes."	
+msgstr "Vos données ne seront pas utilisées à des fins de profilage ou de prise de décision automatisée."
+
+msgid "or by unsubscribing the newsletter"	
+msgstr "ou en vous désabonnant de la liste de diffusion"
+
+msgid "<b>lodge a complaint</b> with a supervisory authority."	
+msgstr  "<b>déposer une plainte</b> auprès d'une autorité de contrôle."
+
+## extra translation 16.08.2021
+msgid "Name, surname"
+msgstr "Nom, prénom"
+
+msgid "<b>Access</b> (Art. 15 of the GDPR): you have the right to obtain confirmation as to whether we process your personal data, as well as information about how we process it. You can also request a copy of your personal data, for which we may charge you a reasonable fee based on administrative costs. In order to exercise your right of access, contact us at"
+msgstr "<b>Accès</b> (art. 15 du RGPD) : vous avez le droit d'obtenir la confirmation que nous traitons vos données personnelles, ainsi que des informations sur la manière dont nous les traitons. Vous pouvez également demander une copie de vos données personnelles, pour laquelle nous pourrions vous facturer des frais en relation avec les coûts administratifs. Afin d'exercer votre droit d'accès, contactez-nous à"
+
+msgid "<b>Rectification</b> (Art. 16 of the GDPR): if your personal data that we process are incomplete or inaccurate, you have the right to request rectification of such data without undue delay. In order to exercise your right to rectification, contact us at"
+msgstr "<b>Rectification</b> (art. 16 du RGPD) : si les données personnelles que nous traitons sont incomplètes ou inexactes, vous avez le droit de demander la rectification de ces données sans délai excessif. Afin d'exercer votre droit de rectification, contactez-nous à"
+
+msgid "<b>Right to object</b> (Art. 21 of the GDPR): if you did not consent to the processing, or if it is not necessary to comply with a legal obligation, you may always object to it, in which case we shall no longer process your data."
+msgstr "<b>Droit d'opposition</b> (art. 21 du RGPD) : si vous n'avez pas consenti au traitement, ou si ce n'est pas nécessaire pour respecter une obligation légale, vous pouvez toujours vous y opposer, auquel cas nous ne traiterons plus vos données."
+
+msgid "Moreover, you have the right to"
+msgstr  "De plus, vous avez le droit de/à"
+
+msgid "The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal."
+msgstr "Le retrait du consentement n'affectera pas la légalité du traitement reposant sur le consentement donné avant son retrait."
+
+msgid "we value your privacy and process your data in compliance with the EU General Data Protection Regulation (GDPR)."
+msgstr  "Nous valorisons votre vie privée et traitons vos données en conformité avec le Règlement général sur la protection des données (RGPD) de l'UE."
+
+msgid "Ethnic origin"
+msgstr "Origine ethnique"
+
+msgid "Political opinions, religious or philosophical beliefs, trade union membership"
+msgstr "Opinions politiques, croyances religieuses ou philosophiques, appartenance à un syndicat"
+    
+msgid "Genetic data, biometric data for the purpose of uniquely identifying a natural person"
+msgstr "Données génétiques, données biométriques dans le but d'identifier de manière unique une personne physique"
+    
+msgid "Data concerning health"
+msgstr "Données concernant la santé"
+    
+msgid "Data concerning a natural person's sex life or sexual orientation"
+msgstr "Données concernant la vie sexuelle ou l'orientation sexuelle d'une personne physique"
+
+msgid "Educational background / title"
+msgstr "Niveau d'étude / titre"
+
+msgid "Affiliation / professional situation / occupation"
+msgstr "Affiliation / situation professionnelle / occupation"
